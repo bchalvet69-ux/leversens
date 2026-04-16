@@ -1,0 +1,88 @@
+
+<html>
+<head>
+<style>
+    body {
+        color: #cbd5e1;
+        background-color: #111827;
+        font-family: ui-monospace, Menlo, Consolas, monospace;
+        padding: 20px;
+    }
+    h2 { color: #f59e0b; }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 900px;
+    }
+    th, td {
+        border: 1px solid rgba(255,255,255,0.1);
+        padding: 12px;
+        text-align: right;
+    }
+    th {
+        background-color: rgba(167,139,250,0.25);
+        color: #e2e8f0;
+        font-weight: bold;
+    }
+    tr:nth-child(even) {
+        background-color: rgba(255,255,255,0.03);
+    }
+    tr:nth-child(odd) {
+        background-color: rgba(255,255,255,0.06);
+    }
+    td:first-child, th:first-child {
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+<h2>CAPM Analysis Summary</h2>
+<table>
+    <tr>
+        <th>Ticker</th>
+        <th>Name</th>
+        <th>Beta</th>
+        <th>Annual Return</th>
+        <th>CAPM Expected Return</th>
+        <th>Sharpe Ratio</th>
+    </tr>
+
+    <tr>
+        <td>BTC-USD</td>
+        <td>Bitcoin</td>
+        <td>1.2104</td>
+        <td>0.2135</td>
+        <td>0.2478</td>
+        <td>0.3628</td>
+    </tr>
+
+    <tr>
+        <td>CL=F</td>
+        <td>Crude Oil</td>
+        <td>0.0866</td>
+        <td>0.1197</td>
+        <td>0.0549</td>
+        <td>0.2010</td>
+    </tr>
+
+    <tr>
+        <td>GOLD</td>
+        <td>Barrick Gold</td>
+        <td>0.9126</td>
+        <td>0.2600</td>
+        <td>0.1966</td>
+        <td>0.4555</td>
+    </tr>
+
+    <tr>
+        <td>NEM</td>
+        <td>Newmont Mining</td>
+        <td>0.6470</td>
+        <td>0.9206</td>
+        <td>0.1511</td>
+        <td>2.1217</td>
+    </tr>
+
+</table>
+</body>
+</html>

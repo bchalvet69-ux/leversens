@@ -1,0 +1,332 @@
+a, a:visited {
+    outline: none;
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+    background-color:#0a0f1f;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+h1
+{
+    display: inline;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: #60a5fa;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 2;
+    text-shadow:
+        0 0 6px rgba(59, 130, 246, 0.8),
+        0 0 18px rgba(59, 130, 246, 0.5);
+}
+
+
+img {
+    margin: 0;
+    background: none;
+    border: 0;
+    box-shadow: none; }
+
+p{
+    margin: 0 0 20px 0;
+}
+
+
+
+strong{
+    color: #60a5fa;
+}
+
+.analytics article{
+    margin-top:50px;
+    column-count: 3;
+}
+
+.center{
+    text-align:center;
+}
+
+/* Dashboard page: thin asset bar on top, grid below */
+.dash-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: #060a16;
+  margin: 0; padding: 0;
+}
+
+.dashboard {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background: #060a16;
+  gap: 2px;
+}
+
+/* Glow on hover for each chart cell */
+.dashboard div {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px rgba(59,130,246,0.08);
+  transition: box-shadow 0.35s ease;
+}
+.dashboard div:hover {
+  box-shadow:
+    0 0 24px rgba(59,130,246,0.35),
+    inset 0 0 12px rgba(59,130,246,0.08),
+    inset 0 0 0 1px rgba(59,130,246,0.35);
+  z-index: 2;
+}
+
+.dashboard figure{
+    display: flex;
+}
+
+.dashboard figure img {
+    height: calc( var(--vh, 1vh) * 50);
+    width:calc( var(--vw, 1vw) * 100/3);
+}
+
+.dashboard figure iframe{
+    height: calc( var(--vh, 1vh) * 50);
+    width:calc( var(--vw, 1vw) * 100/3);
+}
+
+.dashboard body a{
+    position:absolute;
+}
+
+.dashboard body a img{
+    width:15px;
+}
+
+.dashboard a:nth-of-type(1n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 0.3);
+}
+
+.dashboard a:nth-of-type(2n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 34);
+}
+
+.dashboard a:nth-of-type(3n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 67.5);
+}
+
+.dashboard body a:nth-of-type(4n){
+    margin-top:calc( var(--vh, 1vh) * 51); 
+    margin-left:calc( var(--vw, 1vw) * 1);
+}
+
+.dashboard a:nth-of-type(5n){
+    margin-top:calc( var(--vh, 1vh) * 51);
+    margin-left:calc( var(--vw, 1vw) * 34);
+}
+
+.dashboard a:nth-of-type(6n){
+    margin-top:calc( var(--vh, 1vh) * 51);
+    margin-left:calc( var(--vw, 1vw) * 67.5);
+}
+
+
+.analytics article img{
+    width:calc( var(--vw, 1vw) * 31);
+}
+
+.dashboard div a{
+    position:absolute;
+}
+
+.dashboard div img, .dashboard div iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.dashboard div a:after {
+    position: absolute;
+    z-index: 3;
+    content: url('../img/menu.svg');
+    filter: drop-shadow(0 0 6px rgba(59,130,246,0.5));
+    opacity: 0.75;
+    transition: opacity 0.25s, filter 0.25s, transform 0.25s;
+}
+.dashboard div a:hover:after {
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(59,130,246,0.9));
+    transform: scale(1.15);
+}
+
+.index{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* full viewport height */
+  overflow: hidden;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.index section{
+margin:10px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+}
+
+.logo2:focus {
+    outline:none;
+}
+
+.logo2{
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    z-index: 10;
+    content: url('../img/leversens-logo.svg');
+    width: 36px;
+    height: 36px;
+    filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6));
+    transition: transform 0.2s, filter 0.2s;
+}
+.logo2:hover {
+    filter: drop-shadow(0 0 14px rgba(6, 182, 212, 0.9));
+    transform: scale(1.08);
+}
+
+.logo2:active {
+    outline:none;
+    transform:scale(0.96);
+}
+
+.logo2:focus {
+    outline:none;
+}
+
+.button{
+    font-weight:bold;
+    text-align:center;
+    background-color: #1e40af;
+    width:100px;
+    padding:5px;
+    border-radius:5px;
+}
+
+.button:active {
+    outline:none;
+    transform:scale(0.96);
+}
+
+.button:focus {
+    outline:none;
+}
+
+.analytics iframe{
+    width:100%;
+    height:300px;
+}
+
+.panel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: auto; 
+}
+
+.panel article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 1000px;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   MOBILE RESPONSIVE — only affects screens < 768px
+   ══════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* ── Dashboard pages: 1-column scroll ── */
+  .dash-page {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    overflow: visible;
+    gap: 4px;
+    padding: 4px;
+  }
+
+  .dashboard div {
+    height: 55vw;        /* roughly 16:9-ish for each chart */
+    min-height: 200px;
+  }
+
+  /* Asset bar: wrap if needed */
+  .asset-bar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 12px;
+    gap: 6px;
+  }
+  .asset-bar label {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 2px;
+  }
+  .asset-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+
+  /* Logo in dashboard corner — smaller on mobile */
+  .logo2 {
+    width: 28px;
+    height: 28px;
+    top: 8px;
+    right: 8px;
+  }
+
+  /* ── Index page mobile ── */
+  body.index {
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  /* QR code: hide on mobile (no point scanning yourself) */
+  .qr-corner { display: none; }
+}

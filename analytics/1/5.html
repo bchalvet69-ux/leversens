@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Bollinger Bands · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../1.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 5 · Dashboard 1</span>
+    <h1>Bollinger <span class="accent">Bands</span></h1>
+  </header>
+
+  <!-- Analytics FIRST -->
+  <section class="section">
+    <div class="section-label">Analytics · By Asset & Timeframe</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="freq-toggle" id="freq-toggle">
+      <button data-freq="intraday">Intraday · 60d × 1h</button>
+      <button data-freq="monthly" class="active">Daily · 1y</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="bb-title">SPY — Bollinger Bands (Daily)</div>
+        <span class="cc-tag" id="bb-tag" style="background:rgba(140,70,255,0.15); color:#c850ff;">Daily</span>
+      </div>
+      <iframe id="bb-iframe" src="../../img/1/5-monthly-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- How It Works SECOND -->
+  <section class="section">
+    <div class="section-label">How It Works</div>
+    <div class="commentary">
+      <h3>Bollinger Bands Strategy</h3>
+      <p>Bollinger Bands consist of three lines: a <strong>20-period SMA</strong> (simple moving average) in the center, and two bands plotted at <strong>&plusmn;2 standard deviations</strong> above and below. The bands automatically widen during volatile periods and contract during calm periods. The key concept is the <strong>squeeze</strong>: when the bands narrow, volatility is compressed and a breakout is imminent — you trade the direction of the breakout. When price touches the <strong>upper band</strong>, the asset is stretched to the upside and may mean-revert back to the SMA. When price hits the <strong>lower band</strong>, it's stretched to the downside and a bounce toward the SMA is likely. The most reliable signals combine a band touch with confirmation from other indicators (RSI oversold + lower band = strong buy signal).</p>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const PREFIX = '5';
+      const LABEL  = 'Bollinger Bands';
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+      const aTabs = document.querySelectorAll('#asset-tabs button');
+      const fTabs = document.querySelectorAll('#freq-toggle button');
+      const iframe = document.getElementById('bb-iframe');
+      const titleEl = document.getElementById('bb-title');
+      const tagEl = document.getElementById('bb-tag');
+      let asset='SPY', freq='monthly';
+      function update(){
+        iframe.src = `../../img/1/${PREFIX}-${freq}-${asset}.html`;
+        titleEl.textContent = `${ASSET_LABEL[asset]} — ${LABEL} (${freq === 'intraday' ? 'Intraday' : 'Daily'})`;
+        tagEl.textContent = freq === 'intraday' ? 'Intraday' : 'Daily';
+      }
+      aTabs.forEach(b=>b.addEventListener('click',()=>{aTabs.forEach(x=>x.classList.remove('active'));b.classList.add('active');asset=b.dataset.asset;update();}));
+      fTabs.forEach(b=>b.addEventListener('click',()=>{fTabs.forEach(x=>x.classList.remove('active'));b.classList.add('active');freq=b.dataset.freq;update();}));
+    })();
+  </script>
+</body>
+</html>

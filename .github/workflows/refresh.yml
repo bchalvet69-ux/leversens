@@ -1,0 +1,42 @@
+name: Refresh Market Data
+
+on:
+  # Manual trigger (button in GitHub UI or API call)
+  workflow_dispatch:
+
+  # Auto: every day at 23:00 UTC (01:00 Paris, after US market close)
+  schedule:
+    - cron: '0 23 * * 1-5'  # Mon-Fri only
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run all scripts
+        run: python scripts/refresh.py
+
+      - name: Commit & push updated charts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add img/ -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: refresh market charts $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

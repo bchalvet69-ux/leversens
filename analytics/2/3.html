@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>ARIMA Forecast · LEVERSENS</title>
+  <style>
+    .alert-box {
+      margin: 16px 0;
+      padding: 14px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1.5;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+    }
+    .alert-box.valid {
+      background: rgba(34,197,94,0.10);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: #86efac;
+    }
+    .alert-box.invalid {
+      background: rgba(239,68,68,0.10);
+      border: 1px solid rgba(239,68,68,0.3);
+      color: #fca5a5;
+    }
+    .alert-box strong { color: #f1f5f9; }
+    .alert-detail { margin-top: 6px; font-size: 11px; color: #94a3b8; }
+  </style>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../2.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 4 · Dashboard 2</span>
+    <h1>ARIMA · <span class="accent">Forecast Model</span></h1>
+  </header>
+
+  <!-- Unified asset tabs -->
+  <section class="section">
+    <div class="section-label">ARIMA · Per Asset — All Charts Update Together</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <!-- Model validity alert -->
+    <div id="validity-alert" class="alert-box valid">Loading model validation...</div>
+  </section>
+
+  <!-- Forecast -->
+  <section class="section">
+    <div class="section-label">Price Forecast · 30 Days</div>
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="forecast-title">SPY — ARIMA Forecast</div>
+        <span class="cc-tag" style="background:rgba(99,110,250,0.2); color:#636efa;">Forecast</span>
+      </div>
+      <iframe id="forecast-iframe" src="../../img/2/3-dash-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section">
+    <div class="grid-2">
+      <div class="commentary">
+        <h3>What is ARIMA?</h3>
+        <p>ARIMA (AutoRegressive Integrated Moving Average) forecasts prices based on past patterns. <strong>AR</strong> uses past values, <strong>I</strong> applies differencing for stationarity, and <strong>MA</strong> captures forecast error persistence. It produces a <strong>30-day forecast</strong> with confidence intervals that widen over time as uncertainty grows.</p>
+      </div>
+      <div class="commentary">
+        <h3>Limitations</h3>
+        <p>ARIMA assumes linear patterns and struggles with regime changes and extreme volatility. The <strong>model validation alert</strong> above tells you whether the model's assumptions hold for the selected asset. If residuals show autocorrelation (Ljung-Box test fails), the forecast should be treated with caution — it may not capture the asset's true dynamics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Residuals -->
+  <section class="section">
+    <div class="section-label">Residual Diagnostics</div>
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="resid-title">SPY — Forecast Residuals</div>
+        <span class="cc-tag" style="background:rgba(248,113,113,0.2); color:#f92672;">Validation</span>
+      </div>
+      <iframe id="resid-iframe" src="../../img/2/3-resid-SPY.html"></iframe>
+    </div>
+    <div class="commentary">
+      <h3>Residual Analysis</h3>
+      <p>Good residuals should look like random noise with no visible patterns. If the residuals show trends or clustering, the model missed some structure and forecasts may be unreliable. Scattered residuals centered around zero confirm the ARIMA model captured the data's temporal patterns correctly.</p>
+    </div>
+  </section>
+
+  <!-- ACF -->
+  <section class="section">
+    <div class="section-label">Autocorrelation Analysis</div>
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="acf-title">SPY — ACF of Residuals</div>
+        <span class="cc-tag" style="background:rgba(0,204,150,0.2); color:#00cc96;">ACF</span>
+      </div>
+      <iframe id="acf-iframe" src="../../img/2/3-acf-SPY.html"></iframe>
+    </div>
+    <div class="commentary">
+      <h3>Model Validation</h3>
+      <p>The ACF (Autocorrelation Function) checks if residuals are truly random. All bars should stay within the red confidence bands. Bars extending beyond indicate the model needs refinement. <strong>Green bars</strong> are within bounds (good), <strong>red bars</strong> exceed them (problematic).</p>
+    </div>
+  </section>
+
+  <script src="../../img/2/arima-validation.js"></script>
+  <script>
+    (function(){
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+
+      const aTabs = document.querySelectorAll('#asset-tabs button');
+      const forecastIframe = document.getElementById('forecast-iframe');
+      const residIframe = document.getElementById('resid-iframe');
+      const acfIframe = document.getElementById('acf-iframe');
+      const forecastTitle = document.getElementById('forecast-title');
+      const residTitle = document.getElementById('resid-title');
+      const acfTitle = document.getElementById('acf-title');
+      const alertBox = document.getElementById('validity-alert');
+
+      let asset = 'SPY';
+
+      function update() {
+        forecastIframe.src = `../../img/2/3-dash-${asset}.html`;
+        residIframe.src = `../../img/2/3-resid-${asset}.html`;
+        acfIframe.src = `../../img/2/3-acf-${asset}.html`;
+
+        const label = ASSET_LABEL[asset] || asset;
+        forecastTitle.textContent = `${label} — ARIMA Forecast`;
+        residTitle.textContent = `${label} — Forecast Residuals`;
+        acfTitle.textContent = `${label} — ACF of Residuals`;
+
+        // Update validity alert
+        if (typeof ARIMA_VALIDATION !== 'undefined' && ARIMA_VALIDATION[asset]) {
+          const v = ARIMA_VALIDATION[asset];
+          alertBox.className = 'alert-box ' + (v.valid ? 'valid' : 'invalid');
+          const icon = v.valid ? '✓' : '⚠';
+          const score = `${v.checks_passed}/${v.checks_total} tests passed`;
+          alertBox.innerHTML = `<strong>${icon} ${v.ticker} — ARIMA${v.order} — ${score}</strong><br>${v.message}`
+            + `<div class="alert-detail">`
+            + `ADF: p=${v.adf_pval} (${v.stationary ? 'stationary' : 'non-stationary, d='+v.d})`
+            + ` · Ljung-Box: p=${v.ljung_box_10} (lag 10), p=${v.ljung_box_20} (lag 20)`
+            + ` · ARCH: p=${v.arch_pval} (${v.arch_pval > 0.05 ? 'OK' : 'heteroscedastic'})`
+            + ` · Jarque-Bera: p=${v.jb_pval} (${v.jb_pval > 0.05 ? 'normal' : 'non-normal'})`
+            + ` · Coefficients: ${v.coef_signif ? 'all significant' : 'some insignificant'}`
+            + ` · AIC: ${v.aic} · BIC: ${v.bic}</div>`;
+        } else {
+          alertBox.className = 'alert-box invalid';
+          alertBox.innerHTML = '<strong>⚠ Validation data unavailable</strong> — run the ARIMA script to generate model diagnostics.';
+        }
+      }
+
+      aTabs.forEach(b => b.addEventListener('click', () => {
+        aTabs.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        asset = b.dataset.asset;
+        update();
+      }));
+
+      // Initial load
+      update();
+    })();
+  </script>
+</body>
+</html>

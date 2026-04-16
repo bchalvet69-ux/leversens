@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Correlation Matrix · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../2.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 1 · Dashboard 2</span>
+    <h1>Asset <span class="accent">Correlation</span></h1>
+  </header>
+
+  <!-- Correlation heatmap -->
+  <section class="section">
+    <div class="section-label">Dependency Structure · 5 Assets · Daily Returns · 1 Year</div>
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title">Correlation Matrix Heatmap</div>
+        <span class="cc-tag" style="background:rgba(99,110,250,0.2); color:#636efa;">Structure</span>
+      </div>
+      <iframe src="../../img/2/6-1.html" style="height:550px;"></iframe>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid-2">
+      <div class="commentary">
+        <h3>Why Correlation Matters</h3>
+        <p>The correlation matrix shows how our 5 assets move relative to each other. Values close to <strong>+1</strong> mean assets move together (e.g. GOLD &amp; NEM), close to <strong>-1</strong> means they move in opposite directions, and <strong>0</strong> means no relationship. For portfolio construction, we want low correlations between assets — this is the foundation of <strong>diversification</strong>.</p>
+      </div>
+      <div class="commentary">
+        <h3>Risk Management</h3>
+        <p>When markets crash, correlations tend to spike — everything drops together, destroying diversification precisely when you need it most. This phenomenon is called <strong>correlation breakdown</strong>. Monitoring the stability of correlations over time helps anticipate when a diversified portfolio might suddenly act like a concentrated one, triggering the need for hedging or position reduction.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

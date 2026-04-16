@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Old/draft scripts (keep only numbered ones)
+scripts/1/*-sk.py
+scripts/1/first-script-sk.py
+scripts/1/beta-sk.py
+scripts/1/bollinger-xbbg.py
+scripts/1/ha-sk.py
+scripts/1/ichimoku-sk.py
+scripts/1/macd-sk.py
+scripts/1/montecarlo-sk.py
+scripts/1/news-sk.py
+scripts/1/onchain-sk.py
+scripts/1/pair-trading-sk.py
+scripts/1/rsi-sk.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

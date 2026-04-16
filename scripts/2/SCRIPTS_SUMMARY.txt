@@ -1,0 +1,155 @@
+================================================================================
+    DASHBOARD 2 - ANALYSE QUANTITATIVE (Scripts Python)
+================================================================================
+
+6 scripts Python créés pour l'Analyse Quantitative M2 Finance
+
+STRUCTURE DES SCRIPTS:
+├── 1.py   → GARCH (Modèle de volatilité conditionnelle)
+├── 2.py   → Monte Carlo (Simulation des prix futurs)
+├── 3.py   → ARIMA (Prévision de séries temporelles)
+├── 4.py   → Pair Trading (Stratégie d'arbitrage GOLD vs NEM)
+├── 5.py   → CAPM/Beta (Analyse de risque systématique)
+└── 6.py   → VaR & Correlation (Mesures de risque)
+
+================================================================================
+SCRIPT 1.py — GARCH (Modèle ARCH/GARCH)
+================================================================================
+Graphes générés:
+  • 1-1.html : Volatilité conditionnelle GARCH(1,1) annualisée (5 assets)
+  • 1-2.html : Log-returns quotidiens (5 assets)
+  • 1-3.html : Résidus standardisés pour validation du modèle
+
+Configuration:
+  • Period: 2 ans
+  • Assets: SPY, BTC-USD, CL=F, GOLD, NEM
+  • Modèle: GARCH(1,1) avec `arch` library
+  • Annualisation: sigma * sqrt(252)
+
+================================================================================
+SCRIPT 2.py — MONTE CARLO (Simulation stochastique)
+================================================================================
+Graphes générés:
+  • 2-1.html : 200 trajectoires de prix (30 jours) avec médiane + percentiles
+  • 2-2.html : Distribution des prix finaux avec VaR 5% marqué
+
+Configuration:
+  • Asset: BTC-USD
+  • Period: 1 an (calcul returns)
+  • Simulations: 200 chemins
+  • Horizon: 30 jours
+  • Modèle: Brownien géométrique avec log-returns
+
+================================================================================
+SCRIPT 3.py — ARIMA (Prévision ARIMA)
+================================================================================
+Graphes générés:
+  • 3-1.html : Prix historique + forecast 30 jours avec bande IC 95%
+  • 3-2.html : Résidus du modèle ARIMA
+  • 3-3.html : Autocorrélations (ACF) des résidus
+
+Configuration:
+  • Asset: BTC-USD
+  • Period: 2 ans
+  • Test ADF: pour déterminer d (différenciation)
+  • Modèle: ARIMA(2, d, 2)
+  • Forecast: 30 jours avec CI 95%
+
+================================================================================
+SCRIPT 4.py — PAIR TRADING (Stratégie d'arbitrage)
+================================================================================
+Graphes générés:
+  • 4-1.html : Résumé OLS du modèle de régression (HTML)
+  • 4-2.html : Z-score du spread avec bandes ±2σ
+  • 4-3.html : Prix normalisés (base 100) avec signaux long/short
+  • 4-4.html : P&L cumulée de la stratégie
+
+Configuration:
+  • Pair: GOLD vs NEM (y vs x)
+  • Period: 1 an
+  • Modèle: OLS regression (y = alpha + beta*x + epsilon)
+  • Signaux: Croisement des bandes ±2σ du Z-score
+  • Validation: Test ADF sur résidus (cointegration)
+
+================================================================================
+SCRIPT 5.py — CAPM/BETA (Analyse de risque systématique)
+================================================================================
+Graphes générés:
+  • 5-1.html : Rolling beta (60-day window) pour 4 assets vs SPY
+  • 5-2.html : Scatter alpha vs beta avec Security Market Line (SML)
+  • 5-3.html : Tableau HTML (Beta, Annual Return, CAPM Expected Return, Sharpe)
+
+Configuration:
+  • Benchmark: SPY (marché)
+  • Assets: BTC-USD, CL=F, GOLD, NEM
+  • Period: 2 ans
+  • Risk-free rate: 4% annuel
+  • Rolling window: 60 jours
+  • CAPM: rf + beta * (rm - rf)
+
+================================================================================
+SCRIPT 6.py — VaR & CORRELATION (Mesures de risque)
+================================================================================
+Graphes générés:
+  • 6-1.html : Heatmap de corrélation (5 assets, returns quotidiens)
+  • 6-2.html : VaR historique 95% et 99% (barres groupées)
+  • 6-3.html : CVaR (Expected Shortfall) vs VaR (4 métriques)
+
+Configuration:
+  • Period: 1 an
+  • Assets: SPY, BTC-USD, CL=F, GOLD, NEM
+  • VaR: Méthode historique (percentiles)
+  • CVaR: Moyenne des returns < VaR
+  • Heatmap: Colorscale RdBu avec zmid=0
+
+================================================================================
+CONFIGURATION COMMUNE (par84.py)
+================================================================================
+Fichier de configuration centralisé:
+  • TICKERS = ['SPY', 'BTC-USD', 'CL=F', 'GOLD', 'NEM']
+  • COLORS = ['#636efa', '#f9a826', '#00cc96', '#ab63fa', '#ef553b']
+  • TICKER_NAMES = Dictionnaire avec noms longs
+  • img_path = "../../img/2/"  (chemin relatif pour images HTML)
+  • layout = Template Plotly dark avec styling personnalisé
+  • config = Options display (pas de mode bar, zoom enabled)
+
+================================================================================
+SYNTAXE ET STRUCTURE
+================================================================================
+Toutes les fonctions utilisent:
+  ✓ fig.write_html(path, config=par84.config, include_plotlyjs="cdn")
+  ✓ Gestion d'erreurs try/except pour yfinance
+  ✓ Dark theme: paper_bgcolor='rgb(40,40,40)', plot_bgcolor='rgb(40,40,40)'
+  ✓ Hovermode optimisé (x unified / closest selon le contexte)
+  ✓ Annotations et titre explicites pour chaque graphe
+
+================================================================================
+DÉPENDANCES PYTHON
+================================================================================
+Requis:
+  • yfinance    → Téléchargement des données
+  • pandas      → Manipulation des données
+  • numpy       → Calculs numériques
+  • plotly      → Visualisation interactive
+  • arch        → Modèles GARCH
+  • statsmodels → ARIMA, ADF test, ACF/PACF, OLS
+  • scipy       → Distributions statistiques
+
+Installation:
+  pip install yfinance pandas numpy plotly arch statsmodels scipy
+
+================================================================================
+CHEMINS DE SORTIE
+================================================================================
+Tous les graphes HTML sont sauvegardés dans:
+  /sessions/friendly-charming-allen/mnt/project/img/2/
+
+Fichiers générés:
+  • 1-1.html à 1-3.html   (GARCH)
+  • 2-1.html à 2-2.html   (Monte Carlo)
+  • 3-1.html à 3-3.html   (ARIMA)
+  • 4-1.html à 4-4.html   (Pair Trading)
+  • 5-1.html à 5-3.html   (CAPM)
+  • 6-1.html à 6-3.html   (VaR & Correlation)
+
+================================================================================

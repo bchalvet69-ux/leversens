@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Global Overview · LEVERSENS</title>
+  <style>
+    /* ── Asset Slides (PowerPoint style) ── */
+    .slides-container {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    .slide {
+      display: none;
+      background: rgba(15,23,41,0.7);
+      border: 1px solid rgba(59,130,246,0.15);
+      border-radius: 16px;
+      padding: 28px 36px;
+      backdrop-filter: blur(8px);
+      animation: fadeSlide 0.4s ease;
+    }
+    .slide.active { display: flex; gap: 32px; align-items: center; }
+    @keyframes fadeSlide { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+
+    .slide-icon {
+      flex-shrink: 0;
+      width: 80px; height: 80px;
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; font-weight: 900;
+      color: #fff;
+    }
+    .slide-body { flex: 1; }
+    .slide-body .slide-ticker {
+      font-size: 10px; letter-spacing: 3px; color: #64748b;
+      text-transform: uppercase; font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .slide-body h3 {
+      font-size: 22px; font-weight: 800; color: #fff;
+      margin: 0 0 8px; line-height: 1.2;
+    }
+    .slide-body .slide-desc {
+      color: #94a3b8; font-size: 13px; line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .slide-metrics {
+      display: flex; gap: 24px;
+    }
+    .slide-metric {
+      text-align: center;
+    }
+    .slide-metric .metric-val {
+      font-size: 18px; font-weight: 800; color: #60a5fa;
+    }
+    .slide-metric .metric-val.pos { color: #22c55e; }
+    .slide-metric .metric-val.neg { color: #ef4444; }
+    .slide-metric .metric-lbl {
+      font-size: 9px; letter-spacing: 1.5px; color: #475569;
+      text-transform: uppercase; margin-top: 2px;
+    }
+
+    /* Slide navigation dots */
+    .slide-nav {
+      display: flex; justify-content: center; gap: 8px;
+      margin-top: 16px;
+    }
+    .slide-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      border: 2px solid rgba(59,130,246,0.4);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.25s;
+      padding: 0;
+    }
+    .slide-dot.active {
+      background: #3b82f6;
+      border-color: #3b82f6;
+      box-shadow: 0 0 10px rgba(59,130,246,0.5);
+    }
+    .slide-arrows {
+      position: absolute;
+      top: 50%; left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      transform: translateY(-50%);
+      pointer-events: none;
+      padding: 0 8px;
+    }
+    .slide-arrow {
+      pointer-events: all;
+      background: rgba(59,130,246,0.15);
+      border: 1px solid rgba(59,130,246,0.3);
+      color: #60a5fa;
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+    }
+    .slide-arrow:hover {
+      background: rgba(59,130,246,0.3);
+      color: #fff;
+    }
+
+    /* ── News Feed ── */
+    .news-container {
+      background: rgba(15,23,41,0.7);
+      border: 1px solid rgba(59,130,246,0.15);
+      border-radius: 14px;
+      overflow: hidden;
+      backdrop-filter: blur(8px);
+    }
+    .news-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px;
+      border-bottom: 1px solid rgba(59,130,246,0.08);
+      background: rgba(10,15,31,0.6);
+    }
+    .news-header h3 {
+      font-size: 13px; font-weight: 700; color: #fff; letter-spacing: 0.3px; margin: 0;
+    }
+    .news-list {
+      max-height: 520px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(59,130,246,0.3) transparent;
+    }
+    .news-item {
+      display: flex; gap: 14px; align-items: flex-start;
+      padding: 14px 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .news-item:hover {
+      background: rgba(59,130,246,0.06);
+      text-decoration: none;
+    }
+    .news-thumb {
+      flex-shrink: 0;
+      width: 64px; height: 48px;
+      border-radius: 6px;
+      object-fit: cover;
+      background: rgba(255,255,255,0.05);
+    }
+    .news-text { flex: 1; min-width: 0; }
+    .news-text .news-title {
+      font-size: 12.5px; font-weight: 600; color: #e2e8f0;
+      line-height: 1.4;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .news-text .news-meta {
+      font-size: 10px; color: #475569; margin-top: 4px;
+      letter-spacing: 0.3px;
+    }
+    .news-empty {
+      padding: 30px; text-align: center; color: #475569; font-size: 12px;
+    }
+
+    /* Smoothen scrollbar */
+    .news-list::-webkit-scrollbar { width: 4px; }
+    .news-list::-webkit-scrollbar-track { background: transparent; }
+    .news-list::-webkit-scrollbar-thumb { background: rgba(59,130,246,0.3); border-radius: 4px; }
+  </style>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../1.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 1 · Dashboard 1</span>
+    <h1>Global <span class="accent">Overview</span></h1>
+  </header>
+
+  <!-- ═══ ASSET PRESENTATION SLIDES ═══ -->
+  <section class="section">
+    <div class="section-label">Portfolio Assets</div>
+    <div class="slides-container" id="slides-container">
+      <!-- SPY -->
+      <div class="slide active" data-slide="0">
+        <div class="slide-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">SPY</div>
+        <div class="slide-body">
+          <div class="slide-ticker">SPDR S&P 500 ETF Trust</div>
+          <h3>S&P 500 ETF</h3>
+          <p class="slide-desc">The most traded ETF in the world, tracking the 500 largest US companies. It serves as the benchmark for US equity performance and is the reference index for beta calculations in our portfolio analysis.</p>
+          <div class="slide-metrics">
+            <div class="slide-metric"><div class="metric-val">500</div><div class="metric-lbl">Holdings</div></div>
+            <div class="slide-metric"><div class="metric-val">Equity</div><div class="metric-lbl">Asset Class</div></div>
+            <div class="slide-metric"><div class="metric-val">1993</div><div class="metric-lbl">Inception</div></div>
+            <div class="slide-metric"><div class="metric-val">Benchmark</div><div class="metric-lbl">Role</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- BTC -->
+      <div class="slide" data-slide="1">
+        <div class="slide-icon" style="background: linear-gradient(135deg, #a78bfa, #7c3aed);">BTC</div>
+        <div class="slide-body">
+          <div class="slide-ticker">BTC-USD · Bitcoin</div>
+          <h3>Bitcoin</h3>
+          <p class="slide-desc">The first and largest cryptocurrency by market cap. A decentralized digital asset with high volatility, often considered "digital gold." Its low correlation with traditional equities makes it a diversification tool, though its drawdowns can exceed 50%.</p>
+          <div class="slide-metrics">
+            <div class="slide-metric"><div class="metric-val">Crypto</div><div class="metric-lbl">Asset Class</div></div>
+            <div class="slide-metric"><div class="metric-val">2009</div><div class="metric-lbl">Launch</div></div>
+            <div class="slide-metric"><div class="metric-val">~47%</div><div class="metric-lbl">Ann. Volatility</div></div>
+            <div class="slide-metric"><div class="metric-val">21M</div><div class="metric-lbl">Max Supply</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- CL=F -->
+      <div class="slide" data-slide="2">
+        <div class="slide-icon" style="background: linear-gradient(135deg, #34d399, #059669);">CL</div>
+        <div class="slide-body">
+          <div class="slide-ticker">CL=F · WTI Crude Oil Futures</div>
+          <h3>Crude Oil</h3>
+          <p class="slide-desc">The global benchmark for oil pricing. Crude oil is a key macro indicator, sensitive to geopolitical tensions, OPEC decisions, and global demand cycles. It provides commodity exposure and acts as an inflation hedge within our diversified portfolio.</p>
+          <div class="slide-metrics">
+            <div class="slide-metric"><div class="metric-val">Commodity</div><div class="metric-lbl">Asset Class</div></div>
+            <div class="slide-metric"><div class="metric-val">Futures</div><div class="metric-lbl">Instrument</div></div>
+            <div class="slide-metric"><div class="metric-val">~36%</div><div class="metric-lbl">Ann. Volatility</div></div>
+            <div class="slide-metric"><div class="metric-val">NYMEX</div><div class="metric-lbl">Exchange</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- GOLD -->
+      <div class="slide" data-slide="3">
+        <div class="slide-icon" style="background: linear-gradient(135deg, #f472b6, #db2777);">AU</div>
+        <div class="slide-body">
+          <div class="slide-ticker">GOLD · Barrick Gold Corporation</div>
+          <h3>Barrick Gold</h3>
+          <p class="slide-desc">One of the world's largest gold mining companies, operating across 13 countries. Gold miners amplify gold price movements with operating leverage. Barrick's strong correlation with NEM (Newmont) creates a natural pair trading opportunity in our quantitative analysis.</p>
+          <div class="slide-metrics">
+            <div class="slide-metric"><div class="metric-val">Mining</div><div class="metric-lbl">Sector</div></div>
+            <div class="slide-metric"><div class="metric-val">NYSE</div><div class="metric-lbl">Exchange</div></div>
+            <div class="slide-metric"><div class="metric-val">~48%</div><div class="metric-lbl">Ann. Volatility</div></div>
+            <div class="slide-metric"><div class="metric-val">13</div><div class="metric-lbl">Countries</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- NEM -->
+      <div class="slide" data-slide="4">
+        <div class="slide-icon" style="background: linear-gradient(135deg, #60a5fa, #2563eb);">NEM</div>
+        <div class="slide-body">
+          <div class="slide-ticker">NEM · Newmont Corporation</div>
+          <h3>Newmont Mining</h3>
+          <p class="slide-desc">The world's largest gold mining company by production volume. NEM's strong co-movement with Barrick Gold (R&sup2; &gt; 0.80) is exploited in our pair trading strategy. Its high beta relative to gold prices makes it attractive for directional bets on precious metals.</p>
+          <div class="slide-metrics">
+            <div class="slide-metric"><div class="metric-val">Mining</div><div class="metric-lbl">Sector</div></div>
+            <div class="slide-metric"><div class="metric-val">NYSE</div><div class="metric-lbl">Exchange</div></div>
+            <div class="slide-metric"><div class="metric-val">~42%</div><div class="metric-lbl">Ann. Volatility</div></div>
+            <div class="slide-metric"><div class="metric-val">#1</div><div class="metric-lbl">Gold Producer</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-arrows">
+        <button class="slide-arrow" id="prev-slide">&#8249;</button>
+        <button class="slide-arrow" id="next-slide">&#8250;</button>
+      </div>
+    </div>
+    <div class="slide-nav" id="slide-nav">
+      <button class="slide-dot active" data-idx="0"></button>
+      <button class="slide-dot" data-idx="1"></button>
+      <button class="slide-dot" data-idx="2"></button>
+      <button class="slide-dot" data-idx="3"></button>
+      <button class="slide-dot" data-idx="4"></button>
+    </div>
+  </section>
+
+  <!-- ═══ BASE 100 CHART ═══ -->
+  <section class="section">
+    <div class="section-label">Base 100 Performance</div>
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title">Base 100 · 5 Assets · 3 Years</div>
+        <span class="cc-tag" style="background:rgba(0,204,150,0.15); color:#00cc96;">Daily Close</span>
+      </div>
+      <iframe src="../../img/1/1-1.html"></iframe>
+    </div>
+    <div class="commentary">
+      <h3>Performance Tracking</h3>
+      <p>BTC significantly outperformed over the 3-year period, driven by crypto adoption cycles, while NEM (Newmont) benefited from precious metals rallies. SPY shows steady, diversified returns. GOLD and NEM display strong correlation — ideal for pair trading strategies explored in the Quantitative Dashboard.</p>
+    </div>
+  </section>
+
+  <!-- ═══ DAILY RETURNS (per asset) ═══ -->
+  <section class="section">
+    <div class="section-label">Daily Returns · Per Asset</div>
+
+    <div class="asset-tabs" id="ret-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="ret-title">SPY — Daily Returns</div>
+        <span class="cc-tag" style="background:rgba(249,38,114,0.15); color:#f92672;">% Change</span>
+      </div>
+      <iframe id="ret-iframe" src="../../img/1/1-ret-SPY.html"></iframe>
+    </div>
+
+    <div class="commentary">
+      <h3>Volatility Analysis</h3>
+      <p>Green bars = positive days, red bars = negative days. SPY displays tightly controlled returns (&plusmn;2% typical), reflecting diversification. BTC shows extreme swings (&plusmn;5% to &plusmn;10%), consistent with annualized volatility ~47% from GARCH modeling. GOLD and NEM move in lockstep, confirming pair-trading opportunity.</p>
+    </div>
+  </section>
+
+  <!-- ═══ YAHOO FINANCE NEWS ═══ -->
+  <section class="section">
+    <div class="section-label">Latest News · Yahoo Finance</div>
+
+    <div class="asset-tabs" id="news-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="news-container">
+      <div class="news-header">
+        <h3 id="news-title">SPY — Latest Headlines</h3>
+        <span class="cc-tag" style="background:rgba(99,110,250,0.2); color:#636efa;">Yahoo Finance</span>
+      </div>
+      <div class="news-list" id="news-list">
+        <div class="news-empty">Loading news...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Load news data as JS (works on file:// and https://) -->
+  <script src="../../img/1/news-data.js"></script>
+
+  <script>
+  (function(){
+    /* ── Slide carousel ── */
+    const slides = document.querySelectorAll('.slide');
+    const dots   = document.querySelectorAll('.slide-dot');
+    let current = 0;
+
+    function showSlide(idx) {
+      slides.forEach(s => s.classList.remove('active'));
+      dots.forEach(d => d.classList.remove('active'));
+      slides[idx].classList.add('active');
+      dots[idx].classList.add('active');
+      current = idx;
+    }
+
+    dots.forEach(d => d.addEventListener('click', () => showSlide(+d.dataset.idx)));
+    document.getElementById('prev-slide').addEventListener('click', () => showSlide((current - 1 + slides.length) % slides.length));
+    document.getElementById('next-slide').addEventListener('click', () => showSlide((current + 1) % slides.length));
+
+    // Auto-advance every 6s
+    let autoTimer = setInterval(() => showSlide((current + 1) % slides.length), 6000);
+    document.getElementById('slides-container').addEventListener('mouseenter', () => clearInterval(autoTimer));
+    document.getElementById('slides-container').addEventListener('mouseleave', () => {
+      autoTimer = setInterval(() => showSlide((current + 1) % slides.length), 6000);
+    });
+
+    /* ── Daily Returns tabs ── */
+    const ASSET_LABEL = {
+      'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+      'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining'
+    };
+    const retTabs  = document.querySelectorAll('#ret-tabs button');
+    const retFrame = document.getElementById('ret-iframe');
+    const retTitle = document.getElementById('ret-title');
+
+    retTabs.forEach(btn => btn.addEventListener('click', () => {
+      retTabs.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const a = btn.dataset.asset;
+      retFrame.src = `../../img/1/1-ret-${a}.html`;
+      retTitle.textContent = `${ASSET_LABEL[a]} — Daily Returns`;
+    }));
+
+    /* ── Yahoo Finance News ── */
+    const newsTabs = document.querySelectorAll('#news-tabs button');
+    const newsList = document.getElementById('news-list');
+    const newsTitle = document.getElementById('news-title');
+    let newsData = {};
+
+    function renderNews(asset) {
+      const articles = newsData[asset] || [];
+      newsTitle.textContent = `${ASSET_LABEL[asset]} — Latest Headlines`;
+      if (!articles.length) {
+        newsList.innerHTML = '<div class="news-empty">No news available for this asset.</div>';
+        return;
+      }
+      newsList.innerHTML = articles.map(a => {
+        const thumb = a.thumbnail
+          ? `<img class="news-thumb" src="${a.thumbnail}" alt="" loading="lazy" onerror="this.style.display='none'">`
+          : '';
+        const dateObj = a.date ? new Date(typeof a.date === 'number' ? a.date * 1000 : a.date) : null;
+        const date = dateObj ? dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) + ' · ' + dateObj.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) : '';
+        return `<a class="news-item" href="${a.link}" target="_blank" rel="noopener">
+          ${thumb}
+          <div class="news-text">
+            <div class="news-title">${a.title}</div>
+            <div class="news-meta">${a.publisher}${date ? ' · ' + date : ''}</div>
+          </div>
+        </a>`;
+      }).join('');
+    }
+
+    // Load news from inline JS variable (works on file:// and https://)
+    if (typeof NEWS_DATA !== 'undefined') {
+      newsData = NEWS_DATA;
+      renderNews('SPY');
+    } else {
+      // Fallback: try fetch (works on http/https servers)
+      fetch('../../img/1/news.json')
+        .then(r => r.json())
+        .then(data => { newsData = data; renderNews('SPY'); })
+        .catch(() => { newsList.innerHTML = '<div class="news-empty">Unable to load news data.</div>'; });
+    }
+
+    newsTabs.forEach(btn => btn.addEventListener('click', () => {
+      newsTabs.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderNews(btn.dataset.asset);
+    }));
+  })();
+  </script>
+</body>
+</html>

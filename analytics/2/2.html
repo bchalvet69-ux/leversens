@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Monte Carlo Simulation · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../2.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 3 · Dashboard 2</span>
+    <h1>Monte Carlo · <span class="accent">Simulation</span></h1>
+  </header>
+
+  <!-- Trajectories -->
+  <section class="section">
+    <div class="section-label">1 000 GBM Simulations · 30-Day Horizon</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="mc-title">SPY — Monte Carlo (1 000 sims · 30d)</div>
+        <span class="cc-tag" style="background:rgba(200,80,255,0.2); color:#c850ff;">Scenarios</span>
+      </div>
+      <iframe id="mc-iframe" src="../../img/2/2-dash-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- Explanation -->
+  <section class="section">
+    <div class="grid-2">
+      <div class="commentary">
+        <h3>What is Monte Carlo?</h3>
+        <p>Monte Carlo simulation generates <strong>1 000 possible future price paths</strong> by randomly sampling from historical returns using a <strong>Geometric Brownian Motion</strong> (GBM) model. Each path uses the asset's real drift (average return) and volatility to simulate 30 days forward. The result is a probability distribution of where the price might end up — not a single prediction, but a range of scenarios.</p>
+      </div>
+      <div class="commentary">
+        <h3>How to Read the Chart</h3>
+        <p>The <strong>white median line</strong> shows the most likely path. The <strong>shaded bands</strong> represent confidence intervals: 50% of simulations fall within the darker band, 90% within the lighter one. The <strong>red P5</strong> and <strong>green P95</strong> dotted lines mark extreme scenarios. If 95% of simulations end between $X and $Y, you have a practical range for setting take-profit and stop-loss levels. Wider bands mean higher uncertainty and risk.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+      const aTabs = document.querySelectorAll('#asset-tabs button');
+      const iframe = document.getElementById('mc-iframe');
+      const titleEl = document.getElementById('mc-title');
+      let asset = 'SPY';
+      function update() {
+        iframe.src = `../../img/2/2-dash-${asset}.html`;
+        titleEl.textContent = `${ASSET_LABEL[asset]} — Monte Carlo (1 000 sims · 30d)`;
+      }
+      aTabs.forEach(b => b.addEventListener('click', () => {
+        aTabs.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        asset = b.dataset.asset;
+        update();
+      }));
+    })();
+  </script>
+</body>
+</html>

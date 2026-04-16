@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>ICT &amp; OHLC Mapping · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../1.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 6 · Dashboard 1</span>
+    <h1>ICT &amp; <span class="accent">OHLC Mapping</span></h1>
+  </header>
+
+  <!-- ASSET + VIEW + TIMEFRAME TOGGLES -->
+  <section class="section">
+    <div class="section-label">Intraday · 5 Trading Days</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM" class="active">NEM</button>
+    </div>
+
+    <div class="freq-toggle" id="view-toggle">
+      <button data-view="ict">ICT Breaker Blocks</button>
+      <button data-view="ohlc">OHLC Statistical</button>
+      <button data-view="combined" class="active">Combined</button>
+    </div>
+
+    <div class="freq-toggle" id="tf-toggle" style="margin-left: 10px;">
+      <button data-tf="15m" class="active">15 min</button>
+      <button data-tf="5m">5 min</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="chart-title">NEM — ICT + OHLC Combined (15 min)</div>
+        <span class="cc-tag" id="chart-tag">Combined · 15 min</span>
+      </div>
+      <iframe id="chart-iframe" src="../../img/1/6-15m-NEM.html" style="height: 620px;"></iframe>
+    </div>
+  </section>
+
+  <!-- Explanation -->
+  <section class="section">
+    <div class="grid-2">
+      <div class="commentary">
+        <h3>ICT Breaker Blocks</h3>
+        <p>An <strong>Order Block</strong> is the last candle before a strong directional impulse — it marks where institutional orders were placed. When the opposite side of an Order Block gets broken by a later close, it becomes a <strong>Breaker Block</strong>, reversing its role from support to resistance (or vice versa). These zones are high-probability retest areas for entries.</p>
+      </div>
+
+      <div class="commentary">
+        <h3>OHLC Statistical Mapping</h3>
+        <p>Each day's session Open is used as an anchor. From the last 20 daily candles we compute the average <strong>Distribution</strong> (move in the candle's direction) and <strong>Manipulation</strong> (wick against the trend). These levels project around each session's Open: &plusmn;Distribution (expansion targets) and &plusmn;Manipulation (fake-out / stop-hunt levels). You can see 3 sessions, each with its own set of levels.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+      const VIEW_LABEL = { 'ict': 'ICT Breaker Blocks', 'ohlc': 'OHLC Statistical', 'combined': 'ICT + OHLC Combined' };
+      const TF_LABEL   = { '15m': '15 min', '5m': '5 min' };
+
+      const assetBtns = document.querySelectorAll('#asset-tabs button');
+      const viewBtns  = document.querySelectorAll('#view-toggle button');
+      const tfBtns    = document.querySelectorAll('#tf-toggle button');
+      const iframe    = document.getElementById('chart-iframe');
+      const titleEl   = document.getElementById('chart-title');
+      const tagEl     = document.getElementById('chart-tag');
+
+      let asset = 'NEM', view = 'combined', tf = '15m';
+
+      function update() {
+        /* File naming: 6-{view}-{tf}-{ASSET}.html  (combined has no view prefix → 6-{tf}-{ASSET}.html) */
+        let file;
+        if (view === 'combined') {
+          file = `6-${tf}-${asset}.html`;
+        } else {
+          file = `6-${view}-${tf}-${asset}.html`;
+        }
+        iframe.src = `../../img/1/${file}`;
+        titleEl.textContent = `${ASSET_LABEL[asset]} — ${VIEW_LABEL[view]} (${TF_LABEL[tf]})`;
+        tagEl.textContent = `${VIEW_LABEL[view].split(' ')[0]} · ${TF_LABEL[tf]}`;
+      }
+
+      assetBtns.forEach(b => b.addEventListener('click', () => {
+        assetBtns.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        asset = b.dataset.asset;
+        update();
+      }));
+
+      viewBtns.forEach(b => b.addEventListener('click', () => {
+        viewBtns.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        view = b.dataset.view;
+        update();
+      }));
+
+      tfBtns.forEach(b => b.addEventListener('click', () => {
+        tfBtns.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        tf = b.dataset.tf;
+        update();
+      }));
+    })();
+  </script>
+</body>
+</html>

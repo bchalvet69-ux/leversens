@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    color:#cbd5e1; font-family: ui-monospace, Menlo, Consolas, monospace;
+    background-color: #111827; padding:24px;
+  }
+  h2 {
+    font-size:16px; letter-spacing:1.5px; color:#f1f5f9;
+    margin-bottom:16px; font-weight:700;
+  }
+  .badge {
+    padding:16px 20px; border-radius:10px; font-size:13px; line-height:2;
+    margin-bottom:20px;
+    background: rgba(34,197,94,0.08);
+    border: 1px solid rgba(34,197,94,0.25);
+  }
+  .badge .line { display:block; }
+  .badge .val { font-weight:700; color:#f1f5f9; font-size:14px; }
+  .badge .ok { color:#86efac; }
+  .badge .ko { color:#fca5a5; }
+  .badge .explain {
+    display:block; margin-top:10px; padding-top:10px;
+    border-top:1px solid rgba(255,255,255,0.08);
+    font-size:12px; color:#94a3b8; line-height:1.6;
+    font-style:italic;
+  }
+  table {
+    border-collapse:collapse; width:100%; max-width:800px;
+    margin-top:20px;
+  }
+  th, td {
+    padding:10px 14px; text-align:right;
+    border-bottom:1px solid rgba(255,255,255,0.06);
+  }
+  th {
+    background:rgba(59,130,246,0.12); color:#93c5fd;
+    font-size:11px; letter-spacing:1px; text-transform:uppercase;
+    font-weight:700;
+  }
+  td { font-size:13px; }
+  td:first-child, th:first-child { text-align:left; }
+  tr:hover td { background:rgba(59,130,246,0.05); }
+  .section-label {
+    font-size:11px; letter-spacing:2px; text-transform:uppercase;
+    color:#475569; margin:24px 0 10px; font-weight:700;
+  }
+  .meta { font-size:12px; color:#64748b; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<h2>OLS REGRESSION &mdash; GOLD vs NEM</h2>
+
+<div class="badge">
+  <span class="line">
+    <span class="val">R&sup2; = 0.8113</span>
+    &rarr; <span class="ok">validates the model (must be &gt; 0.70)</span>
+  </span>
+  <span class="line">
+    <span class="val">F-statistic = 1070.3</span>
+    &rarr; <span class="ok">validates the model (must be &gt; ~4.0)</span>
+  </span>
+  <span class="line">
+    <span class="val">P-value = 3.92e-92</span>
+    &rarr; <span class="ok">validates the model (must be &lt; 0.05)</span>
+  </span>
+  <span class="explain">
+    R&sup2; measures how much of GOLD's variance is explained by NEM,
+    the F-statistic tests whether the linear relationship is statistically significant,
+    and the P-value confirms that this result is not due to chance.
+  </span>
+</div>
+
+<div class="section-label">Coefficients</div>
+<table>
+  <tr>
+    <th>Variable</th><th>Coefficient</th><th>Std Error</th><th>t-stat</th><th>P-value</th><th>95% CI</th>
+  </tr>
+  <tr>
+    <td>Intercept</td>
+    <td>-5.5655</td>
+    <td>1.1738</td>
+    <td>-4.741</td>
+    <td>0.0000</td>
+    <td>[-7.877, -3.254]</td>
+  </tr>
+  <tr>
+    <td>NEM</td>
+    <td>0.4366</td>
+    <td>0.0133</td>
+    <td>32.715</td>
+    <td>0.0000</td>
+    <td>[0.410, 0.463]</td>
+  </tr>
+</table>
+
+<div class="section-label">Model Info</div>
+<table>
+  <tr><th style="width:50%">Metric</th><th>Value</th></tr>
+  <tr><td>Observations</td><td>251</td></tr>
+  <tr><td>R-squared</td><td>0.8113</td></tr>
+  <tr><td>Adj. R-squared</td><td>0.8105</td></tr>
+  <tr><td>F-statistic</td><td>1070.3</td></tr>
+  <tr><td>Prob (F-statistic)</td><td>3.92e-92</td></tr>
+  <tr><td>Log-Likelihood</td><td>-764.62</td></tr>
+  <tr><td>AIC</td><td>1533.2</td></tr>
+  <tr><td>BIC</td><td>1540.3</td></tr>
+  <tr><td>Durbin-Watson</td><td>0.0593</td></tr>
+</table>
+
+<div class="meta">Model: OLS &middot; Method: Least Squares &middot; Dep. Variable: GOLD</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>MACD Oscillator · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../1.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 3 · Dashboard 1</span>
+    <h1>MACD <span class="accent">Oscillator</span></h1>
+  </header>
+
+  <!-- Analytics FIRST -->
+  <section class="section">
+    <div class="section-label">Analytics · By Asset & Timeframe</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="freq-toggle" id="freq-toggle">
+      <button data-freq="intraday">Intraday · 60d × 1h</button>
+      <button data-freq="monthly" class="active">Daily · 1y</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="macd-title">SPY — MACD (Daily)</div>
+        <span class="cc-tag" id="macd-tag" style="background:rgba(140,70,255,0.15); color:#c850ff;">Daily</span>
+      </div>
+      <iframe id="macd-iframe" src="../../img/1/3-monthly-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- How It Works SECOND -->
+  <section class="section">
+    <div class="section-label">How It Works</div>
+    <div class="commentary">
+      <h3>MACD Strategy</h3>
+      <p>The MACD (Moving Average Convergence Divergence) measures the relationship between two exponential moving averages to identify trend changes and momentum. The <strong>MACD line</strong> (EMA 12 minus EMA 26) oscillates around zero — when it's positive, the short-term trend is faster than the long-term, signaling bullish momentum. The <strong>Signal line</strong> (EMA 9 of MACD) acts as a trigger: a MACD cross above the signal is a buy signal, and a cross below is a sell signal. The <strong>histogram</strong> (bars) shows the gap between MACD and signal — growing bars mean accelerating momentum, shrinking bars mean momentum is fading. A powerful signal is <strong>divergence</strong>: when price makes a new high but MACD doesn't, it warns that the uptrend is losing steam and a reversal may follow.</p>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const PREFIX = '3';
+      const LABEL  = 'MACD';
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+      const aTabs = document.querySelectorAll('#asset-tabs button');
+      const fTabs = document.querySelectorAll('#freq-toggle button');
+      const iframe = document.getElementById('macd-iframe');
+      const titleEl = document.getElementById('macd-title');
+      const tagEl = document.getElementById('macd-tag');
+      let asset='SPY', freq='monthly';
+      function update(){
+        iframe.src = `../../img/1/${PREFIX}-${freq}-${asset}.html`;
+        titleEl.textContent = `${ASSET_LABEL[asset]} — ${LABEL} (${freq === 'intraday' ? 'Intraday' : 'Daily'})`;
+        tagEl.textContent = freq === 'intraday' ? 'Intraday' : 'Daily';
+      }
+      aTabs.forEach(b=>b.addEventListener('click',()=>{aTabs.forEach(x=>x.classList.remove('active'));b.classList.add('active');asset=b.dataset.asset;update();}));
+      fTabs.forEach(b=>b.addEventListener('click',()=>{fTabs.forEach(x=>x.classList.remove('active'));b.classList.add('active');freq=b.dataset.freq;update();}));
+    })();
+  </script>
+</body>
+</html>

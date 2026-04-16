@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>GARCH · Conditional Volatility · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../2.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 2 · Dashboard 2</span>
+    <h1>GARCH · <span class="accent">Conditional Volatility</span></h1>
+  </header>
+
+  <!-- Conditional volatility + forecast -->
+  <section class="section">
+    <div class="section-label">GARCH(1,1) · Annualized Volatility + 30-Day Forecast</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="garch-title">SPY — Conditional Volatility + Forecast</div>
+        <span class="cc-tag" style="background:rgba(99,110,250,0.2); color:#636efa;">GARCH(1,1)</span>
+      </div>
+      <iframe id="garch-iframe" src="../../img/2/1-dash-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- Explanation -->
+  <section class="section">
+    <div class="grid-2">
+      <div class="commentary">
+        <h3>What is GARCH?</h3>
+        <p><strong>GARCH</strong> (Generalized AutoRegressive Conditional Heteroskedasticity) models how volatility evolves over time. The key insight is <strong>volatility clustering</strong>: when markets are turbulent, they tend to stay turbulent. GARCH(1,1) estimates tomorrow's volatility based on today's return shock and recent volatility levels. The dotted yellow line shows the <strong>30-day forecast</strong> — where volatility is expected to go based on current market conditions.</p>
+      </div>
+      <div class="commentary">
+        <h3>How to Use This</h3>
+        <p>GARCH is essential for <strong>position sizing</strong>: when predicted volatility spikes, reduce exposure; when it's low, you can increase it. Compare assets — BTC typically shows ~50% annualized volatility vs SPY's ~15%, which directly impacts portfolio allocation weights. The forecast helps anticipate whether volatility is mean-reverting (calming down) or persisting (staying elevated), guiding short-term risk management decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+      const aTabs = document.querySelectorAll('#asset-tabs button');
+      const iframe = document.getElementById('garch-iframe');
+      const titleEl = document.getElementById('garch-title');
+      let asset = 'SPY';
+      function update() {
+        iframe.src = `../../img/2/1-dash-${asset}.html`;
+        titleEl.textContent = `${ASSET_LABEL[asset]} — Conditional Volatility + Forecast`;
+      }
+      aTabs.forEach(b => b.addEventListener('click', () => {
+        aTabs.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        asset = b.dataset.asset;
+        update();
+      }));
+    })();
+  </script>
+</body>
+</html>

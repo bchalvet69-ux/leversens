@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="gQuant" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <filter id="gl2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <circle cx="100" cy="100" r="85" fill="url(#gQuant)" opacity="0.08" filter="url(#gl2)"/>
+  <circle cx="100" cy="100" r="85" stroke="url(#gQuant)" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <path d="M30 150 Q55 150 70 130 Q85 100 100 70 Q115 100 130 130 Q145 150 170 150"
+        stroke="url(#gQuant)" stroke-width="2.5" fill="none" opacity="0.9"/>
+  <path d="M30 150 Q55 150 70 130 Q85 100 100 70 Q115 100 130 130 Q145 150 170 150 L170 150 L30 150 Z"
+        fill="url(#gQuant)" opacity="0.15"/>
+
+  <circle cx="55"  cy="148" r="2.5" fill="#60a5fa"/>
+  <circle cx="70"  cy="138" r="2.5" fill="#60a5fa"/>
+  <circle cx="80"  cy="118" r="2.5" fill="#38bdf8"/>
+  <circle cx="95"  cy="85"  r="3"   fill="#38bdf8"/>
+  <circle cx="100" cy="70"  r="3.5" fill="#06b6d4"/>
+  <circle cx="105" cy="85"  r="3"   fill="#38bdf8"/>
+  <circle cx="120" cy="118" r="2.5" fill="#60a5fa"/>
+  <circle cx="135" cy="138" r="2.5" fill="#60a5fa"/>
+  <circle cx="150" cy="148" r="2.5" fill="#60a5fa"/>
+
+  <text x="60"  y="58" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#06b6d4" opacity="0.9">Σ</text>
+  <text x="130" y="58" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#06b6d4" opacity="0.9">μ</text>
+
+  <line x1="100" y1="50" x2="100" y2="150" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <path d="M40 60 Q45 55, 50 60 L50 80 Q45 85, 40 80" stroke="url(#gQuant)" stroke-width="2" fill="none" opacity="0.7"/>
+</svg>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Pair Trading · GOLD vs NEM · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../2.html">← Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 5 · Dashboard 2</span>
+    <h1>Pair Trading · <span class="accent">GOLD vs NEM</span></h1>
+  </header>
+
+  <!-- View toggle -->
+  <section class="section">
+    <div class="section-label">Select Analysis · Z-Score ±1.5σ</div>
+    <div class="freq-toggle" id="view-toggle">
+      <button data-view="1" class="active">OLS Summary</button>
+      <button data-view="2">Z-Score Spread</button>
+      <button data-view="3">Base 100 + Signals</button>
+      <button data-view="4">P&L</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="view-title">GOLD vs NEM · OLS Summary</div>
+        <span class="cc-tag" id="view-tag" style="background:rgba(99,110,250,0.2); color:#636efa;">OLS</span>
+      </div>
+      <iframe id="view-iframe" src="../../img/2/4-1.html" style="height:600px"></iframe>
+    </div>
+  </section>
+
+  <!-- Strategy foundations -->
+  <section class="section">
+    <div class="section-label">Strategy Overview</div>
+
+    <div class="commentary">
+      <h3>Pair Trading Strategy</h3>
+      <p>Pair trading is a market-neutral strategy that profits from the relative movement of two correlated assets. The idea is simple: GOLD and NEM (both gold miners) tend to move together over time. When one temporarily diverges from the other, we bet they'll converge back. We first run an <strong>OLS regression</strong> to quantify the normal relationship, then compute a <strong>Z-score</strong> measuring how far the spread has drifted from its mean. When the Z-score exceeds &plusmn;2 standard deviations, we take a position expecting mean reversion. The strategy is "market-neutral" because we're simultaneously long one asset and short the other — overall market direction doesn't matter, only the relative movement counts.</p>
+    </div>
+
+    <div class="commentary">
+      <h3>Trading Rules</h3>
+      <p><strong>Buy</strong> when Z-score &lt; -2 (NEM is cheap relative to GOLD — go long NEM, short GOLD). <strong>Sell</strong> when Z-score &gt; +2 (NEM is expensive — go short NEM, long GOLD). <strong>Close</strong> at Z = 0 (the pair has returned to equilibrium, take profit). The P&L chart shows the cumulative backtest performance of these rules applied over the historical period.</p>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const HEIGHTS = {'1':'600px','2':'480px','3':'480px','4':'480px'};
+      const TITLES = {'1':'GOLD vs NEM · OLS Summary','2':'GOLD vs NEM · Z-Score Spread','3':'GOLD vs NEM · Base 100 + Signals','4':'GOLD vs NEM · Cumulative P&L'};
+      const TAGS = {'1':'OLS','2':'Z-Score','3':'Signals','4':'Backtest'};
+      const COLORS = {'1':'#636efa','2':'#f92672','3':'#00cc96','4':'#c850ff'};
+      const BG = {'1':'rgba(99,110,250,0.2)','2':'rgba(248,113,113,0.2)','3':'rgba(0,204,150,0.2)','4':'rgba(200,80,255,0.2)'};
+      const btns = document.querySelectorAll('#view-toggle button');
+      const iframe = document.getElementById('view-iframe');
+      const titleEl = document.getElementById('view-title');
+      const tagEl = document.getElementById('view-tag');
+      btns.forEach(b=>b.addEventListener('click',()=>{btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');const v=b.dataset.view;iframe.src=`../../img/2/4-${v}.html`;iframe.style.height=HEIGHTS[v];titleEl.textContent=TITLES[v];tagEl.textContent=TAGS[v];tagEl.style.color=COLORS[v];tagEl.style.background=BG[v];}));
+    })();
+  </script>
+</body>
+</html>

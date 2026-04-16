@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/customize.css">
+  <link rel="icon" type="image/svg+xml" href="img/leversens-logo.svg">
+  <title>LEVERSENS · Finance M2 Dashboard</title>
+  <style>
+    /* ══ ANIMATED BACKGROUND ══ */
+    html, body { height: 100%; overflow: hidden; }
+    body.index {
+      background: #05080f;
+      background-image: none;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(59,130,246,0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59,130,246,0.08) 1px, transparent 1px);
+      background-size: 50px 50px;
+      animation: gridShift 20s linear infinite;
+      z-index: 0; pointer-events: none;
+    }
+    @keyframes gridShift {
+      0%   { background-position: 0 0, 0 0; }
+      100% { background-position: 50px 50px, 50px 50px; }
+    }
+
+    .bg-blob {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.4;
+      z-index: 0; pointer-events: none;
+    }
+    .blob-1 {
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, #3b82f6, transparent);
+      top: -150px; left: -100px;
+      animation: blob1 18s ease-in-out infinite;
+    }
+    .blob-2 {
+      width: 450px; height: 450px;
+      background: radial-gradient(circle, #06b6d4, transparent);
+      bottom: -100px; right: -80px;
+      animation: blob2 22s ease-in-out infinite;
+    }
+    .blob-3 {
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, #1e40af, transparent);
+      top: 40%; right: 20%;
+      animation: blob3 25s ease-in-out infinite;
+      opacity: 0.25;
+    }
+    @keyframes blob1 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50%     { transform: translate(80px,50px) scale(1.2); }
+    }
+    @keyframes blob2 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50%     { transform: translate(-60px,-40px) scale(1.15); }
+    }
+    @keyframes blob3 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      33%     { transform: translate(40px,-60px) scale(0.9); }
+      66%     { transform: translate(-50px,30px) scale(1.1); }
+    }
+
+    .bg-particles {
+      position: fixed; inset: 0;
+      z-index: 0; pointer-events: none;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      font-family: 'Courier New', monospace;
+      color: rgba(59,130,246,0.55);
+      font-size: 13px;
+      font-weight: bold;
+      animation: fall 20s linear infinite;
+      text-shadow: 0 0 10px rgba(59,130,246,0.6);
+    }
+    @keyframes fall {
+      0%   { transform: translateY(-100px); opacity: 0; }
+      10%  { opacity: 1; }
+      90%  { opacity: 1; }
+      100% { transform: translateY(110vh); opacity: 0; }
+    }
+
+    /* ══ HEADER (top) ══ */
+    .intro-header {
+      position: relative;
+      z-index: 2;
+      padding: 28px 60px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .intro-brand {
+      display: flex; align-items: center; gap: 18px;
+    }
+    .intro-brand img.logo {
+      width: 56px; height: 56px;
+      animation: pulseLogo 4s ease-in-out infinite;
+    }
+    @keyframes pulseLogo {
+      0%,100% { filter: drop-shadow(0 0 8px rgba(59,130,246,0.6)); }
+      50%     { filter: drop-shadow(0 0 20px rgba(6,182,212,0.85)); }
+    }
+    .intro-brand h1 {
+      font-size: 40px;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 6px;
+      margin: 0;
+      background: linear-gradient(135deg, #3b82f6, #60a5fa 50%, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: none;
+      display: inline;
+    }
+    .intro-subtitle {
+      font-size: 10px;
+      letter-spacing: 4px;
+      color: #475569;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+    .intro-authors { text-align: right; }
+    .intro-authors h2 {
+      font-size: 17px;
+      color: #fff;
+      font-weight: 700;
+      line-height: 1.5;
+      text-shadow: 0 0 12px rgba(59,130,246,0.7);
+      margin: 0;
+      letter-spacing: 1px;
+    }
+    .intro-authors .meta {
+      color: #334155;
+      font-size: 11px;
+      letter-spacing: 2px;
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+
+    /* ══ MAIN (center + panel) — fits in viewport ══ */
+    .intro-main {
+      position: relative;
+      z-index: 2;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 60px;
+      overflow: hidden;
+      gap: 24px;
+    }
+
+    .intro-title-block {
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    .intro-title-block .kicker {
+      font-size: 10px;
+      letter-spacing: 6px;
+      color: #3b82f6;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .intro-title-block .main-title {
+      font-size: 40px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -1px;
+    }
+    .intro-title-block .main-title span {
+      background: linear-gradient(135deg, #3b82f6, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Dashboard panel */
+    .panel {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+      flex-shrink: 0;
+    }
+    .panel article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(10, 15, 31, 0.55);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 22px;
+      padding: 24px 36px 28px;
+      width: 310px;
+      position: relative;
+      transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+      overflow: hidden;
+    }
+    .panel article::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(59,130,246,0.08), transparent 60%);
+      pointer-events: none;
+    }
+    .panel article:hover {
+      transform: translateY(-6px);
+      border-color: rgba(6, 182, 212, 0.7);
+      box-shadow:
+        0 20px 50px -20px rgba(59, 130, 246, 0.7),
+        0 0 40px rgba(6, 182, 212, 0.3);
+    }
+
+    .panel .icon-wrap {
+      width: 130px; height: 130px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 4px;
+      position: relative;
+    }
+    .panel .icon-wrap img {
+      width: 100%; height: 100%;
+      animation: floatIcon 5s ease-in-out infinite;
+    }
+    .panel .icon-wrap::after {
+      content: "";
+      position: absolute;
+      inset: 15%;
+      background: radial-gradient(circle, rgba(59,130,246,0.2), transparent 70%);
+      filter: blur(18px);
+      z-index: -1;
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+    @keyframes floatIcon {
+      0%,100% { transform: translateY(0); }
+      50%     { transform: translateY(-8px); }
+    }
+    @keyframes pulseGlow {
+      0%,100% { opacity: 0.5; }
+      50%     { opacity: 1; }
+    }
+
+    .panel h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      margin: 4px 0 2px;
+    }
+    .panel .panel-sub {
+      color: #64748b;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .panel .panel-desc {
+      color: #94a3b8;
+      font-size: 11px;
+      text-align: center;
+      line-height: 1.55;
+      margin-bottom: 18px;
+      min-height: 36px;
+    }
+
+    /* Entire card is clickable */
+    .panel-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      cursor: pointer;
+    }
+    .panel-link:hover { text-decoration: none; }
+
+    .panel .button {
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      text-align: center;
+      background: linear-gradient(135deg, #3b82f6, #06b6d4);
+      color: #fff;
+      width: auto;
+      padding: 11px 26px;
+      border-radius: 40px;
+      border: none;
+      box-shadow: 0 8px 24px rgba(6, 182, 212, 0.35);
+      transition: all 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+    }
+    .panel-link:hover .button {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(59, 130, 246, 0.55);
+      text-decoration: none;
+    }
+    .panel-link:active .button {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .panel-tag {
+      position: absolute;
+      top: 18px; right: 18px;
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .tag-tech  { background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid rgba(59,130,246,0.35); }
+    .tag-quant { background: rgba(6,182,212,0.15);  color: #22d3ee; border: 1px solid rgba(6,182,212,0.35); }
+
+    .image { display: none; }
+
+    /* ── REFRESH BADGE ── */
+    .refresh-badge {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(10, 15, 31, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(59,130,246,0.2);
+      border-radius: 10px;
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .refresh-badge:hover {
+      border-color: rgba(59,130,246,0.5);
+      background: rgba(10, 15, 31, 0.9);
+      box-shadow: 0 4px 16px rgba(59,130,246,0.2);
+    }
+    .refresh-icon {
+      width: 16px; height: 16px;
+      fill: none; stroke: #60a5fa; stroke-width: 2;
+      stroke-linecap: round; stroke-linejoin: round;
+      transition: transform 0.4s;
+    }
+    .refresh-badge:hover .refresh-icon {
+      transform: rotate(180deg);
+    }
+    .refresh-text {
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: #64748b;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      line-height: 1.3;
+    }
+    .refresh-text .ts {
+      color: #94a3b8;
+      font-weight: 600;
+    }
+    @media (max-width: 480px) {
+      .refresh-badge { bottom: 12px; left: 12px; padding: 6px 10px; }
+    }
+
+    /* ── REFRESH OVERLAY ── */
+    .refresh-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      z-index: 200;
+      background: rgba(5,8,15,0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+    }
+    .refresh-overlay.active { display: flex; }
+
+    /* Spinning ring */
+    .refresh-ring {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      border: 3px solid rgba(59,130,246,0.15);
+      border-top: 3px solid #3b82f6;
+      animation: spin 1s linear infinite;
+      box-shadow: 0 0 40px rgba(59,130,246,0.25);
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Pulsing glow behind ring */
+    .refresh-glow {
+      position: absolute;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(59,130,246,0.2), transparent 70%);
+      animation: pulseRefresh 2s ease-in-out infinite;
+    }
+    @keyframes pulseRefresh {
+      0%,100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.3); opacity: 1; }
+    }
+
+    .refresh-ring-wrap {
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* Status text */
+    .refresh-status {
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: #60a5fa;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+    }
+    .refresh-sub {
+      font-size: 12px;
+      color: #475569;
+      letter-spacing: 1px;
+      text-align: center;
+      max-width: 400px;
+      line-height: 1.6;
+    }
+
+    /* Progress bar */
+    .refresh-progress {
+      width: 260px; height: 4px;
+      background: rgba(59,130,246,0.12);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .refresh-progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #3b82f6, #06b6d4);
+      border-radius: 4px;
+      transition: width 0.3s;
+    }
+
+    /* Ticker tape scrolling during refresh */
+    .refresh-ticker {
+      position: absolute;
+      bottom: 60px;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      font-size: 11px;
+      color: rgba(59,130,246,0.3);
+      letter-spacing: 3px;
+    }
+    .refresh-ticker span {
+      display: inline-block;
+      animation: tickerScroll 20s linear infinite;
+    }
+    @keyframes tickerScroll {
+      0%   { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* Done state */
+    .refresh-overlay .check-icon {
+      display: none;
+      width: 80px; height: 80px;
+      fill: none; stroke: #22c55e; stroke-width: 2.5;
+      stroke-linecap: round; stroke-linejoin: round;
+      filter: drop-shadow(0 0 20px rgba(34,197,94,0.5));
+    }
+    .refresh-overlay .check-icon path {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+      animation: drawCheck 0.6s ease forwards;
+    }
+    @keyframes drawCheck {
+      to { stroke-dashoffset: 0; }
+    }
+    .refresh-overlay.done .refresh-ring-wrap { display: none; }
+    .refresh-overlay.done .check-icon { display: block; }
+    .refresh-overlay.done .refresh-status { color: #22c55e; }
+    .refresh-overlay.done .refresh-progress { display: none; }
+    .refresh-overlay.done .refresh-ticker { display: none; }
+
+    /* Error state */
+    .refresh-overlay.error .refresh-ring-wrap { display: none; }
+    .refresh-overlay.error .check-icon { display: none; }
+    .refresh-overlay.error .refresh-status { color: #ef4444; }
+    .refresh-overlay.error .refresh-progress { display: none; }
+
+    /* ── QR CODE ── */
+    .qr-corner {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 10;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .qr-corner:hover { transform: scale(1.08); }
+    .qr-corner canvas {
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(59,130,246,0.3);
+      border: 2px solid rgba(59,130,246,0.3);
+    }
+    .qr-label {
+      text-align: center;
+      font-size: 8px;
+      letter-spacing: 2px;
+      color: #475569;
+      text-transform: uppercase;
+      margin-top: 4px;
+      font-weight: 700;
+    }
+
+    /* QR modal overlay */
+    .qr-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: rgba(5,8,15,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .qr-modal.active { display: flex; }
+    .qr-modal canvas {
+      border-radius: 16px;
+      box-shadow: 0 0 50px rgba(59,130,246,0.4);
+      border: 3px solid rgba(59,130,246,0.5);
+    }
+    .qr-modal .qr-url {
+      color: #60a5fa;
+      font-size: 12px;
+      letter-spacing: 1px;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      max-width: 90vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .qr-modal .qr-close {
+      margin-top: 8px;
+      background: rgba(59,130,246,0.15);
+      border: 1px solid rgba(59,130,246,0.4);
+      color: #60a5fa;
+      padding: 8px 24px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+    .qr-modal .qr-close:hover {
+      background: rgba(59,130,246,0.3);
+      color: #fff;
+    }
+
+    /* Scale down on shorter screens so nothing is cut */
+    @media (max-height: 760px) {
+      .intro-header { padding-top: 20px; }
+      .intro-title-block .main-title { font-size: 32px; }
+      .panel article { padding: 20px 30px 24px; width: 280px; }
+      .panel .icon-wrap { width: 110px; height: 110px; }
+      .intro-main { gap: 18px; padding: 12px 40px; }
+    }
+    @media (max-height: 640px) {
+      .intro-brand img.logo { width: 46px; height: 46px; }
+      .intro-brand h1 { font-size: 32px; }
+      .intro-title-block .main-title { font-size: 24px; }
+      .panel article { padding: 16px 26px 20px; width: 260px; }
+      .panel .icon-wrap { width: 90px; height: 90px; }
+    }
+    @media (max-width: 900px) {
+      .panel { flex-direction: column; align-items: center; gap: 16px; }
+      .intro-main { padding: 12px 20px; }
+      .intro-brand h1 { font-size: 26px; letter-spacing: 3px; }
+    }
+    @media (max-width: 480px) {
+      html, body { overflow: auto; height: auto; }
+      body.index { height: auto; min-height: 100vh; overflow-y: auto; }
+      .intro-header { padding: 16px 16px 0; flex-direction: column; align-items: center; gap: 12px; }
+      .intro-authors { text-align: center; }
+      .intro-authors h2 { font-size: 14px; }
+      .intro-brand h1 { font-size: 22px; letter-spacing: 2px; }
+      .intro-brand img.logo { width: 40px; height: 40px; }
+      .intro-title-block .main-title { font-size: 22px; }
+      .panel article { width: 90vw; max-width: 300px; padding: 18px 22px 22px; }
+      .panel .icon-wrap { width: 80px; height: 80px; }
+      .intro-main { gap: 16px; padding: 12px 12px; }
+      .qr-corner { display: none; }
+    }
+  </style>
+</head>
+
+<body class="index">
+
+  <!-- Refresh overlay (full-screen animation) -->
+  <div class="refresh-overlay" id="refresh-overlay">
+    <div class="refresh-ring-wrap">
+      <div class="refresh-glow"></div>
+      <div class="refresh-ring"></div>
+    </div>
+    <svg class="check-icon" viewBox="0 0 52 52">
+      <circle cx="26" cy="26" r="24" fill="none" stroke="rgba(34,197,94,0.2)" stroke-width="2"/>
+      <path d="M14 27l8 8 16-16"/>
+    </svg>
+    <div class="refresh-status" id="refresh-status">Refreshing market data...</div>
+    <div class="refresh-progress"><div class="refresh-progress-bar" id="refresh-bar"></div></div>
+    <div class="refresh-sub" id="refresh-sub">Running Python scripts on GitHub Actions.<br>Charts will auto-update in ~3 minutes.</div>
+    <div class="refresh-ticker">
+      <span>SPY &middot; BTC-USD &middot; CL=F &middot; GOLD &middot; NEM &middot; ICHIMOKU &middot; MACD &middot; RSI &middot; BOLLINGER &middot; ICT &middot; GARCH &middot; MONTE CARLO &middot; ARIMA &middot; PAIR TRADING &middot; CAPM &middot; ON-CHAIN &nbsp;&nbsp;&nbsp;&nbsp; SPY &middot; BTC-USD &middot; CL=F &middot; GOLD &middot; NEM &middot; ICHIMOKU &middot; MACD &middot; RSI &middot; BOLLINGER &middot; ICT &middot; GARCH &middot; MONTE CARLO &middot; ARIMA &middot; PAIR TRADING &middot; CAPM &middot; ON-CHAIN</span>
+    </div>
+  </div>
+
+  <!-- Refresh badge (bottom left) -->
+  <div class="refresh-badge" id="refresh-badge" title="Last data refresh">
+    <svg class="refresh-icon" viewBox="0 0 24 24">
+      <path d="M1 4v6h6"/><path d="M23 20v-6h-6"/>
+      <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
+    </svg>
+    <div class="refresh-text">
+      <div>Last update</div>
+      <div class="ts" id="last-updated-ts">—</div>
+    </div>
+  </div>
+
+  <!-- QR Code (bottom right) -->
+  <div class="qr-corner" id="qr-corner" title="Scan to open on mobile">
+    <div id="qr-small"></div>
+    <div class="qr-label">Scan me</div>
+  </div>
+
+  <!-- QR Modal (click to enlarge) -->
+  <div class="qr-modal" id="qr-modal">
+    <div id="qr-large"></div>
+    <div class="qr-url" id="qr-url"></div>
+    <button class="qr-close" id="qr-close">Close</button>
+  </div>
+
+  <div class="bg-grid"></div>
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+  <div class="bg-blob blob-3"></div>
+  <div class="bg-particles" id="particles"></div>
+
+  <header class="intro-header">
+    <div class="intro-brand">
+      <img class="logo" src="img/leversens-logo.svg" alt="LEVERSENS">
+      <div>
+        <h1>LEVERSENS</h1>
+        <div class="intro-subtitle"></div>
+      </div>
+    </div>
+    <div class="intro-authors">
+      <h2>Bastien CHALVET</h2>
+      <h2>Léo CLERTE</h2>
+      <div class="meta">M2 Finance · 2026</div>
+    </div>
+  </header>
+
+  <main class="intro-main">
+    <div class="intro-title-block"></div>
+
+    <section class="panel">
+      <a href="1.html" class="panel-link">
+        <article>
+          <span class="panel-tag tag-tech">Dashboard 1</span>
+          <div class="icon-wrap">
+            <img src="img/icon-tech.svg" alt="Technical Analysis">
+          </div>
+          <h3>Technical Analysis</h3>
+          <div class="panel-sub">Signals · Indicators</div>
+          <p class="panel-desc">Ichimoku · MACD · RSI · Bollinger · ICT · OHLC</p>
+          <span class="button">Open Dashboard</span>
+        </article>
+      </a>
+
+      <a href="2.html" class="panel-link">
+        <article>
+          <span class="panel-tag tag-quant">Dashboard 2</span>
+          <div class="icon-wrap">
+            <img src="img/icon-quant.svg" alt="Quantitative Analysis">
+          </div>
+          <h3>Quantitative Analysis</h3>
+          <div class="panel-sub">Models · Risk · Stats</div>
+          <p class="panel-desc">GARCH · Monte Carlo · ARIMA · Pair Trading · CAPM · VaR</p>
+          <span class="button">Open Dashboard</span>
+        </article>
+      </a>
+    </section>
+  </main>
+
+  <script src="img/last-updated.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    (function() {
+      // ── QR Code generation ──
+      var url = window.location.href;
+      // Small QR (corner)
+      new QRCode(document.getElementById('qr-small'), {
+        text: url, width: 80, height: 80,
+        colorDark: '#60a5fa', colorLight: '#05080f',
+        correctLevel: QRCode.CorrectLevel.M,
+      });
+      // Large QR (modal)
+      new QRCode(document.getElementById('qr-large'), {
+        text: url, width: 240, height: 240,
+        colorDark: '#60a5fa', colorLight: '#0a0f1f',
+        correctLevel: QRCode.CorrectLevel.M,
+      });
+      document.getElementById('qr-url').textContent = url;
+
+      document.getElementById('qr-corner').addEventListener('click', function() {
+        document.getElementById('qr-modal').classList.add('active');
+      });
+      document.getElementById('qr-close').addEventListener('click', function() {
+        document.getElementById('qr-modal').classList.remove('active');
+      });
+      document.getElementById('qr-modal').addEventListener('click', function(e) {
+        if (e.target === this) this.classList.remove('active');
+      });
+    })();
+
+    // ── Last updated display ──
+    (function() {
+      var el = document.getElementById('last-updated-ts');
+      if (typeof LAST_UPDATED !== 'undefined' && LAST_UPDATED) {
+        var d = new Date(LAST_UPDATED);
+        el.textContent = d.toLocaleDateString('en-GB', {day:'2-digit',month:'short',year:'numeric'})
+          + ' ' + d.toLocaleTimeString('en-GB', {hour:'2-digit',minute:'2-digit'});
+      }
+    })();
+
+    // ── Refresh trigger ──
+    (function() {
+      var badge = document.getElementById('refresh-badge');
+      var overlay = document.getElementById('refresh-overlay');
+      var status = document.getElementById('refresh-status');
+      var sub = document.getElementById('refresh-sub');
+      var bar = document.getElementById('refresh-bar');
+
+      badge.addEventListener('click', function() {
+        // Show overlay
+        overlay.classList.remove('done', 'error');
+        overlay.classList.add('active');
+        status.textContent = 'Refreshing market data...';
+        sub.innerHTML = 'Triggering GitHub Actions workflow.<br>Charts will auto-update in ~3 minutes.';
+        bar.style.width = '0%';
+
+        // Animate progress bar (fake progress for UX)
+        var progress = 0;
+        var progressInterval = setInterval(function() {
+          progress += Math.random() * 15;
+          if (progress > 90) progress = 90;
+          bar.style.width = progress + '%';
+        }, 400);
+
+        // Call serverless function
+        fetch('/api/refresh', { method: 'POST' })
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            clearInterval(progressInterval);
+            bar.style.width = '100%';
+            if (data.ok) {
+              setTimeout(function() {
+                overlay.classList.add('done');
+                status.textContent = 'Refresh triggered!';
+                sub.innerHTML = 'GitHub Actions is running all scripts now.<br>The site will redeploy automatically in ~3 minutes.';
+              }, 500);
+            } else {
+              throw new Error(data.error || 'Unknown error');
+            }
+          })
+          .catch(function(err) {
+            clearInterval(progressInterval);
+            overlay.classList.add('error');
+            status.textContent = 'Refresh failed';
+            sub.innerHTML = err.message + '<br>You can trigger it manually from GitHub Actions.';
+          });
+
+        // Auto-close after 6s
+        setTimeout(function() {
+          overlay.classList.remove('active', 'done', 'error');
+        }, 6000);
+      });
+
+      // Close on click
+      overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) {
+          overlay.classList.remove('active', 'done', 'error');
+        }
+      });
+    })();
+
+    (function() {
+      const container = document.getElementById('particles');
+      const symbols = ['SPY', 'BTC', 'NEM', 'CL=F', 'GOLD', '↑', '↓', 'σ', 'μ', 'β', '%', '$', '€', 'Σ'];
+      for (let i = 0; i < 30; i++) {
+        const p = document.createElement('span');
+        p.className = 'particle';
+        p.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.animationDelay = (Math.random() * 20) + 's';
+        p.style.animationDuration = (15 + Math.random() * 15) + 's';
+        p.style.fontSize = (10 + Math.random() * 8) + 'px';
+        p.style.opacity = (0.25 + Math.random() * 0.4);
+        container.appendChild(p);
+      }
+    })();
+  </script>
+
+</body>
+</html>

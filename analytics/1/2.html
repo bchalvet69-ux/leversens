@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/customize.css">
+  <link rel="stylesheet" href="../../css/analytics.css">
+  <link rel="icon" type="image/svg+xml" href="../../img/leversens-logo.svg">
+  <title>Ichimoku Cloud · LEVERSENS</title>
+</head>
+
+<body class="analytics">
+
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">
+      <img src="../../img/leversens-logo.svg" alt="LEVERSENS">
+      <span class="name">LEVERSENS</span>
+    </a>
+    <div class="actions"><a href="../../1.html">&larr; Back</a></div>
+  </nav>
+
+  <header class="hero">
+    <span class="kicker">Graph 2 · Dashboard 1</span>
+    <h1>Ichimoku <span class="accent">Cloud</span></h1>
+  </header>
+
+  <!-- Analytics: asset + frequency toggle (FIRST) -->
+  <section class="section">
+    <div class="section-label">Analytics · By Asset & Timeframe</div>
+
+    <div class="asset-tabs" id="asset-tabs">
+      <button data-asset="SPY" class="active">SPY</button>
+      <button data-asset="BTCUSD">BTC-USD</button>
+      <button data-asset="CLF">CL=F</button>
+      <button data-asset="GOLD">GOLD</button>
+      <button data-asset="NEM">NEM</button>
+    </div>
+
+    <div class="freq-toggle" id="freq-toggle">
+      <button data-freq="intraday">Intraday · 60d × 1h</button>
+      <button data-freq="monthly" class="active">Daily · 1y</button>
+    </div>
+
+    <div class="chart-card">
+      <div class="cc-head">
+        <div class="cc-title" id="ichi-title">SPY — Ichimoku (Daily)</div>
+        <span class="cc-tag" id="ichi-tag" style="background:rgba(140,70,255,0.15); color:#c850ff;">Daily</span>
+      </div>
+      <iframe id="ichi-iframe" src="../../img/1/2-monthly-SPY.html"></iframe>
+    </div>
+  </section>
+
+  <!-- Strategy explanation (SECOND) -->
+  <section class="section">
+    <div class="section-label">How It Works</div>
+    <div class="commentary">
+      <h3>Ichimoku Kinko Hyo Strategy</h3>
+      <p>Ichimoku is a complete trading system that provides support/resistance levels, trend direction, and momentum signals in a single glance. It consists of five lines: the <strong>Tenkan-sen</strong> (conversion, 9-period) and <strong>Kijun-sen</strong> (base, 26-period) act like fast and slow moving averages — a Tenkan cross above Kijun is a buy signal. The <strong>Cloud</strong> (Kumo), formed by Senkou Span A and B, defines the trend: price above a green cloud is bullish, below a red cloud is bearish. The <strong>Chikou Span</strong> (lagging line) confirms signals when it crosses above price. The strongest trades occur when all five elements align — this is called a "triple confirmation" and it drastically reduces false signals.</p>
+    </div>
+  </section>
+
+  <script>
+    (function(){
+      const assetTabs = document.querySelectorAll('#asset-tabs button');
+      const freqTabs  = document.querySelectorAll('#freq-toggle button');
+      const iframe    = document.getElementById('ichi-iframe');
+      const titleEl   = document.getElementById('ichi-title');
+      const tagEl     = document.getElementById('ichi-tag');
+
+      const ASSET_LABEL = {
+        'SPY':'SPY — S&P 500 ETF', 'BTCUSD':'BTC-USD — Bitcoin',
+        'CLF':'CL=F — Crude Oil', 'GOLD':'GOLD — Barrick Gold', 'NEM':'NEM — Newmont Mining',
+      };
+
+      let currentAsset = 'SPY';
+      let currentFreq  = 'monthly';
+
+      function update() {
+        iframe.src = `../../img/1/2-${currentFreq}-${currentAsset}.html`;
+        const freqLbl = currentFreq === 'intraday' ? 'Intraday' : 'Daily';
+        titleEl.textContent = `${ASSET_LABEL[currentAsset]} — Ichimoku (${freqLbl})`;
+        tagEl.textContent = freqLbl;
+        tagEl.style.background = currentFreq === 'intraday' ? 'rgba(249,38,114,0.15)' : 'rgba(140,70,255,0.15)';
+        tagEl.style.color = currentFreq === 'intraday' ? '#f92672' : '#c850ff';
+      }
+
+      assetTabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          assetTabs.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentAsset = btn.dataset.asset;
+          update();
+        });
+      });
+
+      freqTabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          freqTabs.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFreq = btn.dataset.freq;
+          update();
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
