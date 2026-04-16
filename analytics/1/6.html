@@ -63,11 +63,187 @@
       <div class="commentary">
         <h3>ICT Breaker Blocks</h3>
         <p>An <strong>Order Block</strong> is the last candle before a strong directional impulse — it marks where institutional orders were placed. When the opposite side of an Order Block gets broken by a later close, it becomes a <strong>Breaker Block</strong>, reversing its role from support to resistance (or vice versa). These zones are high-probability retest areas for entries.</p>
+
+        <!-- Breaker Block Schema -->
+        <svg viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;margin-top:14px;border-radius:8px;background:rgba(5,8,15,0.7);">
+          <!-- Grid -->
+          <line x1="40" y1="240" x2="540" y2="240" stroke="rgba(59,130,246,0.1)" stroke-width="1"/>
+          <line x1="40" y1="190" x2="540" y2="190" stroke="rgba(59,130,246,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+          <line x1="40" y1="140" x2="540" y2="140" stroke="rgba(59,130,246,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+          <line x1="40" y1="90" x2="540" y2="90" stroke="rgba(59,130,246,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+          <line x1="40" y1="40" x2="540" y2="40" stroke="rgba(59,130,246,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
+
+          <!-- Phase 1: Neutral candles -->
+          <!-- Candle 1 - small green -->
+          <line x1="65" y1="160" x2="65" y2="120" stroke="#22c55e" stroke-width="1"/>
+          <rect x="58" y="135" width="14" height="20" rx="1" fill="#22c55e" opacity="0.85"/>
+          <!-- Candle 2 - small red -->
+          <line x1="90" y1="155" x2="90" y2="125" stroke="#ef4444" stroke-width="1"/>
+          <rect x="83" y="130" width="14" height="18" rx="1" fill="#ef4444" opacity="0.85"/>
+          <!-- Candle 3 - small green -->
+          <line x1="115" y1="150" x2="115" y2="115" stroke="#22c55e" stroke-width="1"/>
+          <rect x="108" y="122" width="14" height="22" rx="1" fill="#22c55e" opacity="0.85"/>
+
+          <!-- Phase 2: THE ORDER BLOCK (big bearish candle) -->
+          <rect x="131" y="118" width="18" height="62" rx="2" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.6)" stroke-width="1.5" stroke-dasharray="4,3"/>
+          <line x1="140" y1="110" x2="140" y2="190" stroke="#ef4444" stroke-width="1.2"/>
+          <rect x="133" y="118" width="14" height="62" rx="1" fill="#ef4444" opacity="0.9"/>
+          <!-- OB label -->
+          <text x="140" y="210" fill="#ef4444" font-size="9" font-family="monospace" text-anchor="middle" font-weight="700">ORDER</text>
+          <text x="140" y="220" fill="#ef4444" font-size="9" font-family="monospace" text-anchor="middle" font-weight="700">BLOCK</text>
+
+          <!-- Phase 3: Strong bullish impulse (3 green candles) -->
+          <!-- Candle 5 - big green -->
+          <line x1="170" y1="170" x2="170" y2="90" stroke="#22c55e" stroke-width="1.2"/>
+          <rect x="163" y="105" width="14" height="55" rx="1" fill="#22c55e" opacity="0.9"/>
+          <!-- Candle 6 - big green -->
+          <line x1="195" y1="110" x2="195" y2="55" stroke="#22c55e" stroke-width="1.2"/>
+          <rect x="188" y="62" width="14" height="40" rx="1" fill="#22c55e" opacity="0.9"/>
+          <!-- Candle 7 - green continuation -->
+          <line x1="220" y1="68" x2="220" y2="38" stroke="#22c55e" stroke-width="1.2"/>
+          <rect x="213" y="42" width="14" height="20" rx="1" fill="#22c55e" opacity="0.9"/>
+
+          <!-- Bullish impulse arrow -->
+          <path d="M 235 100 L 235 48" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+          <polygon points="235,44 231,52 239,52" fill="#22c55e"/>
+          <text x="248" y="75" fill="#22c55e" font-size="9" font-family="monospace" font-weight="700">IMPULSE</text>
+
+          <!-- Phase 4: Price returns and tests the OB zone -->
+          <!-- Candle 8 - red -->
+          <line x1="280" y1="50" x2="280" y2="85" stroke="#ef4444" stroke-width="1"/>
+          <rect x="273" y="55" width="14" height="25" rx="1" fill="#ef4444" opacity="0.85"/>
+          <!-- Candle 9 - red -->
+          <line x1="305" y1="70" x2="305" y2="115" stroke="#ef4444" stroke-width="1"/>
+          <rect x="298" y="75" width="14" height="30" rx="1" fill="#ef4444" opacity="0.85"/>
+          <!-- Candle 10 - red with wick into OB zone -->
+          <line x1="330" y1="100" x2="330" y2="145" stroke="#ef4444" stroke-width="1"/>
+          <rect x="323" y="105" width="14" height="30" rx="1" fill="#ef4444" opacity="0.85"/>
+
+          <!-- OB zone extended (dashed) -->
+          <rect x="131" y="118" width="218" height="62" rx="2" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.3)" stroke-width="1" stroke-dasharray="6,4"/>
+
+          <!-- Phase 5: Break below OB = BREAKER -->
+          <!-- Candle 11 - big red breaking below -->
+          <line x1="355" y1="130" x2="355" y2="200" stroke="#ef4444" stroke-width="1.2"/>
+          <rect x="348" y="135" width="14" height="55" rx="1" fill="#ef4444" opacity="0.9"/>
+
+          <!-- BOS marker -->
+          <line x1="340" y1="180" x2="370" y2="180" stroke="#f59e0b" stroke-width="2"/>
+          <text x="380" y="183" fill="#f59e0b" font-size="9" font-family="monospace" font-weight="700">BOS</text>
+
+          <!-- Breaker zone (green - role reversal) -->
+          <rect x="345" y="118" width="140" height="62" rx="3" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.7)" stroke-width="1.5"/>
+          <text x="415" y="112" fill="rgba(52,211,153,0.9)" font-size="9" font-family="monospace" text-anchor="middle" font-weight="700">BREAKER BLOCK</text>
+          <text x="415" y="230" fill="rgba(52,211,153,0.6)" font-size="8" font-family="monospace" text-anchor="middle">(role reversal: support &rarr; resistance)</text>
+
+          <!-- Phase 6: Price retests the Breaker and rejects -->
+          <!-- Candle 12 - small green -->
+          <line x1="395" y1="195" x2="395" y2="155" stroke="#22c55e" stroke-width="1"/>
+          <rect x="388" y="162" width="14" height="25" rx="1" fill="#22c55e" opacity="0.85"/>
+          <!-- Candle 13 - green wick into breaker (rejection) -->
+          <line x1="420" y1="170" x2="420" y2="125" stroke="#22c55e" stroke-width="1"/>
+          <rect x="413" y="140" width="14" height="25" rx="1" fill="#22c55e" opacity="0.85"/>
+          <!-- Candle 14 - red rejection from breaker -->
+          <line x1="445" y1="135" x2="445" y2="175" stroke="#ef4444" stroke-width="1"/>
+          <rect x="438" y="138" width="14" height="28" rx="1" fill="#ef4444" opacity="0.9"/>
+
+          <!-- Rejection arrow -->
+          <path d="M 460 135 C 470 125, 475 130, 475 145 L 475 180" stroke="#60a5fa" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+          <polygon points="475,184 471,176 479,176" fill="#60a5fa"/>
+          <text x="490" y="162" fill="#60a5fa" font-size="9" font-family="monospace" font-weight="700">RETEST</text>
+          <text x="490" y="174" fill="#60a5fa" font-size="9" font-family="monospace" font-weight="700">&amp; REJECT</text>
+
+          <!-- Timeline labels -->
+          <text x="90" y="250" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace" text-anchor="middle">1. Context</text>
+          <text x="195" y="250" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace" text-anchor="middle">2. Impulse</text>
+          <text x="330" y="250" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace" text-anchor="middle">3. Return &amp; Break</text>
+          <text x="445" y="250" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace" text-anchor="middle">4. Retest</text>
+        </svg>
       </div>
 
       <div class="commentary">
         <h3>OHLC Statistical Mapping</h3>
         <p>Each day's session Open is used as an anchor. From the last 60 daily candles we compute the average <strong>Distribution</strong> (move in the candle's direction) and <strong>Manipulation</strong> (wick against the trend). These levels project around each session's Open: &plusmn;Distribution (expansion targets) and &plusmn;Manipulation (fake-out / stop-hunt levels). You can see 3 sessions, each with its own set of levels.</p>
+
+        <!-- AMD / OHLC Schema -->
+        <svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;margin-top:14px;border-radius:8px;background:rgba(5,8,15,0.7);">
+          <!-- Horizontal level lines -->
+          <!-- +Distribution -->
+          <line x1="40" y1="40" x2="520" y2="40" stroke="#f59e0b" stroke-width="1" stroke-dasharray="6,4" opacity="0.7"/>
+          <text x="525" y="44" fill="#f59e0b" font-size="9" font-family="monospace" font-weight="700">+D</text>
+          <!-- +Manipulation -->
+          <line x1="40" y1="85" x2="520" y2="85" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+          <text x="525" y="89" fill="#a78bfa" font-size="9" font-family="monospace" font-weight="700">+M</text>
+          <!-- Open -->
+          <line x1="40" y1="140" x2="520" y2="140" stroke="#e2e8f0" stroke-width="1.5" opacity="0.8"/>
+          <text x="525" y="144" fill="#e2e8f0" font-size="9" font-family="monospace" font-weight="700">Open</text>
+          <!-- -Manipulation -->
+          <line x1="40" y1="195" x2="520" y2="195" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+          <text x="525" y="199" fill="#a78bfa" font-size="9" font-family="monospace" font-weight="700">-M</text>
+          <!-- -Distribution -->
+          <line x1="40" y1="240" x2="520" y2="240" stroke="#f59e0b" stroke-width="1" stroke-dasharray="6,4" opacity="0.7"/>
+          <text x="525" y="244" fill="#f59e0b" font-size="9" font-family="monospace" font-weight="700">-D</text>
+
+          <!-- Zone fills -->
+          <!-- Distribution zone (top) -->
+          <rect x="40" y="40" width="480" height="45" fill="rgba(245,158,11,0.05)"/>
+          <!-- Manipulation zone (top) -->
+          <rect x="40" y="85" width="480" height="55" fill="rgba(167,139,250,0.04)"/>
+          <!-- Manipulation zone (bottom) -->
+          <rect x="40" y="140" width="480" height="55" fill="rgba(167,139,250,0.04)"/>
+          <!-- Distribution zone (bottom) -->
+          <rect x="40" y="195" width="480" height="45" fill="rgba(245,158,11,0.05)"/>
+
+          <!-- Phase backgrounds -->
+          <!-- Accumulation -->
+          <rect x="55" y="25" width="130" height="245" rx="4" fill="rgba(59,130,246,0.06)" stroke="rgba(59,130,246,0.15)" stroke-width="1"/>
+          <!-- Manipulation -->
+          <rect x="195" y="25" width="120" height="245" rx="4" fill="rgba(167,139,250,0.06)" stroke="rgba(167,139,250,0.15)" stroke-width="1"/>
+          <!-- Distribution -->
+          <rect x="325" y="25" width="170" height="245" rx="4" fill="rgba(245,158,11,0.06)" stroke="rgba(245,158,11,0.15)" stroke-width="1"/>
+
+          <!-- Phase labels (top) -->
+          <text x="120" y="18" fill="#60a5fa" font-size="10" font-family="monospace" text-anchor="middle" font-weight="700">ACCUMULATION</text>
+          <text x="255" y="18" fill="#a78bfa" font-size="10" font-family="monospace" text-anchor="middle" font-weight="700">MANIPULATION</text>
+          <text x="410" y="18" fill="#f59e0b" font-size="10" font-family="monospace" text-anchor="middle" font-weight="700">DISTRIBUTION</text>
+
+          <!-- Price path (bullish scenario) -->
+          <!-- Accumulation: sideways range near Open -->
+          <path d="M 65 145
+                   L 80 135 L 95 148 L 110 132 L 125 142 L 140 130 L 155 138 L 170 133 L 180 140"
+                stroke="#94a3b8" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+          <!-- Manipulation: fake-out dip below Open into -M zone (stop hunt) -->
+          <path d="M 180 140
+                   L 200 155 L 215 180 L 230 200 L 245 195 L 260 185 L 270 170"
+                stroke="#a78bfa" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+          <!-- Stop hunt annotation -->
+          <line x1="230" y1="200" x2="230" y2="218" stroke="rgba(167,139,250,0.5)" stroke-width="1" stroke-dasharray="2,2"/>
+          <text x="230" y="230" fill="#a78bfa" font-size="8" font-family="monospace" text-anchor="middle" opacity="0.8">Stop Hunt</text>
+          <text x="230" y="240" fill="#a78bfa" font-size="8" font-family="monospace" text-anchor="middle" opacity="0.8">(fake-out)</text>
+
+          <!-- Distribution: strong move up through +M and +D -->
+          <path d="M 270 170
+                   L 290 140 L 310 120 L 330 100 L 350 85 L 370 70 L 390 55 L 410 45
+                   L 430 42 L 450 48 L 470 44 L 485 50"
+                stroke="#f59e0b" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+          <!-- Reversal V marker -->
+          <circle cx="230" cy="200" r="4" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+          <circle cx="230" cy="200" r="1.5" fill="#a78bfa"/>
+
+          <!-- Target reached marker -->
+          <circle cx="410" cy="45" r="4" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+          <circle cx="410" cy="45" r="1.5" fill="#f59e0b"/>
+
+          <!-- Expansion target annotation -->
+          <text x="430" y="35" fill="#f59e0b" font-size="8" font-family="monospace" opacity="0.8">Target</text>
+
+          <!-- Right side: level explanations -->
+          <text x="50" y="272" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace">D = avg move in candle direction (60d)</text>
+          <text x="320" y="272" fill="rgba(148,163,184,0.5)" font-size="8" font-family="monospace">M = avg wick against trend (60d)</text>
+        </svg>
       </div>
     </div>
   </section>
