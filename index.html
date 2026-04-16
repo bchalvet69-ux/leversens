@@ -639,7 +639,7 @@
     </svg>
     <div class="refresh-status" id="refresh-status">Refreshing market data...</div>
     <div class="refresh-progress"><div class="refresh-progress-bar" id="refresh-bar"></div></div>
-    <div class="refresh-sub" id="refresh-sub">Running Python scripts on GitHub Actions.<br>Charts will auto-update in ~3 minutes.</div>
+    <div class="refresh-sub" id="refresh-sub">Initializing...</div>
     <div class="refresh-ticker">
       <span>SPY &middot; BTC-USD &middot; CL=F &middot; GOLD &middot; NEM &middot; ICHIMOKU &middot; MACD &middot; RSI &middot; BOLLINGER &middot; ICT &middot; GARCH &middot; MONTE CARLO &middot; ARIMA &middot; PAIR TRADING &middot; CAPM &middot; ON-CHAIN &nbsp;&nbsp;&nbsp;&nbsp; SPY &middot; BTC-USD &middot; CL=F &middot; GOLD &middot; NEM &middot; ICHIMOKU &middot; MACD &middot; RSI &middot; BOLLINGER &middot; ICT &middot; GARCH &middot; MONTE CARLO &middot; ARIMA &middot; PAIR TRADING &middot; CAPM &middot; ON-CHAIN</span>
     </div>
@@ -764,62 +764,118 @@
       }
     })();
 
-    // ── Refresh trigger ──
+    // ── Refresh trigger with live polling ──
     (function() {
       var badge = document.getElementById('refresh-badge');
       var overlay = document.getElementById('refresh-overlay');
       var status = document.getElementById('refresh-status');
       var sub = document.getElementById('refresh-sub');
       var bar = document.getElementById('refresh-bar');
+      var pollTimer = null;
+      var progressTimer = null;
+      var startTime = null;
+
+      var PHASES = [
+        { pct: 10, text: 'Triggering workflow...' },
+        { pct: 20, text: 'GitHub Actions starting runner...' },
+        { pct: 35, text: 'Installing Python dependencies...' },
+        { pct: 55, text: 'Running Dashboard 1 scripts...' },
+        { pct: 75, text: 'Running Dashboard 2 scripts...' },
+        { pct: 85, text: 'Committing updated charts...' },
+        { pct: 92, text: 'Deploying to Vercel...' },
+      ];
+
+      function getPhase(elapsed) {
+        // elapsed in seconds — map to phases over ~120s
+        var idx = Math.min(Math.floor(elapsed / 18), PHASES.length - 1);
+        return PHASES[idx];
+      }
+
+      function startPolling() {
+        pollTimer = setInterval(function() {
+          fetch('/api/status')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+              if (!data.ok) return;
+              if (data.status === 'completed') {
+                clearInterval(pollTimer);
+                clearInterval(progressTimer);
+                pollTimer = null;
+                progressTimer = null;
+                if (data.conclusion === 'success') {
+                  bar.style.width = '100%';
+                  sub.textContent = 'Reloading with fresh data...';
+                  overlay.classList.add('done');
+                  status.textContent = 'Data refreshed!';
+                  // Wait for Vercel to redeploy (new commit triggers it)
+                  setTimeout(function() {
+                    window.location.reload(true);
+                  }, 8000);
+                } else {
+                  overlay.classList.add('error');
+                  status.textContent = 'Refresh failed';
+                  sub.innerHTML = 'Workflow conclusion: ' + data.conclusion + '.<br>Check GitHub Actions for details.';
+                  setTimeout(function() {
+                    overlay.classList.remove('active', 'done', 'error');
+                  }, 5000);
+                }
+              }
+            })
+            .catch(function() { /* silent — will retry on next poll */ });
+        }, 5000);
+      }
+
+      function startProgress() {
+        startTime = Date.now();
+        progressTimer = setInterval(function() {
+          var elapsed = (Date.now() - startTime) / 1000;
+          var phase = getPhase(elapsed);
+          bar.style.width = phase.pct + '%';
+          sub.textContent = phase.text;
+        }, 3000);
+      }
 
       badge.addEventListener('click', function() {
-        // Show overlay
+        // Reset
+        if (pollTimer) clearInterval(pollTimer);
+        if (progressTimer) clearInterval(progressTimer);
         overlay.classList.remove('done', 'error');
         overlay.classList.add('active');
         status.textContent = 'Refreshing market data...';
-        sub.innerHTML = 'Triggering GitHub Actions workflow.<br>Charts will auto-update in ~3 minutes.';
+        sub.textContent = 'Triggering GitHub Actions workflow...';
         bar.style.width = '0%';
 
-        // Animate progress bar (fake progress for UX)
-        var progress = 0;
-        var progressInterval = setInterval(function() {
-          progress += Math.random() * 15;
-          if (progress > 90) progress = 90;
-          bar.style.width = progress + '%';
-        }, 400);
-
-        // Call serverless function
+        // Call serverless function to trigger workflow
         fetch('/api/refresh', { method: 'POST' })
           .then(function(r) { return r.json(); })
           .then(function(data) {
-            clearInterval(progressInterval);
-            bar.style.width = '100%';
             if (data.ok) {
-              setTimeout(function() {
-                overlay.classList.add('done');
-                status.textContent = 'Refresh triggered!';
-                sub.innerHTML = 'GitHub Actions is running all scripts now.<br>The site will redeploy automatically in ~3 minutes.';
-              }, 500);
+              bar.style.width = '10%';
+              sub.textContent = 'Workflow triggered — waiting for runner...';
+              // Start live polling + animated progress
+              startPolling();
+              startProgress();
             } else {
               throw new Error(data.error || 'Unknown error');
             }
           })
           .catch(function(err) {
-            clearInterval(progressInterval);
             overlay.classList.add('error');
             status.textContent = 'Refresh failed';
-            sub.innerHTML = err.message + '<br>You can trigger it manually from GitHub Actions.';
+            sub.innerHTML = err.message;
+            setTimeout(function() {
+              overlay.classList.remove('active', 'done', 'error');
+            }, 5000);
           });
-
-        // Auto-close after 6s
-        setTimeout(function() {
-          overlay.classList.remove('active', 'done', 'error');
-        }, 6000);
       });
 
-      // Close on click
+      // Allow manual close (click outside the center)
       overlay.addEventListener('click', function(e) {
         if (e.target === overlay) {
+          if (pollTimer) clearInterval(pollTimer);
+          if (progressTimer) clearInterval(progressTimer);
+          pollTimer = null;
+          progressTimer = null;
           overlay.classList.remove('active', 'done', 'error');
         }
       });
