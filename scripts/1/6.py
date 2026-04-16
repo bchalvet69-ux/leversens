@@ -112,9 +112,9 @@ def find_ict_structures(df, atr_mult=1.0, max_zone_bars=15):
     return zones
 
 
-def compute_ohlc_stats(symbol, lookback=20):
+def compute_ohlc_stats(symbol, lookback=60):
     """Compute avg distribution & manipulation from DAILY data (last N days)."""
-    daily = yf.Ticker(symbol).history(period='3mo', interval='1d', auto_adjust=True)
+    daily = yf.Ticker(symbol).history(period='6mo', interval='1d', auto_adjust=True)
     if daily.index.tz is not None:
         daily.index = daily.index.tz_convert('Europe/Paris').tz_localize(None)
     daily = daily.dropna()
