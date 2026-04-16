@@ -1,6 +1,13 @@
 var NEWS_DATA = {
   "SPY": [
     {
+      "title": "Daily ETF Flows: Investors Buy XLE",
+      "link": "https://finance.yahoo.com/m/45827d94-7f22-338f-a51c-5050ce768980/daily-etf-flows%3A-investors.html",
+      "publisher": "etf.com",
+      "date": "2026-04-16T21:00:07",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/l1TnB8UpFqI42pxuQtFjcg--~B/aD01MjA7dz03NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/indexuniverse.com/1d45f9488d95ad21b16acbe33a9dfed0"
+    },
+    {
       "title": "Beyond Gucci: Kering’s Plans for Its Other Brands",
       "link": "https://finance.yahoo.com/m/2b4266c7-916e-31ba-8ab7-11b0ecba7c88/beyond-gucci%3A-kering%E2%80%99s-plans.html",
       "publisher": "WWD",
@@ -29,25 +36,18 @@ var NEWS_DATA = {
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/MpzUmbYe..r6uzkrlmVEEw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/425e464848ed7c0e01728c4252e38b30"
     },
     {
-      "title": "UPS vs. FedEx: Which dividend stock is poised to deliver in 2026",
-      "link": "https://finance.yahoo.com/m/603431c3-e3d4-3ddd-8058-3d337fb094bd/ups-vs.-fedex%3A-which-dividend.html",
-      "publisher": "TheStreet",
-      "date": "2026-04-16T17:17:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/j5b6Lq1z5O954GbTMzG63Q--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/f7ca2b2c66bf17c2e5d6719d9403bff2"
-    },
-    {
-      "title": "Bank of America Sends Stark Message on S&P 500",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-stark-message-170043744.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-04-16T17:00:43",
-      "thumbnail": ""
-    },
-    {
       "title": "Grinex Exchange Loses Over $13 Million in Alleged Foreign Spy Attack",
       "link": "https://finance.yahoo.com/m/e1dfcd7d-6705-3c8f-b72f-1fac929d24d5/grinex-exchange-loses-over.html",
       "publisher": "BeInCrypto",
       "date": "2026-04-16T15:28:23",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/BqbaaXebzssYWWgBZwdZNQ--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/beincrypto_us_662/3beff083964dbacf2e3b2a6c5e2fd4ad"
+    },
+    {
+      "title": "Stocks Edge Higher as Chipmakers Rebound",
+      "link": "https://finance.yahoo.com/m/7e06ef1d-f5df-3a99-b80c-0d9eb63ced21/stocks-edge-higher-as.html",
+      "publisher": "Barchart",
+      "date": "2026-04-16T15:27:26",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/stgDyJPisGgD1wYW89HAeQ--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/f5650663b22ff6c046f216a8665badb0"
     },
     {
       "title": "Stocks Pressured by Weakness in Chipmakers",
@@ -145,6 +145,20 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
+      "title": "Dow Jones Futures: Stock Market Rally Won't Back Down, AMD Breaks Out; Netflix Dives Late",
+      "link": "https://finance.yahoo.com/m/de0d09c2-e120-3a06-b712-ed53b63caeb8/dow-jones-futures%3A-stock.html",
+      "publisher": "Investor's Business Daily",
+      "date": "2026-04-16T22:09:29",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/ACOeASa6cELaEP6wliV34Q--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/ea08b6ef1e192b36cdd29244c6e970ea"
+    },
+    {
+      "title": "Is There Still Value In SM Energy (SM) After Recent Share Price Pullback",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/still-value-sm-energy-sm-210855150.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-04-16T21:08:55",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/zbingGm8u8WvxKzb7gFJEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fef15a04bcb8e7f05d317d73670619f7"
+    },
+    {
       "title": "3 Dividend‑Rich Energy Stocks That Look Built for Long‑Term Investors, Beyond the Iran War",
       "link": "https://finance.yahoo.com/m/d7e29de5-078a-3a88-95c7-3cf08764bed5/3-dividend%E2%80%91rich-energy-stocks.html",
       "publisher": "Motley Fool",
@@ -152,11 +166,11 @@ var NEWS_DATA = {
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/W6kupjwerbH6OnPUBBp_mw--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/f310f596e6272a2f93897afb74c517fd"
     },
     {
-      "title": "Dow Jones Futures: Stock Market Rally Won't Back Down, AMD Breaks Out; Netflix Dives Late",
-      "link": "https://finance.yahoo.com/m/de0d09c2-e120-3a06-b712-ed53b63caeb8/dow-jones-futures%3A-stock.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-04-16T21:02:23",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/ACOeASa6cELaEP6wliV34Q--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/ea08b6ef1e192b36cdd29244c6e970ea"
+      "title": "Cenovus MEG Deal Reshapes Oil Sands Scale Valuation And Earnings Outlook",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/cenovus-meg-deal-reshapes-oil-210444376.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-04-16T21:04:44",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/VUxoyzpXa.XJhKBzwtZ.wg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/5a12595fe0f9b8e2072084c2db6835b6"
     },
     {
       "title": "Saturn Oil & Gas Inc. Announces Release Date for Q1 2026 Results and Provides Conference Call / Webcast Details",
@@ -198,20 +212,6 @@ var NEWS_DATA = {
       "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-israel-202100224.html",
       "publisher": "MT Newswires",
       "date": "2026-04-16T20:21:00",
-      "thumbnail": ""
-    },
-    {
-      "title": "How major US stock indexes fared Thursday 4/16/2026",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201619614.html",
-      "publisher": "Associated Press",
-      "date": "2026-04-16T20:16:19",
-      "thumbnail": ""
-    },
-    {
-      "title": "Sector Update: Energy Stocks Advance Late Afternoon",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-advance-afternoon-200443063.html",
-      "publisher": "MT Newswires",
-      "date": "2026-04-16T20:04:43",
       "thumbnail": ""
     }
   ],
