@@ -61,7 +61,7 @@ def plot_macd(df, title, fname, subtitle=""):
     fig.add_scatter(x=df.index, y=macd, mode='lines',
                     line=dict(color='#f59e0b', width=1.6), name='MACD', row=2, col=1)
     fig.add_scatter(x=df.index, y=sig, mode='lines',
-                    line=dict(color='#a78bfa', width=1.3, dash='dot'), name='Signal', row=2, col=1)
+                    line=dict(color='#a78bfa', width=1.3, dash='dot'), name='EMA 9', row=2, col=1)
 
     rb = get_rangebreaks(df)
     fig.update_layout(**base_layout(title, subtitle, rangebreaks=rb))
