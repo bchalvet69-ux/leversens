@@ -1,6 +1,13 @@
 var NEWS_DATA = {
   "SPY": [
     {
+      "title": "House Rejects Compromise Surveillance Bill, Forcing Short-Term FISA Extension",
+      "link": "https://finance.yahoo.com/m/329028fa-5451-31d2-b156-e1d5617c8562/house-rejects-compromise.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T07:19:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/SFUVn6FxApjpwvfWrRlxQA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/fc7bada46d77ea744cee9618684171ae"
+    },
+    {
       "title": "Daily ETF Flows: Investors Buy XLE",
       "link": "https://finance.yahoo.com/m/45827d94-7f22-338f-a51c-5050ce768980/daily-etf-flows%3A-investors.html",
       "publisher": "etf.com",
@@ -20,13 +27,6 @@ var NEWS_DATA = {
       "publisher": "WWD",
       "date": "2026-04-16T19:23:55",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/TbX7NFK.mGuKKu9rpTer6w--~B/aD0yNTAwO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/wwd_409/f6cf014631586e87ed343a2bb2c5f1ae"
-    },
-    {
-      "title": "Does the QQQ ETF Have a Bad Case of Premature Accumulation?",
-      "link": "https://finance.yahoo.com/m/78356cd2-e700-326f-9a35-6281d6ee84ae/does-the-qqq-etf-have-a-bad.html",
-      "publisher": "Barchart",
-      "date": "2026-04-16T19:03:20",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/dj.z.dYX4BRsiLNOyFx2VA--~B/aD05MDA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/e7b6daf182580227223670156ef6ca32"
     },
     {
       "title": "S&P 500, Nasdaq Hit Fresh Records as Middle East Truce Fuels Rally",
@@ -145,82 +145,89 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
+      "title": "3 Once-Hot Stocks That Could See Major Pullbacks in 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-once-hot-stocks-could-091311407.html",
+      "publisher": "GOBankingRates",
+      "date": "2026-04-17T09:13:11",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Bk7lP.vpMpx9_BwJsojtag--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/gobankingrates_644/ec0d9e51823784eb2150f2029d2adafd"
+    },
+    {
+      "title": "World stocks hold near record highs, oil keeps below $100 on peace deal hopes",
+      "link": "https://finance.yahoo.com/news/stocks-set-weekly-gain-oil-021437005.html",
+      "publisher": "Reuters",
+      "date": "2026-04-17T09:12:44",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/WCIEG5j01bDs7ROoMlKXMw--~B/aD00MzU7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/d48e763de5224701f147dfc25445eee4"
+    },
+    {
+      "title": "Teijin Frontier raises polyester fibre prices by 20% amid rising oil costs",
+      "link": "https://finance.yahoo.com/m/c0e66e62-137b-352d-9b18-ea8bd5fb3cfa/teijin-frontier-raises.html",
+      "publisher": "Just Style",
+      "date": "2026-04-17T09:11:59",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/6WK3huhAHZJs8jShCh2JeQ--~B/aD0xNDEyO3c9MjEyMjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/just_style_482/22fc42a58bb8dd5d52f6a84afa3c64be"
+    },
+    {
+      "title": "Orman says panic-selling stocks now when oil prices have surged over 50% would be the ultimate investment mistake",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/orman-says-panic-selling-stocks-090500805.html",
+      "publisher": "Moneywise",
+      "date": "2026-04-17T09:05:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/bdJmMogGlUn_ivpnqB_Sww--~B/aD0yMDI1O3c9MzYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/moneywise_327/d33eace310cf72e6a4ecfc5737fcb652"
+    },
+    {
+      "title": "New Hopes for Iran Deal — Heard on the Street Thursday Recap",
+      "link": "https://finance.yahoo.com/m/425e6f63-46e6-30d7-816e-0923feb21c6b/new-hopes-for-iran-deal-%E2%80%94.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T08:54:08",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
+    },
+    {
+      "title": "Cautious Investors Weigh Options as Global Markets Trade Steady",
+      "link": "https://finance.yahoo.com/m/efb8a2c6-e2dd-31c5-bf38-294d6c2e5ed2/cautious-investors-weigh.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T08:37:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Jvlb8BOukfWvNaLzgFS.tg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/d99030645a7651d0b6672d8027509579"
+    },
+    {
+      "title": "Enbridge wins new permit to maintain North Dakota border pipeline",
+      "link": "https://finance.yahoo.com/m/f52e204c-6ace-329f-9f06-0ad18db032a7/enbridge-wins-new-permit-to.html",
+      "publisher": "Offshore Technology",
+      "date": "2026-04-17T08:15:58",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Wf3rF.pzpXkiAZ9rbElgog--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/offshore_technology_431/4891a1355ab58fd44b813a1077d3d3ac"
+    },
+    {
+      "title": "Oil Falls on Optimism Over U.S.-Iran Negotiations",
+      "link": "https://finance.yahoo.com/m/37b7a00a-7f8c-3097-8982-099760fbf4d8/oil-falls-on-optimism-over.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T07:36:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/.IDwwIAOw71uq0xaXRbyMA--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/f87d4def731b0664163a613698ebb6f7"
+    },
+    {
+      "title": "Bitcoin, ETH, XRP, Solana Max Pain to Watch as Trump Says Iran War Could End",
+      "link": "https://finance.yahoo.com/m/f1d09e05-3f98-336a-aaee-6d22613fad03/bitcoin%2C-eth%2C-xrp%2C-solana-max.html",
+      "publisher": "CoinGape",
+      "date": "2026-04-17T07:32:41",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/UBhxSdoHL80sBvcc14cXPQ--~B/aD04MDA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/coingape_360/c11ea822a03dcee828c7a6d2eb299ea1"
+    },
+    {
       "title": "Energy spike creates pressure points for Europe's leveraged finance market",
       "link": "https://finance.yahoo.com/sectors/energy/articles/energy-spike-creates-pressure-points-073058615.html",
       "publisher": "Pitchbook",
       "date": "2026-04-17T07:30:58",
       "thumbnail": ""
-    },
-    {
-      "title": "Eurozone Bond Yields Rise; Investors Hopeful of Middle East Resolution",
-      "link": "https://finance.yahoo.com/m/9c97abb6-d292-3469-9d7e-718d7355114e/eurozone-bond-yields-rise%3B.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-04-17T06:58:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
-    },
-    {
-      "title": "Oil Prices Keep Falling",
-      "link": "https://finance.yahoo.com/m/0d2076c5-e343-3edd-9e57-5c731f50cf42/oil-prices-keep-falling.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-04-17T05:40:38",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
-    },
-    {
-      "title": "President Trump Signals US-Iran Deal Progress as Oil Drops and Crypto Markets Rise",
-      "link": "https://finance.yahoo.com/m/7f70c072-3651-3507-a44c-76b780bbccaa/president-trump-signals.html",
-      "publisher": "BeInCrypto",
-      "date": "2026-04-17T05:24:32",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/wUwJnP.2BinguUxKB54RIg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/1ea4d86c9550f9d44824b102d085ba68"
-    },
-    {
-      "title": "Royal Caribbean (RCL) Stock Trades Down, Here Is Why",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-rcl-stock-trades-051427229.html",
-      "publisher": "StockStory",
-      "date": "2026-04-17T05:14:27",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/ymDt_lNm0YTh1dQ50eMi.w--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/79d645ef95293d3246bf63f3e4927aa5"
-    },
-    {
-      "title": "Asian stocks lower and oil falls after Wall Street sets another record on ceasefire hopes",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-lower-oil-falls-042450764.html",
-      "publisher": "Associated Press",
-      "date": "2026-04-17T04:24:50",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/6lqTyFsquIgGLKu2NhTwCw--~B/aD00MTEzO3c9NjE2OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/f42c6c4f37798abfbc9ea2b613777698"
-    },
-    {
-      "title": "Why Carnival (CCL) Stock Is Nosediving",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-carnival-ccl-stock-nosediving-041027738.html",
-      "publisher": "StockStory",
-      "date": "2026-04-17T04:10:27",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/WTmqvUsqPCk_u5oGgsIQbA--~B/aD03MDA7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/2b1804a23038eb5d248e624fd4368dea"
-    },
-    {
-      "title": "Dow Jones Futures: Stock Market Rally Won't Back Down, AMD Breaks Out; Netflix Dives Late",
-      "link": "https://finance.yahoo.com/m/de0d09c2-e120-3a06-b712-ed53b63caeb8/dow-jones-futures%3A-stock.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-04-17T03:11:21",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/ACOeASa6cELaEP6wliV34Q--~B/aD01MTE7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/ea08b6ef1e192b36cdd29244c6e970ea"
-    },
-    {
-      "title": "Three ETFs that will be impacted by the closure of the Strait of Hormuz. Should you buy?",
-      "link": "https://finance.yahoo.com/m/ab6ac88e-ca3c-377b-afe1-266297c0ffc8/three-etfs-that-will-be.html",
-      "publisher": "Motley Fool",
-      "date": "2026-04-17T02:35:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/G79UrLRlw0fyHhmJqZPiaQ--~B/aD05MzM7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/6761a0457e417334a62b10fa67b1cebb"
-    },
-    {
-      "title": "Trump Declares The Strait Is 'Permanently' Open – Tanker Traffic Says 'Not Yet'",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/trump-declares-strait-permanently-open-023105335.html",
-      "publisher": "Benzinga",
-      "date": "2026-04-17T02:31:05",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/tzCWqOkVpceGV7m02rMtAQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/9baa7e1f73e7485efbd988524c09a5be"
     }
   ],
   "GOLD": [
     {
-      "title": "Comex Gold Futures Still Consolidating, Daily Chart Shows",
-      "link": "https://finance.yahoo.com/m/0f9842b4-7814-3968-962a-1bc381b34873/comex-gold-futures-still.html",
+      "title": "Gold’s Journey From Ancient Rulers to the Costco Jewelry Case",
+      "link": "https://finance.yahoo.com/m/fc06ef84-49f4-38f1-b2f6-711e1b43d765/gold%E2%80%99s-journey-from-ancient.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-04-17T06:40:00",
+      "date": "2026-04-17T08:04:12",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/7OWMGjwe9E00tmrmPEHJiw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/434c08b99d16bee367f6ea3d0515602b"
+    },
+    {
+      "title": "Gold Heads for Weekly Gain on Softer Oil, Hopes for U.S.-Iran Talks",
+      "link": "https://finance.yahoo.com/m/0f9842b4-7814-3968-962a-1bc381b34873/gold-heads-for-weekly-gain-on.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T07:48:00",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
     },
     {
@@ -257,13 +264,6 @@ var NEWS_DATA = {
       "publisher": "GlobeNewswire",
       "date": "2026-04-16T13:26:00",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/eRqZ46OAF2twk7zsHWDNVw--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/globenewswire.com/340ce612ba1b7e15d51a6ea8c6bbaaa1"
-    },
-    {
-      "title": "Gold Soared 50% This Year. Here’s Which ETF to Buy Before Rates Fall",
-      "link": "https://finance.yahoo.com/m/66b872d6-d5e6-3dbf-8db6-71d4fdf3d738/gold-soared-50%25-this-year..html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-04-16T12:58:45",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/pPnP4eF2VeKuUIoOfyv2WQ--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/31d2ef481947249c472924f1c2bc35a5"
     },
     {
       "title": "Gold’s 18% Rally Faces a Volume Crisis, a Strong Rival, and a Wall of Puts",
