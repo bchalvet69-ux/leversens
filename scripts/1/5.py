@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import par84
 import plotly.graph_objects as go
-from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks
+from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks, run_backtest, plot_backtest
 
 # ============================================================================
 # Script 5 — Bollinger Bands
@@ -86,5 +86,14 @@ for ticker in par84.TICKERS:
             continue
         fname = f"5-{key}-{safe}.html"
         plot_bollinger(df, 'BOLLINGER BANDS', fname, f'{ticker} · {tname} · {cfg["label"]}')
+
+        # Backtest
+        ma, upper, lower = compute_bollinger(df['Close'])
+        close = df['Close']
+        buy_sig  = (close.shift(1) < lower.shift(1)) & (close >= lower)
+        sell_sig = (close.shift(1) > upper.shift(1)) & (close <= upper)
+        bt_df, bt_stats = run_backtest(df, buy_sig, sell_sig)
+        bt_fname = f"5-bt-{key}-{safe}.html"
+        plot_backtest(bt_df, bt_stats, 'Bollinger', bt_fname, f'{ticker} · {tname} · {cfg["label"]}')
 
 print("\n✓ Script 5 done")

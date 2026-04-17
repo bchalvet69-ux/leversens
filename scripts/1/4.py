@@ -3,7 +3,7 @@ import pandas as pd
 import par84
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks
+from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks, run_backtest, plot_backtest
 
 # ============================================================================
 # Script 4 — RSI
@@ -102,5 +102,14 @@ for ticker in par84.TICKERS:
             continue
         fname = f"4-{key}-{safe}.html"
         plot_rsi(df, 'RSI', fname, f'{ticker} · {tname} · {cfg["label"]}')
+
+        # Backtest
+        rsi = compute_rsi(df['Close'])
+        rsi_prev = rsi.shift(1)
+        buy_sig  = (rsi_prev < 30) & (rsi >= 30)
+        sell_sig = (rsi_prev > 70) & (rsi <= 70)
+        bt_df, bt_stats = run_backtest(df, buy_sig, sell_sig)
+        bt_fname = f"4-bt-{key}-{safe}.html"
+        plot_backtest(bt_df, bt_stats, 'RSI', bt_fname, f'{ticker} · {tname} · {cfg["label"]}')
 
 print("\n✓ Script 4 done")

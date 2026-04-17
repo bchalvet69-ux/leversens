@@ -3,7 +3,7 @@ import pandas as pd
 import par84
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks
+from _helpers import fetch, FREQ_CONFIGS, ticker_safe, base_layout, get_rangebreaks, run_backtest, plot_backtest
 
 # ============================================================================
 # Script 3 — MACD
@@ -91,5 +91,13 @@ for ticker in par84.TICKERS:
             continue
         fname = f"3-{key}-{safe}.html"
         plot_macd(df, 'MACD', fname, f'{ticker} · {tname} · {cfg["label"]}')
+
+        # Backtest
+        macd, sig, hist = compute_macd(df['Close'])
+        buy_sig  = (macd > sig) & (macd.shift(1) <= sig.shift(1))
+        sell_sig = (macd < sig) & (macd.shift(1) >= sig.shift(1))
+        bt_df, bt_stats = run_backtest(df, buy_sig, sell_sig)
+        bt_fname = f"3-bt-{key}-{safe}.html"
+        plot_backtest(bt_df, bt_stats, 'MACD', bt_fname, f'{ticker} · {tname} · {cfg["label"]}')
 
 print("\n✓ Script 3 done")
