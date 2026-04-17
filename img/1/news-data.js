@@ -145,18 +145,32 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
+      "title": "Energy spike creates pressure points for Europe's leveraged finance market",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/energy-spike-creates-pressure-points-073058615.html",
+      "publisher": "Pitchbook",
+      "date": "2026-04-17T07:30:58",
+      "thumbnail": ""
+    },
+    {
+      "title": "Eurozone Bond Yields Rise; Investors Hopeful of Middle East Resolution",
+      "link": "https://finance.yahoo.com/m/9c97abb6-d292-3469-9d7e-718d7355114e/eurozone-bond-yields-rise%3B.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T06:58:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
+    },
+    {
+      "title": "Oil Prices Keep Falling",
+      "link": "https://finance.yahoo.com/m/0d2076c5-e343-3edd-9e57-5c731f50cf42/oil-prices-keep-falling.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-04-17T05:40:38",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
+    },
+    {
       "title": "President Trump Signals US-Iran Deal Progress as Oil Drops and Crypto Markets Rise",
       "link": "https://finance.yahoo.com/m/7f70c072-3651-3507-a44c-76b780bbccaa/president-trump-signals.html",
       "publisher": "BeInCrypto",
       "date": "2026-04-17T05:24:32",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/wUwJnP.2BinguUxKB54RIg--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/beincrypto_us_662/1ea4d86c9550f9d44824b102d085ba68"
-    },
-    {
-      "title": "U.S. Treasury Yields Edge Higher in Calmer Trade",
-      "link": "https://finance.yahoo.com/m/9c97abb6-d292-3469-9d7e-718d7355114e/u.s.-treasury-yields-edge.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-04-17T05:20:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
     },
     {
       "title": "Royal Caribbean (RCL) Stock Trades Down, Here Is Why",
@@ -170,7 +184,7 @@ var NEWS_DATA = {
       "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-lower-oil-falls-042450764.html",
       "publisher": "Associated Press",
       "date": "2026-04-17T04:24:50",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/j.xNDEa5PwoauIXoWKe7KA--~B/aD00MTEzO3c9NjE2OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/738cfcdb2764952e0b418b39411905cb"
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/6lqTyFsquIgGLKu2NhTwCw--~B/aD00MTEzO3c9NjE2OTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/f42c6c4f37798abfbc9ea2b613777698"
     },
     {
       "title": "Why Carnival (CCL) Stock Is Nosediving",
@@ -199,28 +213,14 @@ var NEWS_DATA = {
       "publisher": "Benzinga",
       "date": "2026-04-17T02:31:05",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/tzCWqOkVpceGV7m02rMtAQ--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/9baa7e1f73e7485efbd988524c09a5be"
-    },
-    {
-      "title": "A Lebanon Ceasefire and Potential Iran Peace Talks Push Oil Prices Down",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/lebanon-ceasefire-potential-iran-peace-021131974.html",
-      "publisher": "Oilprice.com",
-      "date": "2026-04-17T02:11:31",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/ylRSFhxllJnTNoxBvyDXjg--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/oilprice.com/559fbb35d0681feb24164aab4371eda0"
-    },
-    {
-      "title": "How The HighPeak Energy (HPK) Narrative Is Shifting With Mixed Analyst Targets",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/highpeak-energy-hpk-narrative-shifting-020804251.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-04-17T02:08:04",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/zbingGm8u8WvxKzb7gFJEQ--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/fef15a04bcb8e7f05d317d73670619f7"
     }
   ],
   "GOLD": [
     {
-      "title": "Gold Edges Higher on Hopes for U.S.-Iran Deal",
-      "link": "https://finance.yahoo.com/m/0f9842b4-7814-3968-962a-1bc381b34873/gold-edges-higher-on-hopes.html",
+      "title": "Comex Gold Futures Still Consolidating, Daily Chart Shows",
+      "link": "https://finance.yahoo.com/m/0f9842b4-7814-3968-962a-1bc381b34873/comex-gold-futures-still.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-04-17T00:00:00",
+      "date": "2026-04-17T06:40:00",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
     },
     {
