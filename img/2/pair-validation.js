@@ -1,7 +1,7 @@
 var PAIR_VALIDATION = {
   "r_squared": 0.8132,
   "f_stat": 1079.65,
-  "f_pval": 2.503314975879535e-92,
+  "f_pval": 2.503301673076272e-92,
   "durbin_watson": 0.0598,
   "r2_ok": true,
   "f_ok": true,
