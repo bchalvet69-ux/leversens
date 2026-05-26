@@ -1,80 +1,115 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "The Best Vanguard ETF to Buy and Hold for the Next Decade (It Has Significant AI Exposure)",
-      "link": "https://finance.yahoo.com/m/1368cf44-6778-3c8b-96e4-8c4da8071104/the-best-vanguard-etf-to-buy.html",
+      "title": "Arts Calendar: Happenings for the Week of May 24",
+      "link": "https://finance.yahoo.com/m/c38841a4-557c-3a94-89ad-3dc426c9cffc/arts-calendar%3A-happenings-for.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-05-25T20:58:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/xMvol8UZKagvQgUkVUtodQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/92ba473556e61c04211240053eac89cf"
+    },
+    {
+      "title": "Kevin Warsh Inherits a Fed That Wall Street Has Almost Stopped Talking About",
+      "link": "https://finance.yahoo.com/m/3e76b7e3-9972-3148-95a7-650bc6faa22b/kevin-warsh-inherits-a-fed.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T20:50:31",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/3SLNlsy46ppzDvOS4EwwKw--~B/aD0xNzA3O3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/8cfdf37e0f715c830ba757c6e1fe5826"
+    },
+    {
+      "title": "The Anatomy of a Disconnect: How $4.35 Trillion in Corporate Profits Cleared the Way for Record Highs",
+      "link": "https://finance.yahoo.com/m/12ca6216-b657-3483-881c-b595afdd60f7/the-anatomy-of-a-disconnect%3A.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T20:42:28",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/f0WFGw7IGclMLcG2zMq7TA--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/730be659861b0f16f8cd20a8d93562d0"
+    },
+    {
+      "title": "The One Thing Jim Cramer Demands From Tech-Only Investors Before He’ll Bless the Strategy",
+      "link": "https://finance.yahoo.com/m/6a124bca-2da6-333b-907e-256bf15d74b9/the-one-thing-jim-cramer.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T17:16:12",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/X5HJZvzudqfGr9NFzTSLHw--~B/aD03Njg7dz0xMzY2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/132aa5b74d960dcdb675aaba7d4ad89c"
+    },
+    {
+      "title": "The 5-Day Trap: How Missing Less Than a Week Wiped Out $154,000",
+      "link": "https://finance.yahoo.com/m/1554f8df-ac48-3a5e-a664-618bafbd298b/the-5-day-trap%3A-how-missing.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T15:34:08",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Anm9w5hL7TTgiy.AXDvhwQ--~B/aD0xMDAxO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/3f0afeecd2f61cc21672db6a944e897f"
+    },
+    {
+      "title": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
+      "link": "https://finance.yahoo.com/m/82b2ac1e-db5c-3196-a2a4-80d151a527ae/s%26p-500-dividends-just-hit-an.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T15:05:10",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/DQvupqsVqJ6X8n8MQChZUw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/24_7_wall_st__718/39b8dc82e1a4684ad76ea9998b739b18"
+    },
+    {
+      "title": "Diameter Capital Sells All Telephone and Data System Shares",
+      "link": "https://finance.yahoo.com/m/2509b4d6-18d5-3899-bcc8-4d051c9e39fe/diameter-capital-sells-all.html",
       "publisher": "Motley Fool",
-      "date": "2026-05-22T23:27:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/tykaGCfcCW1x0a1AvhNrwQ--~B/aD03MzY7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/93317da4627dbab03966cfe71854f262"
+      "date": "2026-05-25T14:20:58",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/s1emhqMYalu642ZRmLYljw--~B/aD03MTQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/c27a7e2773e2dd4be080db2e8154f7c0"
     },
     {
-      "title": "S&P 500 Clocks Best Weekly Rally Since 2023, Dow Hits Fresh Record As US-Iran Peace Hope Boosts Risk Sentiment - UBER, GILD, RDDT, FJET, AMD In Focus",
-      "link": "https://finance.yahoo.com/m/368aaaa5-26f3-3253-ba79-6a8656607899/s%26p-500-clocks-best-weekly.html",
-      "publisher": "Stocktwits",
-      "date": "2026-05-22T21:03:43",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/qPKkJJ.h2Y3xUo4Cwj_0wQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stocktwits_383/6d1ef5e969022862ab60b85fa365e9a8"
+      "title": "Evercore’s Emanuel sees path for S&P 500 to reach 9,000 in bullish AI-driven scenario",
+      "link": "https://finance.yahoo.com/m/f9af885f-35c6-34e2-86ba-7efd84ec979c/evercore%E2%80%99s-emanuel-sees-path.html",
+      "publisher": "InvestorsHub",
+      "date": "2026-05-25T13:12:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/9axLgIGLNfs_CAdxkrrb9A--~B/aD0zNTE7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/investorshub_458/54ba5a17b682113a11db8ef5802873ab"
     },
     {
-      "title": "Daily ETF Flows: LQD Infows Nearly $1B",
-      "link": "https://finance.yahoo.com/m/426f32b7-96a6-3359-985b-f2e826850697/daily-etf-flows%3A-lqd-infows.html",
-      "publisher": "etf.com",
-      "date": "2026-05-22T21:00:04",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/l1TnB8UpFqI42pxuQtFjcg--~B/aD01MjA7dz03NjA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/indexuniverse.com/1d45f9488d95ad21b16acbe33a9dfed0"
+      "title": "Tween Group Chats Were Breaking My Daughter’s Heart—Then We Tried This New App",
+      "link": "https://finance.yahoo.com/m/f9eb850b-a3a9-31bd-8491-75655fe163e6/tween-group-chats-were.html",
+      "publisher": "Parents",
+      "date": "2026-05-25T13:00:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Qnjo..NSYL2zBmS0j0VgHQ--~B/aD00MTYwO3c9NjI0MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/parents_articles_5/5e281962d403c82544536af69a4f0683"
     },
     {
-      "title": "Intelligence Chief Tulsi Gabbard’s Resignation Caps a Tumultuous Tenure",
-      "link": "https://finance.yahoo.com/m/2ce15048-e03e-3c53-88a2-a3ef3d1a9fd7/intelligence-chief-tulsi.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-05-22T20:33:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/snyIFgb5ZBqvTij9Pe2.6A--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/28ed44ea53bc6ae544408855b9038966"
-    },
-    {
-      "title": "Bank of America resets Amazon stock forecast on key product launch",
-      "link": "https://finance.yahoo.com/m/758e914c-a952-3126-af6a-35d9c0d3c518/bank-of-america-resets-amazon.html",
-      "publisher": "TheStreet",
-      "date": "2026-05-22T20:04:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/jH0ohZNqxOww7zvYwNRXaw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/225a1fc457c75b15942e4241e259402b"
-    },
-    {
-      "title": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
-      "link": "https://finance.yahoo.com/news/tulsi-gabbard-resigns-as-donald-trumps-us-intelligence-chief-174346213.html",
-      "publisher": "Financial Times",
-      "date": "2026-05-22T19:26:44",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Tv0Y7Y6pfOYKeL8GmZNGng--~B/aD0zMzkyO3c9NTA4ODthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/d5e2fb5c-2fe4-4d54-940e-cd5504fe59f1"
-    },
-    {
-      "title": "U.S. Warns of Growing Russian and Chinese Spying in Cuba",
-      "link": "https://finance.yahoo.com/m/fdab7dbd-9868-349e-9ec5-959a7d587b04/u.s.-warns-of-growing-russian.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-05-22T17:13:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/TqHyLjoH3U.8r16ibrzEhg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/836e4b795993faed91cbedb590c4318e"
-    },
-    {
-      "title": "Stocks Climb on US-Iran Peace Hopes and Strength in Chipmakers",
-      "link": "https://finance.yahoo.com/m/7a875c48-9132-3c04-8705-295c430dfee5/stocks-climb-on-us-iran-peace.html",
-      "publisher": "Barchart",
-      "date": "2026-05-22T15:20:05",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/dlj5bxkFgOFYybbDha8zSA--~B/aD0xMDY3O3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/barchart_com_477/fda4fa13493a27d0c8a4c56df32e0629"
-    },
-    {
-      "title": "Stocks Supported by US-Iran Peace Deal Optimism",
-      "link": "https://finance.yahoo.com/m/ffd5405a-2a2c-3000-b6e9-ef6ebb4de4c0/stocks-supported-by-us-iran.html",
-      "publisher": "Barchart",
-      "date": "2026-05-22T14:13:46",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/xnARvPyCtFpir84.2QdDNg--~B/aD04NjI7dz0xNjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/barchart_com_477/9702f20631207874aa69ec4c7402dbba"
-    },
-    {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Buoyed by Robust Corporate Earnings Season",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131038113.html",
-      "publisher": "MT Newswires",
-      "date": "2026-05-22T13:10:38",
-      "thumbnail": ""
+      "title": "The Math That Should Terrify Index Investors: AI Chips Account for Nearly All S&P 500 Gains",
+      "link": "https://finance.yahoo.com/m/b08a1a26-3922-3a90-a111-951daf4928c8/the-math-that-should-terrify.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-05-25T11:39:18",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/9t8KS5RcFB_efeeIxgvQ9w--~B/aD0xMDgwO3c9MTgyNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/24_7_wall_st__718/2910101cc21c09b5511bbd4f5302618c"
     }
   ],
   "BTCUSD": [
     {
-      "title": "Michael Saylor drops blunt verdict on Bitcoin’s hottest trend",
-      "link": "https://finance.yahoo.com/m/d8dd3564-fa8c-39d8-932a-84c1a4df9852/michael-saylor-drops-blunt.html",
+      "title": "Satoshi-era Bitcoin whale moves $203 million",
+      "link": "https://finance.yahoo.com/m/78f01e05-71e6-3090-a7ba-c4be4de336e9/satoshi-era-bitcoin-whale.html",
+      "publisher": "TheStreet",
+      "date": "2026-05-25T20:03:36",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Tzy4UrKSfzGi.xSCZi_XTQ--~B/aD0xMDI0O3c9MTUzNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/2210fafb76f9f699601624da2dc4c720"
+    },
+    {
+      "title": "Cardano Drama: Infighting Heats Up as Hoskinson Steps In",
+      "link": "https://finance.yahoo.com/m/b02b0d9b-2d75-3ca0-a30a-a778414106ac/cardano-drama%3A-infighting.html",
+      "publisher": "Cryptonews",
+      "date": "2026-05-25T15:21:22",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/2nPGVwtUXTqpGRgcJCkQ3Q--~B/aD01NzI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptonews_us_711/abed1f6daf058c0dcc823d86b4d58bb8"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Monday, May 25, 2026: Down from last week, but rising this morning",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-may-25-2026-down-from-last-week-but-rising-this-morning-121507080.html",
+      "publisher": "Yahoo Personal Finance",
+      "date": "2026-05-25T12:15:07",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/8IgKHs0.oTwPcn40eBVnmg--~B/aD00MDg7dz02MTI7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/bitcoin_1_3688.jpg"
+    },
+    {
+      "title": "Bitcoin News: Has Saylor Just Changed the MicroStrategy Playbook?",
+      "link": "https://finance.yahoo.com/m/05ca911e-301e-3462-8206-5453ea3755fa/bitcoin-news%3A-has-saylor-just.html",
+      "publisher": "99bitcoins",
+      "date": "2026-05-25T10:16:08",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/cLQT_Nbw8leR5pRlNI1h5A--~B/aD01NzI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/99bitcoins_us_315/3d36675eb59ae3bcb103fdfc9e496ea4"
+    },
+    {
+      "title": "Bitcoin Price Prediction: BTC Options Coming to Nasdaq",
+      "link": "https://finance.yahoo.com/m/27fbefd2-f1f6-3ff6-9d1a-c224070cce89/bitcoin-price-prediction%3A-btc.html",
+      "publisher": "Cryptonews",
+      "date": "2026-05-25T10:15:29",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/cioMxnYLsZ8j4dhGT3HpbA--~B/aD01NzI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptonews_us_711/09cfcdec85ca81d8ae805a83bb4cf939"
+    },
+    {
+      "title": "Michael Saylor reveals 'most interesting story in Bitcoin' right now",
+      "link": "https://finance.yahoo.com/m/d8dd3564-fa8c-39d8-932a-84c1a4df9852/michael-saylor-reveals-%27most.html",
       "publisher": "TheStreet",
       "date": "2026-05-22T22:13:06",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/YDDTg87Vgpzt5DRC_9.ZXw--~B/aD0xMDI0O3c9MTUzNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/7d38c9d4f023cb361529ec36a45e0110"
@@ -101,213 +136,178 @@ var NEWS_DATA = {
       "thumbnail": ""
     },
     {
-      "title": "Sector Update: Financial Stocks Higher Friday Afternoon",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-friday-174910740.html",
-      "publisher": "MT Newswires",
-      "date": "2026-05-22T17:49:10",
-      "thumbnail": ""
-    },
-    {
-      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171032522.html",
-      "publisher": "MT Newswires",
-      "date": "2026-05-22T17:10:32",
-      "thumbnail": ""
-    },
-    {
-      "title": "BC-Most Active Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143019670.html",
-      "publisher": "Associated Press",
-      "date": "2026-05-22T14:30:19",
-      "thumbnail": ""
-    },
-    {
-      "title": "Forget MSTR—This BTC Peer's Stock Gained 37% This Month, Powered By Hyperscalers Lease Talks And Elite Hedge Fund Buys",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-mstr-btc-peers-stock-121324568.html",
-      "publisher": "Benzinga",
-      "date": "2026-05-22T12:13:24",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/GihidLHM5IPbldZLbL55Xg--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/573437bda5d2577ecf24590acb92d4e5"
-    },
-    {
       "title": "Bitcoin and ethereum prices today, Friday, May 22, 2026: Prices moved little this week",
       "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-may-22-2026-prices-moved-little-this-week-120513396.html",
       "publisher": "Yahoo Personal Finance",
       "date": "2026-05-22T12:05:13",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/g2FYNRdQidSyHITH_Hia0Q--~B/aD0zNzc7dz02MTI7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/bitcoin_2_9860.jpg"
-    },
-    {
-      "title": "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' — What Changed The Billionaire's Mind On Crypto?",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/mark-cuban-sold-most-bitcoin-032832809.html",
-      "publisher": "Benzinga",
-      "date": "2026-05-22T03:28:32",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/D90VOJfj2xD1XdCaYq_2jg--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/46bc82d538b6bd7b12095ccb1f3ec7ef"
     }
   ],
   "CLF": [
     {
-      "title": "2 Reasons to Watch KMI and 1 to Stay Cautious",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-watch-kmi-1-230055423.html",
-      "publisher": "StockStory",
-      "date": "2026-05-22T23:00:55",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/mI24i7mWPhNYeU0bgIKyMw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/stockstory_922/06f33c8ebd6dbf9fa8cb0a55e159c7c1"
+      "title": "India Cuts Fuel Demand Growth Projections By 40% Amid Austerity DriveIndia Cuts",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/india-cuts-fuel-demand-growth-230000243.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-05-25T23:00:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/MFhwlzADIauuvROtDk0CEw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/oilprice.com/aed988f4fd9bf871b8a1a857de6c5d4e"
     },
     {
-      "title": "Stock Market Today, May 22: American Airlines Rises on Strong Demand and Falling Oil Prices",
-      "link": "https://finance.yahoo.com/m/1536ba92-f3f9-3de0-a9e9-9a6d0473cd51/stock-market-today%2C-may-22%3A.html",
+      "title": "Mexico’s Pemex Still Struggles Despite the Oil Price Surge",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/mexico-pemex-still-struggles-despite-220000883.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-05-25T22:00:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/AF6YL0_r4eOriMpIUHhmNA--~B/aD00Nzg7dz04NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/oilprice.com/7214ef39de1922d4c94ffd3532146d30"
+    },
+    {
+      "title": "Oil Prices Drop on Prospect of Iran Deal, but Investors Aren’t Celebrating Yet",
+      "link": "https://finance.yahoo.com/m/ea8ab627-da0b-3d2c-9fe7-cb99988801fe/oil-prices-drop-on-prospect.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-05-25T21:36:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/0YCIfHT52BDvfnfH03u9cg--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/50e7a457779b163f96d71a68184f12a9"
+    },
+    {
+      "title": "TSX Closer: Index Posts Record Highs Even As RBC and National Bank Both Try and Put the Oil Price Shock In Context",
+      "link": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-posts-record-201242879.html",
+      "publisher": "MT Newswires",
+      "date": "2026-05-25T20:12:42",
+      "thumbnail": ""
+    },
+    {
+      "title": "Inflation Just Soared at the Fastest Pace Since 2023, and It Could Spell Trouble for Stock Market Investors",
+      "link": "https://finance.yahoo.com/m/cdc74525-1952-32b7-8da3-3af059ba6b52/inflation-just-soared-at-the.html",
       "publisher": "Motley Fool",
-      "date": "2026-05-22T22:14:22",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Ioww6HwEdI4T5kyfUchNfg--~B/aD0xODA7dz0zMDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/6470a161c4402c855b3eb26dbc820806"
+      "date": "2026-05-25T20:05:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/m3WRNorOmpMd.1A1qbNz6w--~B/aD0xMDA3O3c9MTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/0c7ce57e90975cc55a562bcaa486deea"
     },
     {
-      "title": "Oil Prices Wobble as Iran Uncertainty Deepens Ahead of New Deadline",
-      "link": "https://finance.yahoo.com/m/1ee430c5-c796-3d98-9b2f-bc82de4d0daf/oil-prices-wobble-as-iran.html",
-      "publisher": "Barrons.com",
-      "date": "2026-05-22T22:11:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/GqsY1wx7VUhk.m.lGVHEUQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/cd1c00f0e862dacb36aa8e12fc657c84"
-    },
-    {
-      "title": "Wall Street rises as Middle East hopes lift sentiment",
-      "link": "https://finance.yahoo.com/video/wall-street-rises-middle-east-215643096.html",
-      "publisher": "Reuters Videos",
-      "date": "2026-05-22T21:56:43",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/tkJjAAkb1iFMOH6vjSv4Fw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/8c5086dd-01f5-46ec-afa5-7d3616d0c4eb/main/1280x720/51s653ms/match/image.jpg"
-    },
-    {
-      "title": "Stocks climb, yields dip as investors focus on some progress in US-Iran talks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-rise-dollar-six-week-014105963.html",
+      "title": "Oil tumbles nearly 7% as US and Iran seen moving closer to deal",
+      "link": "https://finance.yahoo.com/news/oil-falls-more-4-us-220953817.html",
       "publisher": "Reuters",
-      "date": "2026-05-22T21:36:04",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/FHJT1ytqKulucJRQ1uzcSQ--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/8db14e6361a38c333711dea4a6d90a11"
+      "date": "2026-05-25T19:16:14",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/lGnD0RnQ95_P4hmZNUgGaw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/79c505f8cb95714528642f2fa5336baa"
     },
     {
-      "title": "Stock Market Today, May 22: S&P 500 Posts Eighth Straight Week of Gains",
-      "link": "https://finance.yahoo.com/m/bf8d343b-5961-30e9-a3d7-0b6e5c281fd5/stock-market-today%2C-may-22%3A.html",
-      "publisher": "Motley Fool",
-      "date": "2026-05-22T21:30:42",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Km.fdPwQRJxwS96FJ5tifg--~B/aD03MTQ7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/motleyfool.com/5589a785fe2c636a0f46a19208368fc1"
+      "title": "Oil trading surges on Memorial Day",
+      "link": "https://finance.yahoo.com/m/b3dd7a23-4e78-36e8-93bc-df7381774f49/oil-trading-surges-on.html",
+      "publisher": "TheStreet",
+      "date": "2026-05-25T19:06:01",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/SU7ZSAiOebOdNniQURhKsw--~B/aD0xMDI0O3c9MTUzNjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/thestreet_881/c5a33743ab47ac702e5e8117cb7c12cd"
     },
     {
-      "title": "Dow Jones Futures: Stock Market Rebounds To Highs; Tesla, These Five AI Plays Are At Buy Points",
-      "link": "https://finance.yahoo.com/m/879072fd-2d18-3074-b2ec-2e92c37a571e/dow-jones-futures%3A-stock.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-05-22T21:24:41",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Vfvm2EC3sNHYufRoi3EIlA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/4deb748e91994e99e6e4e082c5f3bb56"
+      "title": "Valero Energy Gains From Favorable Refining Fundamentals",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/valero-energy-gains-favorable-refining-172300805.html",
+      "publisher": "Zacks",
+      "date": "2026-05-25T17:23:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/6iD5E1j49yhM4DW3STpL8A--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/a162db310eadf3a53e7c1325236322af"
     },
     {
-      "title": "Weekly Wrap: Bitcoin Treads Water As Stocks Rally",
-      "link": "https://finance.yahoo.com/m/20a9bfc5-ceec-3be2-bf72-a37c475f91bf/weekly-wrap%3A-bitcoin-treads.html",
-      "publisher": "CryptoProwl",
-      "date": "2026-05-22T21:20:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/rAjsQxbizh6_pP_5FEpKDw--~B/aD02MDA7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cryptoprowl_304/dccbfef2a1426a0500803b5d58bc2b40"
+      "title": "US Stock Futures Gain as Crude Oil Drops on Iran: Markets Wrap",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-gain-crude-170202219.html",
+      "publisher": "Bloomberg",
+      "date": "2026-05-25T17:02:02",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/5QsDYGUFN9tGUK0w9botrQ--~B/aD0zNzYwO3c9NTYzNzthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/0986874e7e07db607f945398e2b1e7fb"
     },
     {
-      "title": "S&P 500 Clinches Longest Weekly Winning Streak Since 2023",
-      "link": "https://finance.yahoo.com/m/3d68ff8d-8f10-37c5-9f89-e4f2df008ff8/s%26p-500-clinches-longest.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-05-22T21:08:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/h9oxzlSy5YCmOZVt0a4MAQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/e6e8173862e41f9011caf5adae8e6ed1"
-    },
-    {
-      "title": "Warsh Era Begins — Heard on the Street Recap",
-      "link": "https://finance.yahoo.com/m/9d96ebb4-683a-329a-b887-cbe20c5009bf/warsh-era-begins-%E2%80%94-heard-on.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-05-22T21:00:35",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/lxp35lhuQdS33MtXNvyuUw--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/3d508d330a5684087d8f9f032a5a93a8"
+      "title": "Europe's STOXX 600 wipes out Iran war losses on peace deal hopes, AI optimism",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-climb-over-two-073945203.html",
+      "publisher": "Reuters",
+      "date": "2026-05-25T16:29:02",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/qk7Cv4t3gPHXD7.yMoiPVw--~B/aD00OTc7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/5c4d0447608cb405d16c840aedb6b520"
     }
   ],
   "GOLD": [
     {
-      "title": "Is It Too Late To Consider Centerra Gold (TSX:CG) After Its Strong Multi‑Year Rally?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/too-consider-centerra-gold-tsx-231039927.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-05-22T23:10:39",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/1W2Igu0.nhgjE8NeoLBgXg--~B/aD00MzI7dz0xMTk0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/simply_wall_st__316/590bd73c4f469217441156accbe686a8"
+      "title": "Gold Star widow carries husband’s legacy through “Carry The Load” walk",
+      "link": "https://finance.yahoo.com/m/8356625c-d11c-3287-832d-0b93ee90f9ee/gold-star-widow-carries.html",
+      "publisher": "CBS News Videos",
+      "date": "2026-05-25T22:30:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/4Vq4qcRD6fxlBSgkWDPRfA--~B/aD02ODU7dz0xMjE4O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/video.cbsnewsvideos.com/bfc397319d4d142ba3afa5c1b5debe54"
     },
     {
-      "title": "Galloper Gold Files Updated MRE for LPSE Deposit on SEDAR+",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/galloper-gold-files-updated-mre-210500074.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-05-22T21:05:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/6My1HO9P6TAsEN1W4XxLvg--~B/aD00MDA7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/newsfile_64/50eae46543c1a5d2a7f9c525c5622eb0"
-    },
-    {
-      "title": "Gold Drops as Fed’s Waller Says Next Move Likely To Be Rate Hike",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steady-us-iran-signals-235735175.html",
+      "title": "Gold Gains as Prospects of Iran Deal Temper Inflation Concerns",
+      "link": "https://finance.yahoo.com/news/gold-jumps-as-prospects-of-iran-deal-temper-inflation-concerns-023152905.html",
       "publisher": "Bloomberg",
-      "date": "2026-05-22T19:47:04",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/8l1wntQyxsC9X0STmJJL_g--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_holding_pen_162/9091bb7f48ce9e088fff9765b36e8160"
+      "date": "2026-05-25T19:15:33",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/o7kMpOX1g_oAsXJvJKy7Hg--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_video_2/229ac67dd024b5444230a9e94919deac"
     },
     {
-      "title": "Comex Gold Ends the Week 0.76% Lower at $4521.00",
-      "link": "https://finance.yahoo.com/m/51643df2-3121-3e5c-bb72-b7d78b10f1a0/comex-gold-ends-the-week.html",
+      "title": "Update: Gold Rises as the USD Weakens While U.S. and Iran Talk to End Their War",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-usd-weakens-while-180010949.html",
+      "publisher": "MT Newswires",
+      "date": "2026-05-25T18:00:10",
+      "thumbnail": ""
+    },
+    {
+      "title": "TNR Gold Closes a $4.2 Million Private Placement to Altius Resources",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tnr-gold-closes-4-2-155301738.html",
+      "publisher": "MT Newswires",
+      "date": "2026-05-25T15:53:01",
+      "thumbnail": ""
+    },
+    {
+      "title": "Gold ETFs Shine Again as Ceasefire Hopes Lift Market Optimism",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etfs-shine-again-ceasefire-154300838.html",
+      "publisher": "Zacks",
+      "date": "2026-05-25T15:43:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/fAd4HzDZ793b5TpmlXV9lg--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/58651e4e42acdebbbcde50a7d557a38c"
+    },
+    {
+      "title": "Epic Gold to Consolidate Its Shares",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/epic-gold-consolidate-shares-153342199.html",
+      "publisher": "MT Newswires",
+      "date": "2026-05-25T15:33:42",
+      "thumbnail": ""
+    },
+    {
+      "title": "Riding across America to support Gold Star families",
+      "link": "https://finance.yahoo.com/m/ea4864d0-1073-3bfd-a66c-42da96ca2da5/riding-across-america-to.html",
+      "publisher": "CBS News Videos",
+      "date": "2026-05-25T14:47:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/7OMT1gPdQFxlwehxiF6B2w--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/video.cbsnewsvideos.com/a0ea3bce0e905bdcf2a89a8c0ee6d1e4"
+    },
+    {
+      "title": "Gold Rises as the USD Weakens While U.S. and Iran Talk to End Their War",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-usd-weakens-while-133641488.html",
+      "publisher": "MT Newswires",
+      "date": "2026-05-25T13:36:41",
+      "thumbnail": ""
+    },
+    {
+      "title": "TNR Gold completes C$4.2M strategic investment from Altius",
+      "link": "https://finance.yahoo.com/m/30769159-89bd-3af7-a183-c8812f5caf21/tnr-gold-completes-c%244.2m.html",
+      "publisher": "Proactive",
+      "date": "2026-05-25T13:03:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/J_KrC4ddiBkKOwPteDHK_w--~B/aD03MjA7dz0xMDc5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/proactive_us_504/dee2739718d636233ba52871cc6b7193"
+    },
+    {
+      "title": "Gold Rises on U.S.-Iran Optimism, Weaker Dollar",
+      "link": "https://finance.yahoo.com/m/2ac34174-2d1a-32c3-a348-5a9afb7aa522/gold-rises-on-u.s.-iran.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-05-22T17:46:00",
+      "date": "2026-05-25T06:58:00",
       "thumbnail": "https://s.yimg.com/uu/api/res/1.2/Fwf5HL4GsEGPbDfR3MJBPg--~B/aD02MzA7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8"
-    },
-    {
-      "title": "Cassiar Gold Raises $5.5 Million as It Closes a Private Placement Offering of Flow-Through Units",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cassiar-gold-raises-5-5-153811967.html",
-      "publisher": "MT Newswires",
-      "date": "2026-05-22T15:38:11",
-      "thumbnail": ""
-    },
-    {
-      "title": "Veteran Goldman strategist makes stunning $10,000 gold call",
-      "link": "https://finance.yahoo.com/m/8167adeb-9755-32ee-a53a-03b92924ae31/veteran-goldman-strategist.html",
-      "publisher": "TheStreet",
-      "date": "2026-05-22T14:07:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/RcHaD7EvXjQ22vslrDuyBA--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet_881/0d4863bb533d1f7acf1215dddace2fbe"
-    },
-    {
-      "title": "Gold is going to hit $8,000 by 2031, Deutsche Bank predicts. Why the world is distracted by this precious metal now",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-going-hit-8-000-140500112.html",
-      "publisher": "Moneywise",
-      "date": "2026-05-22T14:05:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/MTnZnQZ74Tcp9_TRdchIUA--~B/aD0zMDk1O3c9NTUwMjthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/moneywise_ecomm_711/a89647e93c38050bcca24083a67a1998"
-    },
-    {
-      "title": "Gold Edges Lower as USD and Treasury Yields Steady",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-lower-usd-treasury-130447055.html",
-      "publisher": "MT Newswires",
-      "date": "2026-05-22T13:04:47",
-      "thumbnail": ""
-    },
-    {
-      "title": "Falcon Gold Corp. Positioned in Emerging Ontario Gold Growth Corridor Following Agnico Eagle's $14 Billion Provincial Commitment",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/falcon-gold-corp-positioned-emerging-130100448.html",
-      "publisher": "CNW Group",
-      "date": "2026-05-22T13:01:00",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/AGfljHLG7ZeaDeDktIbjuQ--~B/aD0yNjk7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnwgroup.com/e1b16465098c5f9f42aa84778bdc8e14"
-    },
-    {
-      "title": "Gold prices today, Friday, May 22: Gold hangs around $4,500, as it has all week",
-      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-may-22-gold-hangs-around-4500-as-it-has-all-week-110125729.html",
-      "publisher": "Yahoo Personal Finance",
-      "date": "2026-05-22T11:01:25",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/r2rQsFixJABnl1X.K6W2nQ--~B/aD00MzIwO3c9MTAyNDA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-04/3aaf01ac-19a4-495f-86f3-45ac8925bf2e"
     }
   ],
   "NEM": [
+    {
+      "title": "What Is the Best Way to Own Gold in 2026?",
+      "link": "https://finance.yahoo.com/m/35d76edc-9f10-3a4c-a0f9-9c3d933cc185/what-is-the-best-way-to-own.html",
+      "publisher": "Motley Fool",
+      "date": "2026-05-25T15:35:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/pj6AW2Vs0.WqXGmblEKWuQ--~B/aD05MTY7dz0xNDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/a37cc3c3225c28b9021c944f431116e3"
+    },
+    {
+      "title": "AEM vs. NEM: Which Gold Mining Giant Should You Invest in Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aem-vs-nem-gold-mining-131900514.html",
+      "publisher": "Zacks",
+      "date": "2026-05-25T13:19:00",
+      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/G5XrE0LCS4YCOUlUAoD4SQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/aaa340faeefa7ee40b3aaf505e5e01be"
+    },
     {
       "title": "Gina Rinehart Invests $97 Million in US Defense Stocks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/gina-rinehart-invests-97-million-132522094.html",
       "publisher": "GuruFocus.com",
       "date": "2026-05-22T13:25:22",
       "thumbnail": ""
-    },
-    {
-      "title": "Market Update: CSX, NEM, SCHW, UL, HUBS",
-      "link": "https://finance.yahoo.com/m/3f3889a0-5b3c-35a2-bda2-689bce21b040/market-update%3A-csx%2C-nem%2C.html",
-      "publisher": "Argus Research",
-      "date": "2026-05-21T17:57:10",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png"
-    },
-    {
-      "title": "Analyst Report: Newmont Corp",
-      "link": "https://finance.yahoo.com/m/f7dfc12a-e0fe-331f-bc8d-635333b5cee7/analyst-report%3A-newmont-corp.html",
-      "publisher": "Argus Research",
-      "date": "2026-05-21T17:57:10",
-      "thumbnail": "https://s.yimg.com/uu/api/res/1.2/SVKRhvYIgdoUv2HlogaP.A--~B/aD0wO3c9MDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png"
     },
     {
       "title": "Is Aura Minerals Positioned for Stronger GEO Growth in 2026?",
