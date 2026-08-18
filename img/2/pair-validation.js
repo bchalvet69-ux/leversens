@@ -1,12 +1,12 @@
 var PAIR_VALIDATION = {
-  "r_squared": 0.7814,
-  "f_stat": 890.3,
-  "f_pval": 3.40332295425454e-84,
-  "durbin_watson": 0.1285,
+  "r_squared": 0.7796,
+  "f_stat": 877.2,
+  "f_pval": 2.077054563842459e-83,
+  "durbin_watson": 0.1295,
   "r2_ok": true,
   "f_ok": true,
   "dw_ok": false,
   "valid": true,
-  "adf_pval": 0.016111,
+  "adf_pval": 0.019689,
   "cointegrated": true
 };
