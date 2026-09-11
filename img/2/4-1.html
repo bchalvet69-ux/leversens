@@ -14,8 +14,8 @@
   .badge {
     padding:16px 20px; border-radius:10px; font-size:13px; line-height:2;
     margin-bottom:20px;
-    background: rgba(34,197,94,0.08);
-    border: 1px solid rgba(34,197,94,0.25);
+    background: rgba(239,68,68,0.08);
+    border: 1px solid rgba(239,68,68,0.25);
   }
   .badge .line { display:block; }
   .badge .val { font-weight:700; color:#f1f5f9; font-size:14px; }
@@ -56,15 +56,15 @@
 
 <div class="badge">
   <span class="line">
-    <span class="val">R&sup2; = 0.7012</span>
-    &rarr; <span class="ok">validates the model (must be &gt; 0.70)</span>
+    <span class="val">R&sup2; = 0.6986</span>
+    &rarr; <span class="ko">does not validate the model (must be &gt; 0.70)</span>
   </span>
   <span class="line">
-    <span class="val">F-statistic = 581.9</span>
+    <span class="val">F-statistic = 574.9</span>
     &rarr; <span class="ok">validates the model (must be &gt; ~4.0)</span>
   </span>
   <span class="line">
-    <span class="val">P-value = 5.39e-67</span>
+    <span class="val">P-value = 1.54e-66</span>
     &rarr; <span class="ok">validates the model (must be &lt; 0.05)</span>
   </span>
   <span class="explain">
@@ -81,19 +81,19 @@
   </tr>
   <tr>
     <td>Intercept</td>
-    <td>-15.9755</td>
-    <td>2.3207</td>
-    <td>-6.884</td>
+    <td>-15.7026</td>
+    <td>2.3275</td>
+    <td>-6.747</td>
     <td>0.0000</td>
-    <td>[-20.546, -11.405]</td>
+    <td>[-20.287, -11.118]</td>
   </tr>
   <tr>
     <td>NEM</td>
-    <td>0.5359</td>
+    <td>0.5332</td>
     <td>0.0222</td>
-    <td>24.123</td>
+    <td>23.978</td>
     <td>0.0000</td>
-    <td>[0.492, 0.580]</td>
+    <td>[0.489, 0.577]</td>
   </tr>
 </table>
 
@@ -101,14 +101,14 @@
 <table>
   <tr><th style="width:50%">Metric</th><th>Value</th></tr>
   <tr><td>Observations</td><td>250</td></tr>
-  <tr><td>R-squared</td><td>0.7012</td></tr>
-  <tr><td>Adj. R-squared</td><td>0.7000</td></tr>
-  <tr><td>F-statistic</td><td>581.9</td></tr>
-  <tr><td>Prob (F-statistic)</td><td>5.39e-67</td></tr>
-  <tr><td>Log-Likelihood</td><td>-762.83</td></tr>
-  <tr><td>AIC</td><td>1529.7</td></tr>
-  <tr><td>BIC</td><td>1536.7</td></tr>
-  <tr><td>Durbin-Watson</td><td>0.1051</td></tr>
+  <tr><td>R-squared</td><td>0.6986</td></tr>
+  <tr><td>Adj. R-squared</td><td>0.6974</td></tr>
+  <tr><td>F-statistic</td><td>574.9</td></tr>
+  <tr><td>Prob (F-statistic)</td><td>1.54e-66</td></tr>
+  <tr><td>Log-Likelihood</td><td>-763.00</td></tr>
+  <tr><td>AIC</td><td>1530.0</td></tr>
+  <tr><td>BIC</td><td>1537.0</td></tr>
+  <tr><td>Durbin-Watson</td><td>0.1043</td></tr>
 </table>
 
 <div class="meta">Model: OLS &middot; Method: Least Squares &middot; Dep. Variable: GOLD</div>
