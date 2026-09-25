@@ -1,74 +1,74 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "Netflix Is Down 42% in a Year and the Investor Who Exited in June Just Bought Back In",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-down-42-investor-exited-000825050.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-09-24T00:08:25",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/921f2ea3a20f2b7ec94c8c6408ef703b.jpg"
-    },
-    {
-      "title": "Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade",
-      "link": "https://finance.yahoo.com/energy/articles/steve-weiss-dumped-energy-stock-222724443.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T22:27:24",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/e9ac3a2f24713c0ca106175aad2dfac9.jpg"
-    },
-    {
-      "title": "S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes — AMZN, GOOGL, NFLX, SPCX, RKLB In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-drop-212328581.html",
+      "title": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001254918.html",
       "publisher": "Stocktwits",
-      "date": "2026-09-23T21:23:28",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/2f5671490c3822979c0602b54482e89c.jpg"
+      "date": "2026-09-25T00:12:54",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/2e5a31d25723206cf63cff08917ac4ed.jpg"
     },
     {
-      "title": "Vanguard Will Put $1,500 Into Your Kid’s Trump Account Starting in 2027. Here’s What to Buy With It",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/vanguard-put-1-500-kid-212049593.html",
+      "title": "SPY’s 9.45 Basis Points Hides $6,450 a Decade on $100,000 Versus Cheaper Peers",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spy-9-45-basis-points-215106822.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T21:20:49",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a17cd78d6bf74608fc195b55e78093fd.jpg"
+      "date": "2026-09-24T21:51:06",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/87c3eced11240e2ce06d561e27e64fe6"
     },
     {
-      "title": "SpaceX Drops 4% Amid Share Supply and Valuation Concerns; AST SpaceMobile Falls 6%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-drops-4-amid-share-200258181.html",
+      "title": "Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coherent-ripped-59-2026-too-190744550.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T20:02:58",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/f2814d8df914ea78b03c53eadc49471e.png"
+      "date": "2026-09-24T19:07:44",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a91fc927396d0c87cd30ae0bbbc82067.jpg"
     },
     {
-      "title": "Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/domino-pizza-down-28-time-192309706.html",
+      "title": "Starbucks Just Dropped 13% in a Month. Is It Time to Sell, or Should You Buy Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starbucks-just-dropped-13-month-190130857.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T19:23:09",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/444db56bdd57801e64490e8691057b65.jpg"
+      "date": "2026-09-24T19:01:30",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a76a12fea9c177a41ab09236924a006a.jpg"
     },
     {
-      "title": "Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/consumer-lending-stocks-slide-while-180733903.html",
+      "title": "Micron Just Rallied 17% in a Month: Take Profits, or Buy More?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-just-rallied-17-month-185716965.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T18:07:33",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/e08bc870efee64aee61bc0b68ce790d4.jpg"
+      "date": "2026-09-24T18:57:16",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/ae88f18cbf21b60bbd49faa0cb43272d"
     },
     {
-      "title": "These 2 Stocks Are Bucking The Broader Market Selloff To Hit New Multi-Year Highs — Here’s What’s Driving The Enthusiasm",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-stocks-bucking-broader-market-175447666.html",
-      "publisher": "Stocktwits",
-      "date": "2026-09-23T17:54:47",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/965e77f0edde8de12671f5f3564f45c2"
-    },
-    {
-      "title": "DraftKings Drops 4% as Prediction-Market Spending Plans Stir Margin Doubts; Flutter Entertainment Slips, Robinhood Ticks Up",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-drops-4-prediction-market-165257846.html",
+      "title": "She Inherited Her Father’s $250,000 Roth and Didn’t Touch It for Ten Years. It Grew to $400,000, and Every Dollar Came Out Tax-Free",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/she-inherited-her-father-250-182251508.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T16:52:57",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/580c465d1423d1f1b118d4385ab1fe3b.jpg"
+      "date": "2026-09-24T18:22:51",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d127e940e19dda3ed2847c9636b4849b.jpg"
     },
     {
-      "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/consumer-lending-stocks-slide-while-165114266.html",
+      "title": "Critical Metals Jumps 9% While the Rare Earth Group Stalls; MP Materials Ticks Up, USA Rare Earth Eases",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/critical-metals-jumps-9-while-181016444.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-23T16:51:14",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/93b661885c1df126249ae8566feec129.jpg"
+      "date": "2026-09-24T18:10:16",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/bac63587249166c791bebf91596dc461.jpg"
+    },
+    {
+      "title": "Unusual Machines Jumps 6% as Drone Names Bounce Together; Ondas Climbs 4%, Red Cat Rises 3%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-jumps-6-drone-180251960.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-09-24T18:02:51",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/1aaf4b5940e95cc8a8de47d972bd1500.png"
+    },
+    {
+      "title": "Space Stocks Rally as Buying Spreads Across the Pure Plays: Rocket Lab and Planet Labs Jump 6%, AST SpaceMobile Climbs 4%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/space-stocks-rally-buying-spreads-175256864.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-09-24T17:52:56",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/be7be0556a859345e72b6580e9ee5721.jpg"
+    },
+    {
+      "title": "IonQ Rises 4% as Post-Breakthrough Buying Continues; D-Wave Quantum Gains 3%, Rigetti Adds 2%",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ionq-rises-4-post-breakthrough-171438780.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-09-24T17:14:38",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/54acabe923da02a6b70581aff7808cd4.jpg"
     }
   ],
   "BTCUSD": [
@@ -124,148 +124,176 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
-      "title": "Dow Jones Futures: Stocks Fall As Yields Soar, But Palantir Flashes Buy Signal; Trump-Xi On Tap",
-      "link": "https://finance.yahoo.com/m/d54436eb-45f8-3808-b582-09ab7590f21b/dow-jones-futures%3A-stocks.html",
+      "title": "Talos Energy (TALO) Stock Trades Up, Here Is Why",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/talos-energy-talo-stock-trades-003258287.html",
+      "publisher": "StockStory",
+      "date": "2026-09-25T00:32:58",
+      "thumbnail": ""
+    },
+    {
+      "title": "Dow Jones Futures: Market Rally Resilient As Yields, Oil Prices Keep Rising; Tesla Event On Deck",
+      "link": "https://finance.yahoo.com/m/f20152d5-c38c-3d1c-80ad-574b31be1248/dow-jones-futures%3A-market.html",
       "publisher": "Investor's Business Daily",
-      "date": "2026-09-24T00:49:29",
-      "thumbnail": "https://media.zenfs.com/en/ibd.com/decc1b672a255279ecbb61e9dd752b6c.jpg"
+      "date": "2026-09-25T00:31:10",
+      "thumbnail": "https://media.zenfs.com/en/ibd.com/23f62732d8d1bea2cd28684dc8b1e58d.jpg"
     },
     {
-      "title": "Market Chatter: Venezuelan Oil Sales Stall as Shipping Costs Surge",
-      "link": "https://finance.yahoo.com/energy/articles/market-chatter-venezuelan-oil-sales-235527253.html",
-      "publisher": "MT Newswires",
-      "date": "2026-09-23T23:55:27",
-      "thumbnail": ""
+      "title": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-futures-001254918.html",
+      "publisher": "Stocktwits",
+      "date": "2026-09-25T00:12:54",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/2e5a31d25723206cf63cff08917ac4ed.jpg"
     },
     {
-      "title": "3 Companies With a Strong History of Dividend Growth",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-companies-strong-history-dividend-231500498.html",
-      "publisher": "Zacks",
-      "date": "2026-09-23T23:15:00",
-      "thumbnail": ""
-    },
-    {
-      "title": "Washington’s oil lever is depleted, John Divine says the next move is in the VIX and natural gas",
-      "link": "https://finance.yahoo.com/energy/articles/washington-oil-lever-depleted-john-230042347.html",
-      "publisher": "TheStreet",
-      "date": "2026-09-23T23:00:42",
-      "thumbnail": "https://media.zenfs.com/en/thestreet_881/2fd5d4f7fc295d562b38c06e9424727c.jpg"
-    },
-    {
-      "title": "Canada’s Oil Patch On Track For Biggest M&A Wave In A Decade",
-      "link": "https://finance.yahoo.com/energy/articles/canada-oil-patch-track-biggest-230000713.html",
+      "title": "5 Energy Stocks Positioned for a Prolonged Iran War",
+      "link": "https://finance.yahoo.com/energy/articles/5-energy-stocks-positioned-prolonged-000000170.html",
       "publisher": "Oilprice.com",
-      "date": "2026-09-23T23:00:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/68aaddf66e4d36ed0a1142fde9a9ee1e.jpg"
+      "date": "2026-09-25T00:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/73ec2953c80bcd11973db7271a184c45.jpg"
     },
     {
-      "title": "AI Rally, Weaker Yen Set the Stage for Japan’s Market Return",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ai-rally-weaker-yen-set-224438925.html",
-      "publisher": "Bloomberg",
-      "date": "2026-09-23T22:44:38",
-      "thumbnail": "https://media.zenfs.com/en/bloomberg_holding_pen_162/b52a6b0fa9e010c1af1eaef1890eba74.jpg"
+      "title": "Review & Preview: It’s All About the Yields",
+      "link": "https://finance.yahoo.com/m/fa5d64bd-0841-37f2-b203-297c5407f915/review-%26-preview%3A-it%E2%80%99s-all.html",
+      "publisher": "Barrons.com",
+      "date": "2026-09-24T23:55:00",
+      "thumbnail": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png"
     },
     {
-      "title": "Bank of America resets its oil price target with strong warning",
-      "link": "https://finance.yahoo.com/energy/articles/bank-america-resets-oil-price-214700623.html",
-      "publisher": "TheStreet",
-      "date": "2026-09-23T21:47:00",
-      "thumbnail": "https://media.zenfs.com/en/thestreet_881/4e2714491c59104ac6d436518d9a59b2.jpg"
+      "title": "Streetwise: Bond Traders Are Paying Too Much Attention to Oil Prices",
+      "link": "https://finance.yahoo.com/m/3213d702-b8ba-304f-b3bc-909195144be7/streetwise%3A-bond-traders-are.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-09-24T23:01:25",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
     },
     {
-      "title": "Trading Day: US yields cross 5% threshold​",
-      "link": "https://finance.yahoo.com/markets/articles/trading-day-us-yields-cross-211010427.html",
-      "publisher": "Reuters",
-      "date": "2026-09-23T21:10:10",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/959e3d9d5dae4cf2b424ec9144338a26.jpg"
+      "title": "Soaring Freight Costs Make Japan’s Crude Imports the World’s Most Expensive",
+      "link": "https://finance.yahoo.com/energy/articles/soaring-freight-costs-japan-crude-230000892.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-09-24T23:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/298a02b31c9c9a996dd48d4547e3377e.jpg"
     },
     {
-      "title": "The 10-Year Treasury Is Back Above 5%. Here Comes the Pain.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/10-treasury-back-above-5-205909212.html",
-      "publisher": "Moby",
-      "date": "2026-09-23T20:59:09",
-      "thumbnail": "https://media.zenfs.com/en/moby_896/323c4ba2941b3d55a0869e18721442f3.jpg"
+      "title": "Why a U.S. Diesel Export Ban Won’t Lower Fuel Prices",
+      "link": "https://finance.yahoo.com/energy/articles/why-u-diesel-export-ban-220000674.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-09-24T22:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/69359b3207cda7033aac486b23dea650.jpg"
+    },
+    {
+      "title": "Update: US Equity Indexes Close Mixed as Higher Crude Oil, Hawkish Fed-Speak Push Treasury Yields Sharply Higher",
+      "link": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-close-mixed-211839584.html",
+      "publisher": "MT Newswires",
+      "date": "2026-09-24T21:18:39",
+      "thumbnail": ""
+    },
+    {
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "link": "https://finance.yahoo.com/m/90adc326-8956-3a9d-af3b-2b254933360c/energy-%26-utilities-roundup%3A.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-09-24T21:09:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7c89d27141ad9296d6b9cbf530886a02.jpg"
     }
   ],
   "GOLD": [
     {
-      "title": "Barrick (GOLD) Stock Could Be 24% Overvalued On Cash Flow Questions",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-gold-stock-could-24-231619262.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-09-23T23:16:19",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
-    },
-    {
-      "title": "Eldorado Gold (TSX:ELD) Stock Could Be A Bargain On Cash Flow",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-tsx-eld-stock-231458091.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-09-23T23:14:58",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
-    },
-    {
-      "title": "Kinross Gold Lowers 2026, 2027 Gold Production Outlook",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/kinross-gold-lowers-2026-2027-212743374.html",
+      "title": "Market Chatter: Gold Selloff Is Temporary, Hedge Fund Manager Lamm Says",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/market-chatter-gold-selloff-temporary-230133518.html",
       "publisher": "MT Newswires",
-      "date": "2026-09-23T21:27:43",
+      "date": "2026-09-24T23:01:33",
       "thumbnail": ""
     },
     {
-      "title": "Stock Market Today: Small Caps, Gold Miners Spanked Amid Sell-Off; Meta Makes A Bullish Move",
-      "link": "https://finance.yahoo.com/m/f0c95ea3-7b96-3a04-82c0-08260c90b7cc/stock-market-today%3A-small.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-09-23T20:59:57",
-      "thumbnail": "https://media.zenfs.com/en/ibd.com/2b361c700deeb12a512fd0325e9f3f5b.jpg"
+      "title": "Torex Gold Provides Q3 2026 Morelos Drilling & Exploration Update",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/torex-gold-provides-q3-2026-220000273.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-09-24T22:00:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/686e2dc266b3bb9f69acafc2551c2d4d.jpg"
     },
     {
-      "title": "Federal Court Enters Consent Decree Against Gold Star Distribution, Inc. Following Persistent Insanitary Warehouse Conditions",
-      "link": "https://finance.yahoo.com/healthcare/articles/federal-court-enters-consent-decree-203500722.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-09-23T20:35:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/b34dc810553b5dd5c7006b1d02121f1f.png"
-    },
-    {
-      "title": "Asset Portfolio Briefing: First Gold Production at Cuiú Cuiú, Imminent Gold Production at Amulsar, and Other Positive Updates",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/asset-portfolio-briefing-first-gold-200500063.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-09-23T20:05:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/f963e681db07ecf7bde0f9795357d9ee.png"
-    },
-    {
-      "title": "Royal Gold Presenting at the John Tumazos Very Independent Research 2026 Virtual Conference",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-presenting-john-tumazos-200500234.html",
-      "publisher": "Business Wire",
-      "date": "2026-09-23T20:05:00",
-      "thumbnail": "https://media.zenfs.com/en/business-wire.com/0fb7462cfcd4c0994c6362e61ea4f502.jpg"
-    },
-    {
-      "title": "NV Gold Identifies New Gold Zone at Slumber Gold Project in Nevada",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/nv-gold-identifies-gold-zone-194822734.html",
+      "title": "Lundin Gold Reports High-Grade Drill Results at Bonza Sur, Identifies New Epithermal Vein System",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/lundin-gold-reports-high-grade-211816615.html",
       "publisher": "MT Newswires",
-      "date": "2026-09-23T19:48:22",
+      "date": "2026-09-24T21:18:16",
       "thumbnail": ""
     },
     {
-      "title": "Gold ETFs Just Had Their 2nd-Biggest Month Ever",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etfs-just-had-2nd-193240565.html",
-      "publisher": "etf.com",
-      "date": "2026-09-23T19:32:40",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/6f17bdf4a053436cb116205f87a5e5f7.jpg"
+      "title": "Lundin Gold Reports 204.26 g/t Au over 3.05 Metres at Bonza Sur; Quebrada Dorada Discovery Extends Gold Epithermal Trend to 8 km",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/lundin-gold-reports-204-26-210000564.html",
+      "publisher": "CNW Group",
+      "date": "2026-09-24T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/2a533f7bb42aa6f2670f022b1b3c9902.jpg"
+    },
+    {
+      "title": "1911 Gold Files NI 43-101 Technical Report for the Ogama-Rockland Gold Project Updated Mineral Resource Estimate",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/1911-gold-files-ni-43-203200358.html",
+      "publisher": "CNW Group",
+      "date": "2026-09-24T20:32:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/f14233178f5af9aed48fc5f179ff6243.jpg"
+    },
+    {
+      "title": "1911 Gold Files NI 43-101 Technical Report for the Ogama-Rockland Gold Project Updated Mineral Resource Estimate",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/1911-gold-files-ni-43-203200277.html",
+      "publisher": "PR Newswire",
+      "date": "2026-09-24T20:32:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/f14233178f5af9aed48fc5f179ff6243.jpg"
+    },
+    {
+      "title": "Banyan Gold Says Franco-Nevada Subscribes for 10 Million Shares",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/banyan-gold-says-franco-nevada-203044162.html",
+      "publisher": "MT Newswires",
+      "date": "2026-09-24T20:30:44",
+      "thumbnail": ""
+    },
+    {
+      "title": "Is i-80 Gold (TSX:IAU) A Bargain On Mineral Point Drill Results?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/80-gold-tsx-iau-bargain-201740543.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-09-24T20:17:40",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
+    },
+    {
+      "title": "Why Kinross Gold Stock Is Crashing Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-kinross-gold-stock-crashing-200913504.html",
+      "publisher": "Motley Fool",
+      "date": "2026-09-24T20:09:13",
+      "thumbnail": "https://media.zenfs.com/en/motleyfool.com/e0f99dc57b988cb099c62a4c44760117.jpg"
     },
     {
       "title": "BC-Gold-Silver",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-190014825.html",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-190013739.html",
       "publisher": "Associated Press",
-      "date": "2026-09-23T19:00:14",
+      "date": "2026-09-24T19:00:13",
       "thumbnail": ""
     }
   ],
   "NEM": [
+    {
+      "title": "Newmont Announces Third Quarter 2026 Results Conference Call",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-announces-third-quarter-2026-204500945.html",
+      "publisher": "Business Wire",
+      "date": "2026-09-24T20:45:00",
+      "thumbnail": "https://media.zenfs.com/en/business-wire.com/cf49d8b1a8fa7532ab21a074461d2683.jpg"
+    },
+    {
+      "title": "AEM vs. NEM: Which Gold Mining Giant Should You Invest in Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aem-vs-nem-gold-mining-102600444.html",
+      "publisher": "Zacks",
+      "date": "2026-09-24T10:26:00",
+      "thumbnail": "https://media.zenfs.com/en/zacks.com/aaa340faeefa7ee40b3aaf505e5e01be.jpg"
+    },
     {
       "title": "Newmont Corporation (NEM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
       "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-corporation-nem-sees-more-215005595.html",
       "publisher": "Zacks",
       "date": "2026-09-23T21:50:05",
       "thumbnail": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462.jpg"
+    },
+    {
+      "title": "Gold Defied the Fed’s Rate Hike—These 3 Plays Stand Out",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-defied-fed-rate-hike-164500383.html",
+      "publisher": "MarketBeat",
+      "date": "2026-09-23T16:45:00",
+      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/9793373cdf0310b82089b1700f032600.png"
     },
     {
       "title": "Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?",
@@ -308,27 +336,6 @@ var NEWS_DATA = {
       "publisher": "Motley Fool",
       "date": "2026-09-19T18:03:00",
       "thumbnail": "https://media.zenfs.com/en/motleyfool.com/fb51b1acfb9523429fe8e0deca965a88.jpg"
-    },
-    {
-      "title": "Newmont price target raised by UBS on capital returns outlook",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-price-target-raised-ubs-182600504.html",
-      "publisher": "Proactive",
-      "date": "2026-09-18T18:26:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/8cb939903e8dbac2a54ddf63b910059f.jpg"
-    },
-    {
-      "title": "When To Dump Stocks: These IBD 50 Components Hit Sell Signals",
-      "link": "https://finance.yahoo.com/m/5064b696-826c-3a2b-b3e3-7a744d1a35f8/when-to-dump-stocks%3A-these.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-09-18T16:56:58",
-      "thumbnail": "https://media.zenfs.com/en/ibd.com/9a79a487d75556a690883561642616bc.jpg"
-    },
-    {
-      "title": "Company News for Sep 18, 2026",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-18-2026-133000401.html",
-      "publisher": "Zacks",
-      "date": "2026-09-18T13:30:00",
-      "thumbnail": "https://media.zenfs.com/en/zacks.com/aaa340faeefa7ee40b3aaf505e5e01be.jpg"
     }
   ]
 };
