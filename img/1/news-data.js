@@ -1,74 +1,74 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "Forget Waiting Three Months for SPY’s Dividend. Invesco’s High-Dividend Fund Pays Every Month",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-waiting-three-months-spy-230629592.html",
+      "title": "The Hidden Cost of Owning Every Stock: $167,050 of a $500,000 VTI Position Sits in Its Top Ten Names",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hidden-cost-owning-every-stock-003342923.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T23:06:29",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d8bb12829fe74553ece940e4658d3204.jpg"
+      "date": "2026-10-02T00:33:42",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/68973e7d751268c5f02dacc9cb345dcb.jpg"
     },
     {
-      "title": "Wall Street Now Sells 11 Weekly-Pay ETFs. Only Three Have Beaten the S&P. Here They Are",
-      "link": "https://finance.yahoo.com/markets/options/articles/wall-street-now-sells-11-213503008.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T21:35:03",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/12b65e10ea3a42cb5c4e241df0dda4e4.jpg"
-    },
-    {
-      "title": "S&P 500, Dow End Lower As Investors Shrug Off Cooler-Than-Expected Inflation Data — MGM, SPCX, AAPL, TSM In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-end-lower-212329848.html",
+      "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-232759547.html",
       "publisher": "Stocktwits",
-      "date": "2026-09-30T21:23:29",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/a0aff5d4cc7bb428a65de41e04565660.jpg"
+      "date": "2026-10-01T23:27:59",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/73b13a7b5a368f6966892a89ec902d51"
     },
     {
-      "title": "Big Pharma Got Its Tariff Exemption. The Biotech ETF Barely Blinked",
-      "link": "https://finance.yahoo.com/healthcare/articles/big-pharma-got-tariff-exemption-193531704.html",
+      "title": "Tesla Is Down 20% in 2026. These Two Other EV Makers Are Doing Even Worse.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-down-20-2026-two-191317192.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T19:35:31",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a9c8869e292415ac8443992179e706e0.jpg"
+      "date": "2026-10-01T19:13:17",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/b1fd68cc8958003ae14855dc4f1672aa.jpg"
     },
     {
-      "title": "Which Buy Now Pay Later Stock Dominated in September: Klarna, Affirm, or Sezzle?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-now-pay-later-stock-191613525.html",
+      "title": "Snap Is Down 32% in 2026: Overlooked Bargain or Toxic Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/snap-down-32-2026-overlooked-190217529.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T19:16:13",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/901b917b0c718af57294342c2323a6d6"
+      "date": "2026-10-01T19:02:17",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/ded3ec7c7f79dd22e5cf48a82114ef14.jpg"
     },
     {
-      "title": "Most Interesting New ETFs of Q3",
-      "link": "https://finance.yahoo.com/markets/options/articles/most-interesting-etfs-q3-190600967.html",
-      "publisher": "Zacks",
-      "date": "2026-09-30T19:06:00",
-      "thumbnail": ""
-    },
-    {
-      "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/airline-stock-dominated-september-american-190340765.html",
+      "title": "Applied Optoelectronics Is Up 205% This Year. Is It Too Late to Buy AAOI Stock Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-205-too-buy-185511376.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T19:03:40",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/5a6d74c06873178dacb3f2b20ad27d02.jpg"
+      "date": "2026-10-01T18:55:11",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/83c597fdd93a0ae3e24978750aa03289.jpg"
     },
     {
-      "title": "Which Automaker Stock Dominated in September: Tesla, Ford, or General Motors?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/automaker-stock-dominated-september-tesla-185328122.html",
+      "title": "Ondo’s John Hoffman says BlackRock-powered portfolio tokens are the SPY moment for on-chain finance",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/ondo-john-hoffman-says-blackrock-181155481.html",
+      "publisher": "TheStreet",
+      "date": "2026-10-01T18:11:55",
+      "thumbnail": "https://media.zenfs.com/en/thestreet_881/c2ec41a87509bf6b24901648c93e9d9f.png"
+    },
+    {
+      "title": "SPY vs. SPY: This Chart Says We’re Already in a Market Correction. Here’s My Trade Plan.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spy-vs-spy-chart-says-171450168.html",
+      "publisher": "Barchart",
+      "date": "2026-10-01T17:14:50",
+      "thumbnail": "https://media.zenfs.com/en/barchart_com_477/5e8f936c3140d7b4b2c375470b4a7378.jpg"
+    },
+    {
+      "title": "AMC Sinks 9% as Cinema Stocks Sell Off Together; IMAX Drops 4%, Cinemark Slides 3%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amc-sinks-9-cinema-stocks-170945521.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T18:53:28",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/e87a842b2a18ac4aea2b0e1f86683631.jpg"
+      "date": "2026-10-01T17:09:45",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/2dd00cded4a84d3b6ad8309550f47f1c.jpg"
     },
     {
-      "title": "EXCLUSIVE: Another Warsh Rate Hike Is Hard to Justify After Core PCE Undershoots, Says Truflation's Oliver Rust",
-      "link": "https://finance.yahoo.com/economy/policy/articles/exclusive-another-warsh-rate-hike-184458622.html",
-      "publisher": "Benzinga Prediction Markets",
-      "date": "2026-09-30T18:44:58",
-      "thumbnail": "https://media.zenfs.com/en/benzinga_prediction_markets_613/56282e82967e084515b9d3e557e3f20e.jpg"
-    },
-    {
-      "title": "Unity Software Surges 5% as Traders Weigh Meta Platforms VR Glasses Support; Adobe Rises 3%, Intuit Adds 2%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-surges-5-traders-181202063.html",
+      "title": "Unity Software Rallies 5% as Meta VR Support Extends Into a Second Session; Roblox Inches Higher, Take-Two Slides 3%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-rallies-5-meta-165459584.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T18:12:02",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/2735f2220d54d5fc5123c2555af0ab20.jpg"
+      "date": "2026-10-01T16:54:59",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d1c79218372a9b451b3df3486232fba4.jpg"
+    },
+    {
+      "title": "Unusual Machines Tumbles 8% Despite Pentagon’s Autonomous Warfare Push; AeroVironment Eases, Red Cat Pulls Back",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-tumbles-8-despite-164923345.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-10-01T16:49:23",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/5505cac572c9ba9956ec0127caec4b66.png"
     }
   ],
   "BTCUSD": [
@@ -131,149 +131,163 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
-      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
-      "link": "https://finance.yahoo.com/m/958fb542-74b3-3d16-bde8-baba1e31461e/dow-jones-futures%3A-micron.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-10-01T01:30:49",
-      "thumbnail": "https://media.zenfs.com/en/ibd.com/2b18bc6a2254941f70591a54e89a49b0.jpg"
+      "title": "Dollar at 17-month high as global bond rout hits euro",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-17-month-high-global-014904581.html",
+      "publisher": "Reuters",
+      "date": "2026-10-02T01:49:04",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/f4d6dde29467405236b5f06ab829eb0b.jpg"
     },
     {
-      "title": "Iran’s Disappearing Oil Is Becoming Everyone’s Problem",
-      "link": "https://finance.yahoo.com/energy/articles/iran-disappearing-oil-becoming-everyone-000000839.html",
+      "title": "U.S. stock futures drift higher with nonfarm payrolls in focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-drift-higher-011353345.html",
+      "publisher": "Investing.com",
+      "date": "2026-10-02T01:13:53",
+      "thumbnail": ""
+    },
+    {
+      "title": "Nikkei Falls 1.0%, Dragged by Tech, Auto Stocks",
+      "link": "https://finance.yahoo.com/m/62969113-f7eb-3b3f-bc92-32604eb28248/nikkei-falls-1.0%25%2C-dragged-by.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-10-02T00:24:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+    },
+    {
+      "title": "South Korea CPI inflation eases slightly in September",
+      "link": "https://finance.yahoo.com/economy/policy/articles/south-korea-cpi-inflation-eases-235845632.html",
+      "publisher": "Investing.com",
+      "date": "2026-10-01T23:58:45",
+      "thumbnail": ""
+    },
+    {
+      "title": "monday.com, Unity, Workiva, Appian, and Five9 Stocks Trade Up, What You Need To Know",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/monday-com-unity-workiva-appian-235707809.html",
+      "publisher": "StockStory",
+      "date": "2026-10-01T23:57:07",
+      "thumbnail": "https://media.zenfs.com/en/stockstory_922/b0ff34d265ee097cb2cbeeada2979c6a.jpg"
+    },
+    {
+      "title": "Guidewire Software, HubSpot, Asana, nCino, and Atlassian Shares Skyrocket, What You Need To Know",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/guidewire-software-hubspot-asana-ncino-234907218.html",
+      "publisher": "StockStory",
+      "date": "2026-10-01T23:49:07",
+      "thumbnail": "https://media.zenfs.com/en/stockstory_922/a6e762de6dc34cf1828cdeaea57f83d3.jpg"
+    },
+    {
+      "title": "RingCentral, Sprout Social, BlackLine, Sprinklr, and Cadence Design Systems Shares Are Soaring, What You Need To Know",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ringcentral-sprout-social-blackline-sprinklr-233307066.html",
+      "publisher": "StockStory",
+      "date": "2026-10-01T23:33:07",
+      "thumbnail": "https://media.zenfs.com/en/stockstory_922/38533eac083d60061b0fb1be3398279c.jpg"
+    },
+    {
+      "title": "Market Chatter: UK 30-Year Gilt Yield Tops 6% for First Time Since 1998",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/market-chatter-uk-30-gilt-225901989.html",
+      "publisher": "MT Newswires",
+      "date": "2026-10-01T22:59:01",
+      "thumbnail": ""
+    },
+    {
+      "title": "Venezuela’s Oil Exports Drop 9% as Freight Costs Bite",
+      "link": "https://finance.yahoo.com/energy/articles/venezuela-oil-exports-drop-9-210000162.html",
       "publisher": "Oilprice.com",
-      "date": "2026-10-01T00:00:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/9951131124deee3c1f38e5438c2bb27f.jpg"
+      "date": "2026-10-01T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/98cc47c7a74368a544946a1eba9cc6cf.jpg"
     },
     {
-      "title": "The war with Iran upended markets this month. There were losers — and winners",
-      "link": "https://finance.yahoo.com/markets/articles/war-iran-upended-markets-month-192804914.html",
-      "publisher": "CNN Business",
-      "date": "2026-09-30T22:15:36",
-      "thumbnail": "https://media.zenfs.com/en/cnn_business_articles_218/450dd6e02da1a44b7039c3ba0fceaa93.jpg"
-    },
-    {
-      "title": "A Tech-Fueled Stock Market Powers Through, but Limps Into the Fourth Quarter",
-      "link": "https://finance.yahoo.com/m/39c33298-f2a7-373d-a538-2ab63c3be697/a-tech-fueled-stock-market.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-09-30T21:37:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/53dca559451112e2a17977cbc0f5415c.jpg"
-    },
-    {
-      "title": "Auto & Transport Roundup: Market Talk",
-      "link": "https://finance.yahoo.com/m/2d467da1-7276-3937-9b77-b13209eed423/auto-%26-transport-roundup%3A.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-09-30T21:02:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/42c81892bfe3162f3a49dc2122885c70.jpg"
-    },
-    {
-      "title": "Global stocks mixed as markets weigh higher oil prices, bond yields",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-temper-gains-oil-pares-024801869.html",
-      "publisher": "AFP",
-      "date": "2026-09-30T20:36:11",
-      "thumbnail": "https://media.zenfs.com/en/afp.com/d6ecf7e1d1b2dc65fcbf1849cca9edfc.jpg"
-    },
-    {
-      "title": "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-slip-ahead-113432814.html",
+      "title": "Global bond selloff boosts dollar, pressures euro",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-scales-three-month-peak-051853252.html",
       "publisher": "Reuters",
-      "date": "2026-09-30T20:35:11",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/b00e4893fcd896430d9dd3c54b4568b4.jpg"
-    },
-    {
-      "title": "TSX Closer: Index Falls Again as Base Metals, Healthcare and Financials Drag",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-falls-again-202606050.html",
-      "publisher": "MT Newswires",
-      "date": "2026-09-30T20:26:06",
-      "thumbnail": ""
-    },
-    {
-      "title": "US Equity Markets Mixed After Soft Inflation Report, Higher Spending Data",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-soft-202013353.html",
-      "publisher": "MT Newswires",
-      "date": "2026-09-30T20:20:13",
-      "thumbnail": ""
-    },
-    {
-      "title": "US dollar flat against peers after softer-than-expected inflation data",
-      "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-set-september-rise-mainly-013109560.html",
-      "publisher": "Reuters",
-      "date": "2026-09-30T20:10:18",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/c44fb71e70347d39650e4eb327541614.jpg"
+      "date": "2026-10-01T20:55:39",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/f80d30a09c02f606805f0b2c1e18af00.jpg"
     }
   ],
   "GOLD": [
     {
-      "title": "Western Ridge Resources to acquire drill-ready Murchison gold-antimony portfolio",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/western-ridge-resources-acquire-drill-004800902.html",
-      "publisher": "Proactive",
-      "date": "2026-10-01T00:48:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/55cd2cfd904e8a899ce160158745c070.jpg"
+      "title": "Over half a million TRUMP fans will fight for an 18-karat gold watch",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/over-half-million-trump-fans-233241701.html",
+      "publisher": "TheStreet",
+      "date": "2026-10-01T23:32:41",
+      "thumbnail": "https://media.zenfs.com/en/thestreet_881/6003b79a8b61bf62e795668c3fb5de90.png"
     },
     {
-      "title": "Pantoro Gold turns cash flow into Norseman growth as reserves rise and Mainfield takes shape",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/pantoro-gold-turns-cash-flow-235700275.html",
-      "publisher": "Proactive",
-      "date": "2026-09-30T23:57:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/7f79a07da76d8c7cc0592ac44386dcee.jpg"
+      "title": "Capital Regency Expands Multi-Asset Investment Platform With Access to 100+ International Markets",
+      "link": "https://finance.yahoo.com/markets/articles/capital-regency-expands-multi-asset-225800866.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-01T22:58:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/2fe030242272324745a63686f9c2f87b.jpg"
     },
     {
-      "title": "Small Cap Watch: Small caps rebound as Riversgold advances Northern Zone permitting",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/small-cap-watch-small-caps-232500268.html",
-      "publisher": "Proactive",
-      "date": "2026-09-30T23:25:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/902b5a536d57f57e2ce61b511a26b5e9.jpg"
-    },
-    {
-      "title": "Revival Gold Announces Filing of Final Base Shelf Prospectus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/revival-gold-announces-filing-final-232100821.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-09-30T23:21:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/7348e8c5d500f59c4b1036d4b0461788.png"
-    },
-    {
-      "title": "Riversgold lodges mining plan for Kalgoorlie Gold Project",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/riversgold-lodges-mining-plan-kalgoorlie-232000290.html",
-      "publisher": "Proactive",
-      "date": "2026-09-30T23:20:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/4d1c39d054bbe23d73475615a2008540.jpg"
-    },
-    {
-      "title": "Barrick Mining (B) Reaches Mali Labor Deal To Avert Loulo Gounkoto Strikes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-b-reaches-mali-231306757.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-09-30T23:13:06",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
-    },
-    {
-      "title": "Mark Cuban Called Meditation App Founder With $2M A 'Gold Digger' On 'Shark Tank' — Then Richard Branson Threw Water At Him",
-      "link": "https://finance.yahoo.com/small-business/articles/mark-cuban-called-meditation-app-230007299.html",
-      "publisher": "Benzinga",
-      "date": "2026-09-30T23:00:07",
-      "thumbnail": "https://media.zenfs.com/en/benzinga_79/eed355ac21a89b8658bcbf9c08ec90db.jpg"
-    },
-    {
-      "title": "Crypto Kicks Off Q4 With More Momentum Than Stocks or Gold: Which Will Carry Bitcoin, XRP, or Solana the Furthest?",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-kicks-off-q4-more-221459052.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-09-30T22:14:59",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/200ec583fd15519de472f6adba8577e3.png"
-    },
-    {
-      "title": "Goldcana Completes Issuance of Consideration Shares Under La Sarre Gold Project Option Agreement",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/goldcana-completes-issuance-consideration-shares-214500777.html",
+      "title": "Austral Gold and Challenger Agree to End Toll Agreement",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/austral-gold-challenger-agree-end-225500825.html",
       "publisher": "TMX Newsfile",
-      "date": "2026-09-30T21:45:00",
+      "date": "2026-10-01T22:55:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/53adedb55bf3b53eb977740e86e22ff6.jpg"
+    },
+    {
+      "title": "Affinor Growers Inc. Engages Voelpel Gold Medal Investments Ltd. as an Advisor to the Company",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/affinor-growers-inc-engages-voelpel-223100814.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-10-01T22:31:00",
       "thumbnail": ""
     },
     {
-      "title": "Osisko Gold Completes $600 Million Senior Secured Notes Offering",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/osisko-gold-completes-600-million-212557276.html",
+      "title": "Stonegate Capital Partners Updates Coverage on Cassiar Gold Corp. (GLDC) 26Q2",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stonegate-capital-partners-updates-coverage-211400349.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-10-01T21:14:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/25721db607eea2a0d7c1d4ee4a8caa02.jpg"
+    },
+    {
+      "title": "Osisko Gold Appoints Elijah Tyshynski as Chief Financial Officer",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/osisko-gold-appoints-elijah-tyshynski-211249609.html",
       "publisher": "MT Newswires",
-      "date": "2026-09-30T21:25:57",
+      "date": "2026-10-01T21:12:49",
       "thumbnail": ""
+    },
+    {
+      "title": "Silvercorp Metals Maps Global Growth With Ecuador and Kyrgyzstan Mine Builds",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/silvercorp-metals-maps-global-growth-210211444.html",
+      "publisher": "MarketBeat",
+      "date": "2026-10-01T21:02:11",
+      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/f32701459eebdcf02f28ed1ad0b23633.png"
+    },
+    {
+      "title": "Osisko Gold Announces Management Update",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/osisko-gold-announces-management-210000861.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-01T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/906b7e547176e87e80bfd3d46f5c9e0a.png"
+    },
+    {
+      "title": "Edison Lithium Provides Update on Proposed Acquisition of Joutel North-West and Gagne Properties",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/edison-lithium-provides-proposed-acquisition-210000253.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-10-01T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/809a4ad1b98f4307e4c24b5ae76b9ba2.jpg"
+    },
+    {
+      "title": "Atlantis Casino Resort Spa Earns Eight Gold Awards in 2026 Best of Sierra Nevada",
+      "link": "https://finance.yahoo.com/media-advertising/articles/atlantis-casino-resort-spa-earns-205100139.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-01T20:51:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/cdf23572d0af0bca2691f96068fe6f09.png"
     }
   ],
   "NEM": [
+    {
+      "title": "Will Newmont (NEM) Beat Estimates Again in Its Next Earnings Report?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-beat-estimates-again-151005929.html",
+      "publisher": "Zacks",
+      "date": "2026-10-01T15:10:05",
+      "thumbnail": "https://media.zenfs.com/en/zacks.com/670d1917693293f70179651625deb88f.jpg"
+    },
+    {
+      "title": "What You Need to Know Ahead of Newmont's Earnings Release",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-newmonts-earnings-release-132931419.html",
+      "publisher": "Barchart",
+      "date": "2026-10-01T13:29:31",
+      "thumbnail": "https://media.zenfs.com/en/barchart_com_477/1164596d62905d35506abffd29fda04f.jpg"
+    },
     {
       "title": "Here's Why Newmont Corporation (NEM) Fell More Than Broader Market",
       "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-newmont-corporation-nem-205004273.html",
@@ -329,20 +343,6 @@ var NEWS_DATA = {
       "publisher": "MT Newswires",
       "date": "2026-09-30T11:39:59",
       "thumbnail": ""
-    },
-    {
-      "title": "Can Barrick Mining's Cash Engine Unlock Greater Returns Ahead?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-minings-cash-engine-unlock-102500993.html",
-      "publisher": "Zacks",
-      "date": "2026-09-30T10:25:00",
-      "thumbnail": "https://media.zenfs.com/en/zacks.com/aaa340faeefa7ee40b3aaf505e5e01be.jpg"
-    },
-    {
-      "title": "Newmont Targets Per-Share Growth After Record $5.3B Free Cash Flow",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/newmont-targets-per-share-growth-000202026.html",
-      "publisher": "MarketBeat",
-      "date": "2026-09-30T00:02:02",
-      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/ad39cd74766148c0fbabc5d337789dff.jpg"
     }
   ]
 };
