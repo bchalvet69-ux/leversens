@@ -1,74 +1,74 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-see-worst-000726391.html",
+      "title": "Dow Sees Best Day In Over A Month As Investors Rotate Out Of AI Trade On Overspending Concerns — CRWV, META, SPCX, PEP In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dow-sees-best-day-over-235303423.html",
       "publisher": "Stocktwits",
-      "date": "2026-10-15T00:07:26",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/a0aff5d4cc7bb428a65de41e04565660.jpg"
+      "date": "2026-10-15T23:53:03",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/405b9da044f7209291348dacdaa918d7.jpg"
     },
     {
-      "title": "Is ETF Innovation Inviting a Regulatory Sledgehammer?",
-      "link": "https://finance.yahoo.com/markets/options/articles/etf-innovation-inviting-regulatory-sledgehammer-234052019.html",
+      "title": "Who's Really Making Money in ETFs?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/whos-really-making-money-etfs-221904828.html",
       "publisher": "etf.com",
-      "date": "2026-10-14T23:40:52",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/94ec834a4621a514837b6f45343a78d3.png"
+      "date": "2026-10-15T22:19:04",
+      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/f92a5b81436080e2346c969acf17468f.png"
     },
     {
-      "title": "Robinhood Is Now Down 11% This Year. Is It Time to Sell?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-now-down-11-time-191228179.html",
+      "title": "$250,000 in These 3 Monthly Payers Produces $2,224 a Month. Here Is Where the Money Actually Comes From",
+      "link": "https://finance.yahoo.com/markets/options/articles/250-000-3-monthly-payers-213328494.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-10-14T19:12:28",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/da02b94dbd1a0db04a97ed952538313a.jpg"
+      "date": "2026-10-15T21:33:28",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/48d965dd92d94085b56b7f7e0e9d5695.jpg"
     },
     {
-      "title": "What is Union Pacific’s (UNP) Economic Moat, and is it Widening or Narrowing?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/union-pacific-unp-economic-moat-183912819.html",
+      "title": "DraftKings Is Down 44% in 2026: Is DKNG Stock Dead Money or Due for a Bounce?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-down-44-2026-dkng-182001805.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-10-15T18:20:01",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/580c465d1423d1f1b118d4385ab1fe3b.jpg"
+    },
+    {
+      "title": "Starwood Property Trust (STWD) Earnings Fell 95%. Is the Stock Still Cheap?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/starwood-property-trust-stwd-earnings-181808410.html",
       "publisher": "Insider Monkey",
-      "date": "2026-10-14T18:39:12",
-      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/58da0ade5efc58ee92e82b4443968759.jpg"
+      "date": "2026-10-15T18:18:08",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/94330843c703dac82db16099736815d3.jpg"
     },
     {
-      "title": "Marsh McLennan (MRSH) vs Aon (AON): Which Insurance Broker is a Better Buy?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marsh-mclennan-mrsh-vs-aon-183836398.html",
+      "title": "Carnival Just Surged 17% in a Month: Take Profits, or Buy More?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/carnival-just-surged-17-month-181703916.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-10-15T18:17:03",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/6f6b762a04268b942169fc5ed25c2bd2.jpg"
+    },
+    {
+      "title": "Rithm Capital (RITM) Trades at 0.76 Times Book Value. Should You Buy It?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rithm-capital-ritm-trades-0-181646521.html",
       "publisher": "Insider Monkey",
-      "date": "2026-10-14T18:38:36",
-      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/a01fe5653a4ee8a8e7124f5738e5993b.jpg"
+      "date": "2026-10-15T18:16:46",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/47d403703d4544da9d1946a37c08d526.jpg"
     },
     {
-      "title": "What is American Water Works’ (AWK) Economic Moat, and is it Widening or Narrowing?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/american-water-works-awk-economic-183747873.html",
+      "title": "Dynex Capital (DX) Trades at 4 Times Last Year’s Earnings and 8 Times Next Year’s. Which is Right?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dynex-capital-dx-trades-4-181634841.html",
       "publisher": "Insider Monkey",
-      "date": "2026-10-14T18:37:47",
-      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/1c7747268705d9fb889c11efcdb66f3c.jpg"
+      "date": "2026-10-15T18:16:34",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/caa94da070124d69b749ca5ac07d81c8.jpg"
     },
     {
-      "title": "Walmart Advances 3% as Inflation Data Sends Money Into Defensives; Costco and Target Edge Higher",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-advances-3-inflation-data-180643511.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-14T18:06:43",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/6fe00663cd6a6267af319f2ab0e86de9.png"
+      "title": "Essent Group (ESNT): Good Investment or Just a Cheap One?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/essent-group-esnt-good-investment-181555122.html",
+      "publisher": "Insider Monkey",
+      "date": "2026-10-15T18:15:55",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/f498d7c3db399b2ae435e5fa5faaeb75.jpg"
     },
     {
-      "title": "Unity Software Sinks 10% Despite Wedbush Target Hike on Vector Ad Platform; AppLovin Falls 3%, Trade Desk Slips",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/unity-software-sinks-10-despite-175755690.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-14T17:57:55",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/f5d2574118daead0256105e3ac658d81.jpg"
-    },
-    {
-      "title": "Affirm Falls 10% as Inflation Print Lifts Yields; Klarna Drops 3%, PayPal Barely Budges",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/affirm-falls-10-inflation-print-164749757.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-14T16:47:49",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/9b83e02e7d4a1cda910c1fc3111646cf.jpg"
-    },
-    {
-      "title": "Taiwan Semiconductor’s Top Line Growth is Starting to Raise Eyebrows",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-top-line-growth-164518154.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-14T16:45:18",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/f2fb62b62e0c2cc5454f8d0b284c19cc.jpg"
+      "title": "Is UWM Holdings (UWMC) the Most Expensive Cheap Stock in Mortgage Lending?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uwm-holdings-uwmc-most-expensive-181539674.html",
+      "publisher": "Insider Monkey",
+      "date": "2026-10-15T18:15:39",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/b9958f98e0055981db141a0457a54101.jpg"
     }
   ],
   "BTCUSD": [
@@ -145,142 +145,149 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
-      "title": "Taiwan Semiconductor Manufacturing And 2 AI Chip Stocks To Watch",
-      "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-2-ai-231859326.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-10-14T23:18:59",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/0f9606c11fab5873fe681760ed38df34.jpg"
-    },
-    {
-      "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
-      "link": "https://finance.yahoo.com/energy/articles/oil-prices-climb-traders-weigh-012735546.html",
-      "publisher": "Reuters",
-      "date": "2026-10-14T23:16:53",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/43d178bfffb4641d03b8c374fc00ebed.jpg"
-    },
-    {
-      "title": "Oil Market Tightens as Tanker Attacks and Inventory Draws Mount",
-      "link": "https://finance.yahoo.com/energy/articles/oil-market-tightens-tanker-attacks-230000051.html",
+      "title": "Standard Chartered: Trump's Russian Diesel Won't Add New Supply",
+      "link": "https://finance.yahoo.com/energy/articles/standard-chartered-trumps-russian-diesel-000000613.html",
       "publisher": "Oilprice.com",
-      "date": "2026-10-14T23:00:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/8b7833f6c655a56bafd60fca2ceb2c8b.jpg"
+      "date": "2026-10-16T00:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/64b4c3afaf36ca9a1fa06cae7aadbb6b.jpg"
     },
     {
-      "title": "HighPeak Energy (HPK) Lands $450 Million Preferred Deal, Is The Stock Already Fully Valued?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-lands-450-221512263.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-10-14T22:15:12",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/04f4d884213644d02409dfe16895b12d.jpg"
+      "title": "The Diesel Crunch Will Persist Well into 2027",
+      "link": "https://finance.yahoo.com/energy/articles/diesel-crunch-persist-well-2027-230000048.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-10-15T23:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/f37eb2343453352f38d4b9d19a74f755.jpg"
     },
     {
-      "title": "First Helium Announces Strategic Shallow Heavy Oil Acquisition",
-      "link": "https://finance.yahoo.com/energy/articles/first-helium-announces-strategic-shallow-215500749.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-10-14T21:55:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/86562a456d0df591ae2619b083f4b46f.png"
-    },
-    {
-      "title": "Update: Nasdaq, S&P 500 Fall for Third Straight Session Following Hot CPI Data",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-fall-third-210112489.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-14T21:01:12",
-      "thumbnail": "https://media.zenfs.com/en/mt_newswires_premium_news_706/97f8529991dafd96c1cb04f4325c2221.jpg"
-    },
-    {
-      "title": "Basic Materials Roundup: Market Talk",
-      "link": "https://finance.yahoo.com/m/67ccf912-6817-35f6-819d-a73232b9f325/basic-materials-roundup%3A.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-10-14T21:00:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/6cbe71ab82b896527dcbe08183dedb54.jpg"
+      "title": "Energy Substantiation Brings Physically Backed Crude Oil to Institutional Markets with WTIC Listing on LMAX Digital",
+      "link": "https://finance.yahoo.com/energy/articles/energy-substantiation-brings-physically-backed-212300480.html",
+      "publisher": "PR Newswire",
+      "date": "2026-10-15T21:23:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/74c44ff150d73cb32229686d088209b5.png"
     },
     {
       "title": "Energy & Utilities Roundup: Market Talk",
-      "link": "https://finance.yahoo.com/m/9aa37204-9e35-38ae-996e-febbb3b79bc5/energy-%26-utilities-roundup%3A.html",
+      "link": "https://finance.yahoo.com/m/cc8fc7dd-b2d5-3e42-8dfc-e4ab27cdb683/energy-%26-utilities-roundup%3A.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-10-14T20:58:00",
+      "date": "2026-10-15T21:04:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/4b88035680dacc30e702e6dabfd91eed.jpg"
     },
     {
-      "title": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
-      "link": "https://finance.yahoo.com/energy/articles/global-diesel-shortages-could-last-205215069.html",
+      "title": "Basic Materials Roundup: Market Talk",
+      "link": "https://finance.yahoo.com/m/9132dd09-0638-33cc-9a5b-b8508a5a4ab9/basic-materials-roundup%3A.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-10-15T21:03:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/6cbe71ab82b896527dcbe08183dedb54.jpg"
+    },
+    {
+      "title": "Container Shipping Would See Little Relief if US Eased Sanctions on ‘Shadow Fleet’ Vessels",
+      "link": "https://finance.yahoo.com/energy/articles/container-shipping-see-little-relief-210011435.html",
       "publisher": "Sourcing Journal",
-      "date": "2026-10-14T20:52:15",
-      "thumbnail": "https://media.zenfs.com/en/sourcing_journal_735/cd5ee96b9aa36f34020ec70083d53ac7.jpg"
+      "date": "2026-10-15T21:00:11",
+      "thumbnail": "https://media.zenfs.com/en/sourcing_journal_735/4b062c2e90f790a24b07129b83ab7064.jpg"
+    },
+    {
+      "title": "Diamondback, Expand Energy Named Top Picks at Scotiabank",
+      "link": "https://finance.yahoo.com/energy/articles/diamondback-expand-energy-named-top-205209734.html",
+      "publisher": "Investing.com",
+      "date": "2026-10-15T20:52:09",
+      "thumbnail": ""
+    },
+    {
+      "title": "TD Cowen raises oil forecasts, sees Canadian producers gain as WCS discounts widen",
+      "link": "https://finance.yahoo.com/energy/articles/td-cowen-raises-oil-forecasts-205010150.html",
+      "publisher": "Investing.com",
+      "date": "2026-10-15T20:50:10",
+      "thumbnail": ""
     }
   ],
   "GOLD": [
     {
-      "title": "Presentation to Australian Gold Conference",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/presentation-australian-gold-conference-233500448.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-10-14T23:35:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/f352a828481fa694e168f41666e2c320.png"
+      "title": "Wesdome Gold Mines (TSX:WDO) Reports Lower Gold Production, Does The Valuation Still Look Cheap?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wesdome-gold-mines-tsx-wdo-001655395.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-10-16T00:16:55",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
     },
     {
-      "title": "Alkane Resources extends Peak Hill gold system to 1-kilometre depth",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/alkane-resources-extends-peak-hill-232500663.html",
-      "publisher": "Proactive",
-      "date": "2026-10-14T23:25:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/a1cac48963a100fb85d9f6287a352bda.jpg"
+      "title": "Gold Holds Gains With Haven Demand and Lower Yields in Focus",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gains-haven-demand-235146457.html",
+      "publisher": "Bloomberg",
+      "date": "2026-10-15T23:51:46",
+      "thumbnail": "https://media.zenfs.com/en/bloomberg_holding_pen_162/ce52c252a9c7fc0530a6fd2dc1a2fa02.jpg"
     },
     {
-      "title": "Bank of America Sets a New Target For Gold Price By the End of 2026",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/bank-america-sets-target-gold-211948764.html",
-      "publisher": "BeInCrypto",
-      "date": "2026-10-14T21:19:48",
-      "thumbnail": "https://media.zenfs.com/en/beincrypto_us_662/eab053139b60f3614f35a2e02311c8fd.jpg"
-    },
-    {
-      "title": "Minnova Announces Positive Preliminary Economic Assessment for the PL Gold Mine Restart: After-Tax NPV5% of US$181 Million and 111% IRR at US$3,000/oz Gold, Rising to US$439 Million at US$4,000/oz",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/minnova-announces-positive-preliminary-economic-211500526.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-14T21:15:00",
-      "thumbnail": "https://media.zenfs.com/en/newsfile_64/4664d411566a22e6940c54734f269eaa.jpg"
-    },
-    {
-      "title": "Canadian Gold Resources Announces Closing of Private Placement",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-gold-resources-announces-closing-210800026.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-14T21:08:00",
-      "thumbnail": "https://media.zenfs.com/en/newsfile_64/e35aed9764864a6a28c52a399a5767fe.jpg"
-    },
-    {
-      "title": "Macquarie Bank Completes CA$10 Million Strategic Investment in Mayfair Gold",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/macquarie-bank-completes-ca-10-210357269.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-14T21:03:57",
-      "thumbnail": ""
-    },
-    {
-      "title": "Great Red Lake Gold Corp. Provides Operational Update",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/great-red-lake-gold-corp-210000995.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-14T21:00:00",
-      "thumbnail": ""
-    },
-    {
-      "title": "Gerresheimer Improves Its EcoVadis Rating and is Once Again Awarded Gold",
-      "link": "https://finance.yahoo.com/healthcare/articles/gerresheimer-improves-ecovadis-rating-once-203004691.html",
-      "publisher": "NewMediaWire",
-      "date": "2026-10-14T20:30:04",
-      "thumbnail": "https://media.zenfs.com/en/newsmediawire_165/7834ea0e1a58a1651d809c2c341ed617.png"
-    },
-    {
-      "title": "FRENCH BEE WINS GOLD IN 2026 TRAVEL WEEKLY MAGELLAN AWARDS",
-      "link": "https://finance.yahoo.com/media-advertising/articles/french-bee-wins-gold-2026-195900351.html",
+      "title": "ORVANA REPORTS FOURTH QUARTER AND FISCAL 2026 PRODUCTION RESULTS - Spain Annual Gold Production Exceeds Guidance",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/orvana-reports-fourth-quarter-fiscal-230000732.html",
       "publisher": "PR Newswire",
-      "date": "2026-10-14T19:59:00",
-      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/48e61312411530a0b7434b9dcc4f3dba.jpg"
+      "date": "2026-10-15T23:00:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/8f6fc62d239f6c517a5da9e98a3daa44.jpg"
     },
     {
-      "title": "Visterra's Oberson's Nursery & Landscape Scores Two Gold, One Silver in NALP Awards of Excellence",
-      "link": "https://finance.yahoo.com/small-business/articles/visterras-obersons-nursery-landscape-scores-192000040.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-10-14T19:20:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/e245803959e181700c51798c1079d504.png"
+      "title": "ORVANA REPORTS FOURTH QUARTER AND FISCAL 2026 PRODUCTION RESULTS - Spain Annual Gold Production Exceeds Guidance",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/orvana-reports-fourth-quarter-fiscal-230000937.html",
+      "publisher": "CNW Group",
+      "date": "2026-10-15T23:00:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/8f6fc62d239f6c517a5da9e98a3daa44.jpg"
+    },
+    {
+      "title": "Blue Jay Gold Announces Results of Annual General Meeting",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-jay-gold-announces-results-222700144.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-15T22:27:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/08f58f0b11bc2b0adb03a46113c4b883.png"
+    },
+    {
+      "title": "Royal Gold Highlights Record Results, Debt Paydown and Growth After Major Deals",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-highlights-record-results-220208764.html",
+      "publisher": "MarketBeat",
+      "date": "2026-10-15T22:02:08",
+      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/6d340cabf3c48243cc59501ddae63d6e.jpg"
+    },
+    {
+      "title": "Compania de Minas Buenaventura Q3 Gold Production Falls",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/compania-minas-buenaventura-q3-gold-213130284.html",
+      "publisher": "MT Newswires",
+      "date": "2026-10-15T21:31:30",
+      "thumbnail": ""
+    },
+    {
+      "title": "Basic Materials Roundup: Market Talk",
+      "link": "https://finance.yahoo.com/m/9132dd09-0638-33cc-9a5b-b8508a5a4ab9/basic-materials-roundup%3A.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-10-15T21:03:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/6cbe71ab82b896527dcbe08183dedb54.jpg"
+    },
+    {
+      "title": "Golconda Gold Releases Q3 2026 Production Update at Galaxy",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/golconda-gold-releases-q3-2026-210000152.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-15T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/98b66310d7e0121a0ec81057e59348d5.jpg"
+    },
+    {
+      "title": "Goldconda Gold Releases Q3 2026 Production Update at Galaxy",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/goldconda-gold-releases-q3-2026-210000304.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-10-15T21:00:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/98b66310d7e0121a0ec81057e59348d5.jpg"
     }
   ],
   "NEM": [
+    {
+      "title": "Newmont Corporation (NEM) Reports Next Week: Wall Street Expects Earnings Growth",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-corporation-nem-reports-next-130015928.html",
+      "publisher": "Zacks",
+      "date": "2026-10-15T13:00:15",
+      "thumbnail": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4.jpg"
+    },
+    {
+      "title": "Goldstorm Metals Completes 2026 Exploration Program and Provides Initial Results from Rock Sampling at the Crown Property, located in British Columbia's Golden Triangle",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/goldstorm-metals-completes-2026-exploration-100000146.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-10-15T10:00:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/0a5447839e58f1de73be5d2995e8d59b.jpg"
+    },
     {
       "title": "Why Newmont (NEM) Is Back In The Spotlight",
       "link": "https://finance.yahoo.com/markets/stocks/articles/why-newmont-nem-back-spotlight-141434270.html",
@@ -336,20 +343,6 @@ var NEWS_DATA = {
       "publisher": "24/7 Wall St.",
       "date": "2026-10-08T14:45:41",
       "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/842a6c3b6e4c9a94369ebc8f4a67e925.jpg"
-    },
-    {
-      "title": "StrikePoint Resumes Trading After Completion of Acquisition of Northumberland Gold Project, Emerging as a Tier-One Gold Explorer in Nevada's Walker Lane",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/strikepoint-resumes-trading-completion-acquisition-113000190.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-08T11:30:00",
-      "thumbnail": "https://media.zenfs.com/en/newsfile_64/6bd8bd12408b5e1862a4b70992e445e6.jpg"
-    },
-    {
-      "title": "Goldman Sachs Adjusts Price Target on Newmont to $119 From $127.50",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-102626263.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-08T10:26:26",
-      "thumbnail": ""
     }
   ]
 };
