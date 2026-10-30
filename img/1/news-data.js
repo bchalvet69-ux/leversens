@@ -1,77 +1,77 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries —  GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-dip-001028850.html",
+      "title": "Warren Buffett Says Doing Nothing Beats Doing Something. History Says He's Right.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-says-doing-nothing-013500933.html",
+      "publisher": "Motley Fool",
+      "date": "2026-10-30T01:35:00",
+      "thumbnail": "https://media.zenfs.com/en/motleyfool.com/226b1cb4221216ca87eac9fd87081db8.jpg"
+    },
+    {
+      "title": "Nasdaq 100 Futures Dip On Weak Intel, Amazon Earnings With Bloated Capex Worries Weighing On Sentiment —  AMZN, INTC, SBUX, PLTR, ASTS In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-futures-dip-weak-235415002.html",
       "publisher": "Stocktwits",
-      "date": "2026-10-29T00:10:28",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/405b9da044f7209291348dacdaa918d7.jpg"
+      "date": "2026-10-29T23:54:15",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/c3bed49a5bbfc8e896f3462aab4f64df.jpg"
     },
     {
-      "title": "If You Invested $1,000 in NRG Energy 10 Years Ago, Even This Year’s Sell-Off Wouldn’t Erase Your Gains",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-nrg-energy-184715804.html",
+      "title": "Trump knew a year ago Nvidia’s billionaire CEO had a close relationship with a Chinese spy and did nothing, report says",
+      "link": "https://finance.yahoo.com/technology/ai/articles/trump-knew-ago-nvidia-billionaire-220000278.html",
+      "publisher": "Moneywise",
+      "date": "2026-10-29T22:00:00",
+      "thumbnail": "https://media.zenfs.com/en/moneywise_327/2f0093c404628c35263d3a6e26a921f0.jpg"
+    },
+    {
+      "title": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot",
+      "link": "https://finance.yahoo.com/technology/article/nvidias-relationship-with-china-just-got-even-more-complicated-as-report-says-jensen-huang-was-target-of-spy-plot-182138051.html",
+      "publisher": "Yahoo Finance",
+      "date": "2026-10-29T21:14:23",
+      "thumbnail": "https://d29szjachogqwa.cloudfront.net/images/2026-10/614323eb-fafb-4b59-9f8e-14aa8dcfc25d"
+    },
+    {
+      "title": "Top Economist Slams Trump’s $21 Trillion Investment Boast — ‘The Jobs Are American. The Profits Aren’t’",
+      "link": "https://finance.yahoo.com/economy/policy/articles/top-economist-slams-trump-21-203019398.html",
+      "publisher": "Benzinga",
+      "date": "2026-10-29T20:30:19",
+      "thumbnail": "https://media.zenfs.com/en/benzinga_79/6750ba4185612d03f2ee02c2c5c6f352.jpg"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang May Have Been Targeted by Chinese Spy Plot. What It Means for NVDA Stock.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-jensen-huang-may-193307067.html",
+      "publisher": "Barchart",
+      "date": "2026-10-29T19:33:07",
+      "thumbnail": "https://media.zenfs.com/en/barchart_com_477/cef86ae09b4ca75f44eb2d76d13c404f.jpg"
+    },
+    {
+      "title": "How Much Does a 67-Year-Old Couple Need Invested to Collect $10,500 a Month for Life?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/much-does-67-old-couple-191727774.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T18:47:15",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d8a0411e7ab4c2dfc2954bbf3962261a.jpg"
+      "date": "2026-10-29T19:17:27",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/ffa8ce9e1ee2c57f86d62fbc4b4872ed.jpg"
     },
     {
-      "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/american-households-own-more-stock-180359452.html",
+      "title": "Nvidia Stock Declines as Competition Probe—and Spy Report—Presents New AI Concern",
+      "link": "https://finance.yahoo.com/m/83dc4b99-1270-318e-960e-d985b29796a4/nvidia-stock-declines-as.html",
+      "publisher": "Barrons.com",
+      "date": "2026-10-29T17:19:00",
+      "thumbnail": "https://media.zenfs.com/en/Barrons.com/ad906746d864d7b057c2bd3e29f6fd9a.jpg"
+    },
+    {
+      "title": "AbbVie Stock: What 10 Years of Growth and Dividends Did for $1,000",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stock-10-years-growth-171831751.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T18:03:59",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/49846f36b4547e634b56fd3eb1beb8bf"
-    },
-    {
-      "title": "The ETF Industry Is About to Get Weird",
-      "link": "https://finance.yahoo.com/markets/options/articles/etf-industry-weird-173435817.html",
-      "publisher": "etf.com",
-      "date": "2026-10-28T17:34:35",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/c1c69d5b231b1da60dce473474f8d2a3.jpg"
-    },
-    {
-      "title": "Wall Street’s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-borrowing-binge-slowing-151114985.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T15:11:14",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/445763169c13445a6d0fa562023285cd.jpg"
-    },
-    {
-      "title": "Trump Media Falls 5% Toward $6 With Earnings Ahead; Rumble Ticks Up",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/trump-media-falls-5-toward-150713765.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T15:07:13",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/48c81c58651097aff2c7637f65475254.jpg"
-    },
-    {
-      "title": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-sinks-7-crypto-slump-131941460.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T13:19:41",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/da02b94dbd1a0db04a97ed952538313a.jpg"
-    },
-    {
-      "title": "Oct. 27 Has Historically Marked the Stock Market’s Autumn Bottom",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oct-27-historically-marked-stock-130316554.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T13:03:16",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d67c565a8a0d5b1fc7d1324276db0ce4.jpg"
-    },
-    {
-      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of US Fed Rate Announcement",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125522610.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-28T12:55:22",
-      "thumbnail": ""
-    },
-    {
-      "title": "Is Western Digital’s Nightmare 3 Months Over? A Wall Street Pro Says Its Price Will Increase 130%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-nightmare-3-months-124518067.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-10-28T12:45:18",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/8f4f2a4ef9ffd24869a793f5da2e0441.jpg"
+      "date": "2026-10-29T17:18:31",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/009f889c062f62e3f6c106ca8e445e64.jpg"
     }
   ],
   "BTCUSD": [
+    {
+      "title": "BTC USD Fell in the Month After 12 of the Fed’s 16 Rate Hikes Since 2018: What Could a December Hike Mean for Bitcoin?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/btc-usd-fell-month-12-094333500.html",
+      "publisher": "99bitcoins",
+      "date": "2026-10-29T09:43:33",
+      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/0d23a491b8a6c8320bce3428aa6fd856.jpg"
+    },
     {
       "title": "MARA Sends Another 1,000 BTC to BitGo, Its Fourth Big Transfer in October: Can BTC USD Absorb It?",
       "link": "https://finance.yahoo.com/markets/crypto/articles/mara-sends-another-1-000-114320109.html",
@@ -134,160 +134,167 @@ var NEWS_DATA = {
       "publisher": "99bitcoins",
       "date": "2026-10-06T10:55:23",
       "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/895c92d8ab49bb752761c9e43e983553"
-    },
-    {
-      "title": "Michael Saylor Calls for BTC USD and Crypto to Hit $120 Trillion Valuation",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-calls-btc-usd-111558782.html",
-      "publisher": "99bitcoins",
-      "date": "2026-09-30T11:15:58",
-      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/5ebe28cee6d77a35962dbd84969a4f8a"
     }
   ],
   "CLF": [
     {
-      "title": "Dow Jones Futures: Microsoft Rises, But Google, ServiceNow, Fortinet Dive On Earnings",
-      "link": "https://finance.yahoo.com/m/6c0b166b-19af-3d40-b6ff-7c6d65d3c4da/dow-jones-futures%3A-microsoft.html",
-      "publisher": "Investor's Business Daily",
-      "date": "2026-10-29T01:45:25",
-      "thumbnail": "https://media.zenfs.com/en/ibd.com/28ad5e95b79cd942453df4d3a968579b.jpg"
+      "title": "Amrize: 3 Key Takeaways for Long-Term Investors",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amrize-3-key-takeaways-long-020233172.html",
+      "publisher": "Motley Fool",
+      "date": "2026-10-30T02:02:33",
+      "thumbnail": "https://media.zenfs.com/en/motleyfool.com/2fcea16b3ae624a34a13182644465c52.jpg"
     },
     {
-      "title": "HF Sinclair Corp (DINO) (Q3 2026) Earnings Call Highlights: Record Refining Margins Drive $2. ...",
-      "link": "https://finance.yahoo.com/energy/articles/hf-sinclair-corp-dino-q3-010613205.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-10-29T01:06:13",
+      "title": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
+      "publisher": "Investing.com",
+      "date": "2026-10-30T01:46:13",
       "thumbnail": ""
     },
     {
-      "title": "Petrobras Oil and Gas Output Jumps 11.7% to Record High in Q3",
-      "link": "https://finance.yahoo.com/energy/articles/petrobras-oil-gas-output-jumps-010500840.html",
-      "publisher": "Oilprice.com",
-      "date": "2026-10-29T01:05:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/26ef1bd5d2d3a88f71b1bf3be7dabab9.jpg"
+      "title": "Vista Energy SAB de CV (VIST) Q3 2026 Earnings Call Highlights: Record Production and 75% ...",
+      "link": "https://finance.yahoo.com/energy/articles/vista-energy-sab-cv-vist-011038909.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-10-30T01:10:38",
+      "thumbnail": ""
     },
     {
-      "title": "Oil's War Premium Could Vanish Fast Once a Hormuz Deal Lands, Analysts Warn",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/oils-war-premium-could-vanish-004013222.html",
-      "publisher": "BeInCrypto",
-      "date": "2026-10-29T00:40:13",
-      "thumbnail": "https://media.zenfs.com/en/beincrypto_us_662/2ab64dcaacd1b62f364f068af43b8be2.png"
+      "title": "Commodity Prices Can Rise While PDBC Lags. Blame the Futures Roll",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/commodity-prices-rise-while-pdbc-010309572.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-10-30T01:03:09",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/338a20349c71aac19141c84f1838376b.jpg"
     },
     {
-      "title": "US oil prices fall as investors gauge risks to Mideast supply",
-      "link": "https://finance.yahoo.com/energy/articles/us-oil-prices-fall-investors-002744802.html",
-      "publisher": "Reuters",
-      "date": "2026-10-29T00:27:44",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/79478cbb8c106b15024fc42ad7a67fa2.jpg"
+      "title": "FTAI Aviation Ltd. Q3 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ftai-aviation-ltd-q3-2026-222816450.html",
+      "publisher": "Moby",
+      "date": "2026-10-29T22:28:16",
+      "thumbnail": "https://media.zenfs.com/en/moby_896/48cf0ef47df07f16ffe7a0cf9d1ec669.png"
     },
     {
-      "title": "Nikkei Rises 0.6%, Led by AI-Related Stocks",
-      "link": "https://finance.yahoo.com/m/05ab6941-e137-3e56-89a9-f529d7a4e0b0/nikkei-rises-0.6%25%2C-led-by.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-10-29T00:23:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+      "title": "Monro, Inc. Q2 2027 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/monro-inc-q2-2027-earnings-222022863.html",
+      "publisher": "Moby",
+      "date": "2026-10-29T22:20:22",
+      "thumbnail": "https://media.zenfs.com/en/moby_896/d3bc41f21cfb02d3d8c28648428f4fa5.png"
     },
     {
-      "title": "Oil is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel?",
-      "link": "https://finance.yahoo.com/m/7f0f45eb-16a2-3084-ab4b-30402950fe2a/oil-is-gushing-out-of-the.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-10-29T00:00:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/5d01ad3dc427206c8d0d7304414fb50c.png"
+      "title": "Oil Climbs on Signs US May Resume Military Strikes Against Iran",
+      "link": "https://finance.yahoo.com/energy/articles/oil-climbs-signs-us-may-220217351.html",
+      "publisher": "Bloomberg",
+      "date": "2026-10-29T22:02:17",
+      "thumbnail": "https://media.zenfs.com/en/bloomberg_holding_pen_162/8e253aa1426c05f1827592aa83f613a2.jpg"
     },
     {
-      "title": "PCE Inflation Data Offers Key Insight Into December Rate Hike",
-      "link": "https://finance.yahoo.com/m/bed54cc9-1330-39de-a83f-d55edae31b32/pce-inflation-data-offers-key.html",
-      "publisher": "Barrons.com",
-      "date": "2026-10-28T23:33:00",
-      "thumbnail": "https://media.zenfs.com/en/Barrons.com/96c7dc35717055a48d0a506bcc5baf37.jpg"
-    },
-    {
-      "title": "Marathon Petroleum Corp. Increases Quarterly Dividend",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-corp-increases-quarterly-223000367.html",
+      "title": "Kansas City Life Announces Appointment of Kellie S. Needham as Director",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kansas-city-life-announces-appointment-215600403.html",
       "publisher": "PR Newswire",
-      "date": "2026-10-28T22:30:00",
-      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/778d333acc0f073b166c2564d5e66188.png"
+      "date": "2026-10-29T21:56:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/c54d9421766acfa7d7a3555611606ecc.png"
     },
     {
-      "title": "Australian Uranium Stocks To Watch In October 2026",
-      "link": "https://finance.yahoo.com/energy/articles/australian-uranium-stocks-watch-october-220738571.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-10-28T22:07:38",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/67b2b004d6b6fbb0c05d4d086193e833.jpg"
+      "title": "Equities and bond yields dip with AI jitters and economic data in focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-alphabet-earnings-022830389.html",
+      "publisher": "Reuters",
+      "date": "2026-10-29T21:31:24",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/c00332dc2388dee4bf2f2306dd76feb7.jpg"
+    },
+    {
+      "title": "Whitecap Profits Surge 60% as Ottawa's Tax Break Promises Another $400 Million",
+      "link": "https://finance.yahoo.com/energy/articles/whitecap-profits-surge-60-ottawas-212824717.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-10-29T21:28:24",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/8622a731a264a556229bd7d24a199850.jpg"
     }
   ],
   "GOLD": [
     {
-      "title": "Gold slips after Fed holds rates, PCE inflation data in focus",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-fed-holds-rates-015115459.html",
+      "title": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
       "publisher": "Investing.com",
-      "date": "2026-10-29T01:51:15",
+      "date": "2026-10-30T01:46:13",
       "thumbnail": ""
     },
     {
-      "title": "What Is The One Risk Every Newmont Investor Should Know?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/one-risk-every-newmont-investor-012143780.html",
-      "publisher": "Trefis",
-      "date": "2026-10-29T01:21:43",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/a0ffde28109046a40a16096aced9624e.jpg"
+      "title": "Eldorado Gold Corp (EGO) (Q3 2026) Earnings Call Highlights: Record Revenue and Skouries ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-corp-ego-q3-011008875.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-10-30T01:10:08",
+      "thumbnail": ""
     },
     {
-      "title": "Gold Falls as Traders Mull Fed Decision",
-      "link": "https://finance.yahoo.com/m/bc70d513-f6d6-379b-8839-7e5b1f2cee96/gold-falls-as-traders-mull.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-10-29T00:38:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+      "title": "Kinross Gold Corp (KGC) (Q3 2026) Earnings Call Highlights: Strong Free Cash Flow, Higher ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-corp-kgc-q3-010550423.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-10-30T01:05:50",
+      "thumbnail": ""
     },
     {
-      "title": "Alkane Resources Shares In Focus After High Grade Gold Antimony Drill Results",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alkane-resources-shares-focus-high-001318128.html",
+      "title": "Alamos Gold Inc (AGI) Q3 2026 Earnings Call Highlights: Record Island Gold Output, Strong Free ...",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/alamos-gold-inc-agi-q3-231343298.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-10-29T23:13:43",
+      "thumbnail": ""
+    },
+    {
+      "title": "Arc Mineral Royalties Files Updated Technical Report for Mt Henry Gold Project",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/arc-mineral-royalties-files-updated-221800524.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-10-29T22:18:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/541c1ed7117ed59a454f7becb245fcd7.jpg"
+    },
+    {
+      "title": "Kinross Gold (TSX:K) Stock Q3 Results Highlight Cash Flow And Project Risk",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-stock-221300017.html",
       "publisher": "Simply Wall St.",
-      "date": "2026-10-29T00:13:18",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
+      "date": "2026-10-29T22:13:00",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
     },
     {
-      "title": "Kinross Gold (KGC) Beats Q3 Earnings Estimates",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-kgc-beats-q3-223008585.html",
-      "publisher": "Zacks",
-      "date": "2026-10-28T22:30:08",
-      "thumbnail": "https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94.jpg"
-    },
-    {
-      "title": "Fairchild Gold Announces Closing of a Private Placement Financing",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/fairchild-gold-announces-closing-private-220000429.html",
+      "title": "ONGold Files NI 43-101 Technical Report for the Monument Bay Gold Project, Manitoba",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/ongold-files-ni-43-101-220700611.html",
       "publisher": "TMX Newsfile",
-      "date": "2026-10-28T22:00:00",
-      "thumbnail": ""
+      "date": "2026-10-29T22:07:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/6dfe1f960287b92cf81f5d09ea1e9e03.jpg"
     },
     {
-      "title": "Torex Gold Changes Name to Torex Resources",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/torex-gold-changes-name-torex-220000244.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-28T22:00:00",
-      "thumbnail": "https://media.zenfs.com/en/newsfile_64/afba73d8d7182cec25c375266981b4c6.jpg"
-    },
-    {
-      "title": "Imperial Intersects 5 Metres of 5.51 Grams Per Tonne Gold at the Porcher Island Property",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/imperial-intersects-5-metres-5-215500021.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-10-28T21:55:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/19fcec5d8be9cefc4e4132800c7a8fd9.png"
-    },
-    {
-      "title": "Eldorado Gold Q3 Adjusted Earnings, Revenue Rise",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-q3-adjusted-earnings-213355551.html",
+      "title": "Centerra Gold Q3 Adjusted Earnings Jumps 12% YoY",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/centerra-gold-q3-adjusted-earnings-211604837.html",
       "publisher": "MT Newswires",
-      "date": "2026-10-28T21:33:55",
+      "date": "2026-10-29T21:16:04",
       "thumbnail": ""
     },
     {
-      "title": "Alamos Gold Q3 Adjusted Earnings, Revenue Rise; Shares Fall After Hours",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alamos-gold-q3-adjusted-earnings-212851454.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-28T21:28:51",
-      "thumbnail": ""
+      "title": "Gold has a reputation as an inflation hedge. Does it actually work?",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-reputation-inflation-hedge-does-210852748.html",
+      "publisher": "USA TODAY",
+      "date": "2026-10-29T21:08:52",
+      "thumbnail": "https://media.zenfs.com/en/usa_today_money_325/7902075968928614d8aa8e50337f3cda.jpg"
     }
   ],
   "NEM": [
+    {
+      "title": "What Could Lift Newmont Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-lift-newmont-stock-203936401.html",
+      "publisher": "Trefis",
+      "date": "2026-10-29T20:39:36",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/0f23c72b7307cf6e599013c12bc05b02.jpg"
+    },
+    {
+      "title": "Argus Adjusts Price Target on Newmont to $123 From $110",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/argus-adjusts-price-target-newmont-125156963.html",
+      "publisher": "MT Newswires",
+      "date": "2026-10-29T12:51:56",
+      "thumbnail": ""
+    },
+    {
+      "title": "State Street Materials Select Sector SPDR (XLB) Adds Linde and Newmont on Oct. 27",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110533235.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-10-29T11:05:33",
+      "thumbnail": ""
+    },
     {
       "title": "What Is The One Risk Every Newmont Investor Should Know?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/one-risk-every-newmont-investor-012143780.html",
@@ -336,27 +343,6 @@ var NEWS_DATA = {
       "publisher": "Zacks",
       "date": "2026-10-26T12:00:03",
       "thumbnail": "https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f.jpg"
-    },
-    {
-      "title": "Avantis U.S. Large Cap Value (AVLV) Adds Exxon Mobil on Oct. 22",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110333049.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-10-26T11:03:33",
-      "thumbnail": ""
-    },
-    {
-      "title": "New Break Refines Targets as 2026 Drilling Resumes at Its Moray Gold Project",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/break-refines-targets-2026-drilling-110000622.html",
-      "publisher": "TMX Newsfile",
-      "date": "2026-10-26T11:00:00",
-      "thumbnail": "https://media.zenfs.com/en/newsfile_64/eaf1545cb66f2481b968c30909232b6a.jpg"
-    },
-    {
-      "title": "Macquarie Adjusts Price Target on Newmont to $128 From $134",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/macquarie-adjusts-price-target-newmont-100323235.html",
-      "publisher": "MT Newswires",
-      "date": "2026-10-26T10:03:23",
-      "thumbnail": ""
     }
   ]
 };
