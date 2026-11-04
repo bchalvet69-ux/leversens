@@ -1,77 +1,84 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "If You Own SPY, Schwab’s Large-Cap ETF Costs $60 Less a Year on $100K",
-      "link": "https://finance.yahoo.com/markets/options/articles/own-spy-schwab-large-cap-003334752.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-03T00:33:34",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/21fc1e5daa13517cacfb4317d3c4595b.jpg"
+      "title": "Daily ETF Flows: SPY Takes No. 1 Spot",
+      "link": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-spy-takes-234639008.html",
+      "publisher": "etf.com",
+      "date": "2026-11-03T23:46:39",
+      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/1d45f9488d95ad21b16acbe33a9dfed0.png"
     },
     {
-      "title": "S&P 500, Nasdaq Drop As Capex Concerns Grip Tech Investors, Outweighing US-Iran Diplomacy Hope —  ORCL, META, PLTR, AAPL In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-drop-capex-002235205.html",
+      "title": "S&P 500, Nasdaq Recover From AI Rout On US Midterm Election Day —  META, AAPL, AMD, SKHY In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-recover-ai-232955884.html",
       "publisher": "Stocktwits",
-      "date": "2026-11-03T00:22:35",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/56bc12731e9d3543f017d0d7dd95be15.jpg"
+      "date": "2026-11-03T23:29:55",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/f929600de8196fa27705a06b0f0ed1f8.jpg"
     },
     {
-      "title": "$1,000 in Bitcoin at the 2017 Peak: What Is It Worth Now?",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/1-000-bitcoin-2017-peak-221348746.html",
+      "title": "Suze Orman Says Doing Nothing Can Be the Right Move When Stocks Fall",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/suze-orman-says-doing-nothing-230827485.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-02T22:13:48",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a38e89e6ce8003f9f66325a9ff71b7cf.jpg"
+      "date": "2026-11-03T23:08:27",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/62f173f1a60f9e6dd006aa7a539847cf.jpg"
     },
     {
-      "title": "IDEXX Soars 20.2% on Earnings Beat: What It Means for Your S&P 500 Index Fund",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/idexx-soars-20-2-earnings-195439479.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-02T19:54:39",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/8100e1d32931503ad020ab8c8f341168.jpg"
-    },
-    {
-      "title": "Ed Yardeni's Midterms Prediction: Democratic Sweep Could Be a 'Cold Shower' for Stock Market",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ed-yardenis-midterms-prediction-democratic-173022387.html",
-      "publisher": "Benzinga Prediction Markets",
-      "date": "2026-11-02T17:30:22",
-      "thumbnail": "https://media.zenfs.com/en/benzinga_prediction_markets_613/e5c4c21cb9bfe11e6e33cdc1bcc55517.jpg"
-    },
-    {
-      "title": "Only 37% of Wall Street’s Money Managers Think AI Will Pay Off Within 2 Years — Half Are Still Bullish",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/only-37-wall-street-money-165913273.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-02T16:59:13",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/d9354195537523116c9cdb6f4da6f109.jpg"
-    },
-    {
-      "title": "AI Stocks Slide: Are Tech ETFs Worth Watching?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-slide-tech-etfs-152200828.html",
-      "publisher": "Zacks",
-      "date": "2026-11-02T15:22:00",
+      "title": "S&P 500 after midterm elections: what history says and where the market stands",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-midterm-elections-history-204037875.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-03T20:40:37",
       "thumbnail": ""
     },
     {
-      "title": "‘Marking Their Calendar Until November 3rd.’ Tom Lee Says Investors Waiting To Buy The Dip After The Nasdaq 100’s Worst Month Since March 2025",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marking-calendar-until-november-3rd-150424721.html",
+      "title": "Investors Are Beginning to Say That Meta Is The Best Buy And Hold Stock Through 2030",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-beginning-meta-best-buy-174525004.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-02T15:04:24",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/e75be598e36ff0dae9edf8a8e5cedec2.jpg"
+      "date": "2026-11-03T17:45:25",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/a84bb8f6a562101b9d4d45df0778d6c4.jpg"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Busy Corporate Earnings Week",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-02T14:01:45",
-      "thumbnail": ""
+      "title": "Palantir’s Bookings Worry Is Dragging Down These Widely Held ETFs",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-bookings-worry-dragging-down-163349134.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-03T16:33:49",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/aaf33288a47bbef8d6ad7f3571e3b502.jpg"
     },
     {
-      "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED)",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-jones-102928620.html",
-      "publisher": "Benzinga Prediction Markets",
-      "date": "2026-11-02T13:15:14",
-      "thumbnail": "https://media.zenfs.com/en/benzinga_prediction_markets_613/7f1cf43dcf6b2762dc5c3172a9f92b1a.jpg"
+      "title": "‘Great For Our Farmers, Great For Our Country’: Trump Says ‘Concept of a Deal’ Reached With Canada",
+      "link": "https://finance.yahoo.com/economy/policy/articles/great-farmers-great-country-trump-163005769.html",
+      "publisher": "Benzinga",
+      "date": "2026-11-03T16:30:05",
+      "thumbnail": "https://media.zenfs.com/en/benzinga_79/44342c6835f6153ee59e475df137cb7e.jpg"
+    },
+    {
+      "title": "US Midterm Elections: Dow Falls Nearly 200 Points, S&P 500 And Nasdaq Edge Higher As Polls Begin",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-midterm-elections-dow-falls-145200518.html",
+      "publisher": "Stocktwits",
+      "date": "2026-11-03T14:52:00",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/d61dd750096047f65a042235da1047ea"
+    },
+    {
+      "title": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/average-stock-just-beat-p-141256534.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-03T14:12:56",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/7fc34baf2c61ba8f65bb823217c9d5bb"
+    },
+    {
+      "title": "Burry vs Karp: One Year Later, Who Actually Won the Palantir Fight?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/burry-vs-karp-one-later-140603288.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-03T14:06:03",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/3a8d1bc9e5acf68ff567b4ba44846ead"
     }
   ],
   "BTCUSD": [
+    {
+      "title": "BTC USD Slides to $76,500 as America Votes and the US Strikes Iran Again: Is the Midterm Dip a Trap or a Buy?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/btc-usd-slides-76-500-091804569.html",
+      "publisher": "99bitcoins",
+      "date": "2026-11-03T09:18:04",
+      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/194a478d99f65237c087259f83aa1256.jpg"
+    },
     {
       "title": "BTC USD Holds $78,000 As OneKey’s Founder Warns North Korean Hackers May Already Have BlackRock’s IBIT on Their List",
       "link": "https://finance.yahoo.com/markets/crypto/articles/btc-usd-holds-78-000-092425362.html",
@@ -134,160 +141,167 @@ var NEWS_DATA = {
       "publisher": "99bitcoins",
       "date": "2026-10-13T11:25:09",
       "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/e3d89afa81f248b0cc26e6f607ad57a0"
-    },
-    {
-      "title": "Jeonbuk’s BTC USD Loan Terms Remain Unclear as Banks Test Collateral",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/jeonbuk-btc-usd-loan-terms-114102074.html",
-      "publisher": "99bitcoins",
-      "date": "2026-10-12T11:41:02",
-      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/2a6685e5a72774552656e5bdc19afa93.jpg"
     }
   ],
   "CLF": [
     {
-      "title": "Ivanhoe Mines Heads 3 Canadian Insider Growth Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ivanhoe-mines-heads-3-canadian-032012119.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T03:20:12",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/b2fc1054c8c4ceaedb1eb91bb340fb9b.jpg"
-    },
-    {
-      "title": "Diamondback Energy Raises Dividend and 2026 Oil Production Outlook",
-      "link": "https://finance.yahoo.com/energy/articles/diamondback-energy-raises-dividend-2026-031118758.html",
+      "title": "SM Energy Q3 Cash Flow More Than Doubles as Merger Synergies Hit $400 Million",
+      "link": "https://finance.yahoo.com/energy/articles/sm-energy-q3-cash-flow-024000676.html",
       "publisher": "Oilprice.com",
-      "date": "2026-11-03T03:11:18",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/a9c953634b2557c40f752f9cb612e93e.jpg"
+      "date": "2026-11-04T02:40:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/965225fcc34aa361883a4f3d1b65ba57.jpg"
     },
     {
-      "title": "Stocks mostly down as AI concerns top plunge in oil prices",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-ai-concerns-025549205.html",
-      "publisher": "AFP",
-      "date": "2026-11-03T02:55:49",
-      "thumbnail": "https://media.zenfs.com/en/afp.com/bfd6648f09f193426e6ec14ea4b7fcad.jpg"
+      "title": "Stock Market Election Night: Tech, AI Stocks Lead Futures Lower As ; AMD, Arista Rise On Earnings",
+      "link": "https://finance.yahoo.com/m/e5be454d-07fd-3d94-8114-a4e8ff2910de/stock-market-election-night%3A.html",
+      "publisher": "Investor's Business Daily",
+      "date": "2026-11-04T02:35:38",
+      "thumbnail": "https://media.zenfs.com/en/ibd.com/e1765a81d25e60e60d744d652dcc879b.jpg"
     },
     {
-      "title": "Asian stocks retreat ahead of US midterms, oil steadies",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-retreat-ahead-us-022420502.html",
-      "publisher": "Reuters",
-      "date": "2026-11-03T02:37:59",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/4f4a5b2bbbbfdad6fd704a72151fe765.jpg"
+      "title": "Suncor Profit More Than Doubles as Cash Flow Hits Record High",
+      "link": "https://finance.yahoo.com/energy/articles/suncor-profit-more-doubles-cash-014813868.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-11-04T01:48:13",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/96e174aa75472d1a9699a0cfed40c949.jpg"
     },
     {
-      "title": "Goldman Sachs resets oil price target for 2027",
-      "link": "https://finance.yahoo.com/energy/articles/goldman-sachs-resets-oil-price-021700296.html",
-      "publisher": "TheStreet",
-      "date": "2026-11-03T02:17:00",
-      "thumbnail": "https://media.zenfs.com/en/thestreet_881/19174379a96507dcf69cc1011470e8e1.jpg"
-    },
-    {
-      "title": "3 Canadian Penny Stocks With Net Margins Over 39%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-penny-stocks-net-021350843.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T02:13:50",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
-    },
-    {
-      "title": "3 Oil And Gas Stocks For Investors Watching Oil Price Risk",
-      "link": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-investors-021147959.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T02:11:47",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/b21972f90d07f1bd1c37f988bf08e67d.jpg"
-    },
-    {
-      "title": "Gold holds near $3,950 as Iran peace hopes ease oil, U.S. vote in focus",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-950-013615439.html",
+      "title": "Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-930-013232167.html",
       "publisher": "Investing.com",
-      "date": "2026-11-03T01:36:15",
+      "date": "2026-11-04T01:32:32",
       "thumbnail": ""
     },
     {
-      "title": "Hochschild Mining And 2 British Penny Stocks To Watch",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hochschild-mining-2-british-penny-012131870.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T01:21:31",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
+      "title": "U.S. stock futures slide as Dems lead early midterm results; AMD rises",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-midterms-010643358.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-04T01:06:43",
+      "thumbnail": ""
     },
     {
-      "title": "3 Canadian Value Stocks With ROE Over 22%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-value-stocks-roe-012059202.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T01:20:59",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/7752a8352c9fb2f12bbf3309e57467fd.jpg"
+      "title": "Global Diesel Crunch Set to Last Well Into 2027",
+      "link": "https://finance.yahoo.com/energy/articles/global-diesel-crunch-set-last-000000062.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-11-04T00:00:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/daa221923ff9c8a6f8ab966a6ead8404.jpg"
+    },
+    {
+      "title": "CFTC opens U.S. stocks to crypto-style futures that never expire",
+      "link": "https://finance.yahoo.com/markets/options/articles/cftc-opens-u-stocks-crypto-231042352.html",
+      "publisher": "TheStreet",
+      "date": "2026-11-03T23:10:42",
+      "thumbnail": "https://media.zenfs.com/en/thestreet_881/aea706a88bd989fff7e999edcb79cc97.jpg"
+    },
+    {
+      "title": "SPARTAN DELTA CORP. ANNOUNCES THIRD QUARTER 2026 RESULTS, UPDATED 2026 CAPITAL PROGRAM, 2027 GUIDANCE, AND INCREASES DUVERNAY PRODUCTION TARGET",
+      "link": "https://finance.yahoo.com/energy/articles/spartan-delta-corp-announces-third-230300404.html",
+      "publisher": "CNW Group",
+      "date": "2026-11-03T23:03:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/2749be57971375d1f869146362b5a2ba.jpg"
+    },
+    {
+      "title": "Kosmos Energy (KOS) stock trades down, here is why",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kosmos-energy-kos-stock-trades-224536556.html",
+      "publisher": "StockStory",
+      "date": "2026-11-03T22:45:36",
+      "thumbnail": "https://media.zenfs.com/en/stockstory_922/b90468113ce01746a9d906caf64823e4.jpg"
+    },
+    {
+      "title": "Stocks wobble as investors watch US midterm elections",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-retreat-ahead-us-022420502.html",
+      "publisher": "Reuters",
+      "date": "2026-11-03T22:22:53",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/0047b47ffb150d1b49a8d303f8655eac.jpg"
     }
   ],
   "GOLD": [
     {
-      "title": "Gold holds near $3,950 as Iran peace hopes ease oil, U.S. vote in focus",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-950-013615439.html",
+      "title": "Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-930-013232167.html",
       "publisher": "Investing.com",
-      "date": "2026-11-03T01:36:15",
+      "date": "2026-11-04T01:32:32",
       "thumbnail": ""
     },
     {
-      "title": "Novo Resources targets Tibooburra drilling as broader gold pipeline advances",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/novo-resources-targets-tibooburra-drilling-004700770.html",
-      "publisher": "Proactive",
-      "date": "2026-11-03T00:47:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/a0d0d6031872cf7f755440dfcb129b78.jpg"
+      "title": "i-80 Gold Corp (IAUX) Q3 2026 Earnings Call Highlights: Strong Liquidity, On-Track Development, ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/80-gold-corp-iaux-q3-010634787.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-11-04T01:06:34",
+      "thumbnail": ""
     },
     {
-      "title": "Lundin Gold (TSX:LUG) Stock Looks Slightly Undervalued On Cash Flow",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/lundin-gold-tsx-lug-stock-002151831.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-03T00:21:51",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
-    },
-    {
-      "title": "Gold Edges Higher Amid Better Investor Sentiment",
-      "link": "https://finance.yahoo.com/m/cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc/gold-edges-higher-amid-better.html",
+      "title": "Gold Edges Higher Amid Cooling Oil Prices",
+      "link": "https://finance.yahoo.com/m/a0c42b1e-93b2-3e18-a23b-c8b803c58719/gold-edges-higher-amid.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-03T00:20:00",
+      "date": "2026-11-04T00:54:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
     },
     {
-      "title": "Is Equinox Gold (TSX:EQX) Reasonable, Or Are Earnings Looking Stretched?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/equinox-gold-tsx-eqx-reasonable-231313873.html",
+      "title": "Montage Gold (TSX:MAU) Stock May Be 45% Below Fair Value",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/montage-gold-tsx-mau-stock-001622044.html",
       "publisher": "Simply Wall St.",
-      "date": "2026-11-02T23:13:13",
+      "date": "2026-11-04T00:16:22",
       "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
     },
     {
-      "title": "i-80 Gold Reports Third Quarter 2026 Results; Archimedes Underground on Track to Begin Production Mining by Year-End",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/80-gold-reports-third-quarter-225300956.html",
-      "publisher": "PR Newswire",
-      "date": "2026-11-02T22:53:00",
-      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/932148cbcee3997bd9bb5b9a8ecc830b.jpg"
-    },
-    {
-      "title": "i-80 Gold Reports Third Quarter 2026 Results; Archimedes Underground on Track to Begin Production Mining by Year-End",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/80-gold-reports-third-quarter-225300243.html",
-      "publisher": "CNW Group",
-      "date": "2026-11-02T22:53:00",
-      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/932148cbcee3997bd9bb5b9a8ecc830b.jpg"
-    },
-    {
-      "title": "Plato Gold Corp. Confirms Completion of $55,000 Critical-Mineral Flow-Through Private Placement",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/plato-gold-corp-confirms-completion-223700246.html",
+      "title": "Namib Accelerates Redwing Mine Production",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/namib-accelerates-redwing-mine-production-233600583.html",
       "publisher": "GlobeNewswire",
-      "date": "2026-11-02T22:37:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/6998b62356f2a7b3823a06c04d61deeb.jpg"
+      "date": "2026-11-03T23:36:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/784ca808106d6ba7644ce84075380dc7.png"
     },
     {
-      "title": "Fortuna Mining Receives Notice of Admissibility for Diamba Sud Gold Project Permit Application in Senegal",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/fortuna-mining-receives-notice-admissibility-220303660.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-02T22:03:03",
-      "thumbnail": ""
+      "title": "Riversgold expands Northern Zone footprint 15-fold with strategic Kalgoorlie acquisition",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/riversgold-expands-northern-zone-footprint-232700599.html",
+      "publisher": "Proactive",
+      "date": "2026-11-03T23:27:00",
+      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/b3dcc1d3014c17964dc8271783bc51fc.jpg"
     },
     {
-      "title": "Osisko Gold Appoints Vice President, Construction Operations for the Cariboo Gold Project",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/osisko-gold-appoints-vice-president-220000420.html",
+      "title": "Stock Market Today, Nov. 3: Markets Edge Higher as Semiconductor Stocks Rebound",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-3-230359079.html",
+      "publisher": "Motley Fool",
+      "date": "2026-11-03T23:03:59",
+      "thumbnail": "https://media.zenfs.com/en/motleyfool.com/11f6f330a36a08dbcb10dd7a805268ce.jpg"
+    },
+    {
+      "title": "GGL Resources Corp. Issues Post-Consolidation Shares to Strategic Metals Ltd.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ggl-resources-corp-issues-post-223000840.html",
+      "publisher": "ACCESS Newswire",
+      "date": "2026-11-03T22:30:00",
+      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/acb6c4fde589aae86bc1e2affe1f9742.png"
+    },
+    {
+      "title": "Montage Gold expects further resource growth at its Koné mine where the plant is already operating above nameplate",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/montage-gold-expects-further-growth-221500422.html",
       "publisher": "GlobeNewswire",
-      "date": "2026-11-02T22:00:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/906b7e547176e87e80bfd3d46f5c9e0a.png"
+      "date": "2026-11-03T22:15:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/84fa7dcf942169b3b64b1838754f355f.png"
+    },
+    {
+      "title": "Trading Day: AI trade rebounds, midterms awaited",
+      "link": "https://finance.yahoo.com/markets/articles/trading-day-ai-trade-rebounds-221042118.html",
+      "publisher": "Reuters",
+      "date": "2026-11-03T22:10:42",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/12a53f95774c9eda7da3f91cca29310f.jpg"
     }
   ],
   "NEM": [
+    {
+      "title": "Is Agnico Eagle Mines Stock A Real Bargain?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-eagle-mines-stock-real-131816874.html",
+      "publisher": "Trefis",
+      "date": "2026-11-03T13:18:16",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/2f1c7dcd200846064a763aea9e1a755a.jpg"
+    },
+    {
+      "title": "Why Is Everyone Ignoring Iamgold Stock's High Cash Yield?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-iamgold-stocks-131801678.html",
+      "publisher": "Trefis",
+      "date": "2026-11-03T13:18:01",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/58598188c4f24ce0a54a9c175d55945e.jpg"
+    },
     {
       "title": "What Is Behind The Move In Kinross Gold Stock?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/behind-move-kinross-gold-stock-191931245.html",
@@ -343,20 +357,6 @@ var NEWS_DATA = {
       "publisher": "Trefis",
       "date": "2026-10-30T12:32:49",
       "thumbnail": "https://media.zenfs.com/en/trefis_142/58598188c4f24ce0a54a9c175d55945e.jpg"
-    },
-    {
-      "title": "Can Hudbay Minerals Stock Rally 40% After This Dip?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hudbay-minerals-stock-rally-40-095619978.html",
-      "publisher": "Trefis",
-      "date": "2026-10-30T09:56:19",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/f265a06c3917d549af31d55a9a0c0907.jpg"
-    },
-    {
-      "title": "What Could Lift Newmont Stock?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/could-lift-newmont-stock-203936401.html",
-      "publisher": "Trefis",
-      "date": "2026-10-29T20:39:36",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/0f23c72b7307cf6e599013c12bc05b02.jpg"
     }
   ]
 };
