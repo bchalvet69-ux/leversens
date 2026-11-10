@@ -1,77 +1,70 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
-      "link": "https://finance.yahoo.com/markets/options/articles/dave-ramsey-says-ll-never-230835982.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T23:08:35",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/c56416f72faf5ef0dd964c9e778d1d27.jpg"
+      "title": "The Spy Scandal That Lays Bare Nvidia’s Governance Vacuum",
+      "link": "https://finance.yahoo.com/m/c0133c91-dcd2-34ca-8a15-b7d844cc4e0e/the-spy-scandal-that-lays.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-10T01:58:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/1e94024ffeb3a1a23da64e9621816e60.jpg"
     },
     {
-      "title": "Charlie Bilello Says “Some Sanity Has Returned to the Market.” What That Means for Your Portfolio",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/charlie-bilello-says-sanity-returned-220728855.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T22:07:28",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/79e3b97de8193d271c59593e6dde4367.jpg"
+      "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+      "link": "https://finance.yahoo.com/technology/articles/silicon-valley-trump-rally-behind-164235068.html",
+      "publisher": "The Guardian",
+      "date": "2026-11-09T23:30:37",
+      "thumbnail": "https://media.zenfs.com/en/the_guardian_765/484abd1b702abb6913662f0172603e6d.jpg"
     },
     {
-      "title": "ETF Zoo: How the Election Splits Big Tech",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etf-zoo-election-splits-big-220244256.html",
-      "publisher": "etf.com",
-      "date": "2026-11-06T22:02:44",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/ecdb1de86955ba568c3c4e9cd1518f27.png"
+      "title": "Trump Says Nvidia CEO Didn’t Know Alice Huang Was a Suspected Spy",
+      "link": "https://finance.yahoo.com/m/c32487f7-6d21-31e4-b241-7b318e715ef2/trump-says-nvidia-ceo-didn%E2%80%99t.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-09T23:08:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/af5853f19ff542eaa51f742d2a0775f2.jpg"
     },
     {
-      "title": "If You Invested $1,000 in PepsiCo 10 Years Ago, Here’s What You’d Have Now",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-pepsico-10-191735966.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T19:17:35",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/7eabe1ea26821279d860acd6ea9a2f01.jpg"
+      "title": "Investors Brush Off Election, Selloff and Even Nvidia’s Spy Scandal to Buy Stocks",
+      "link": "https://finance.yahoo.com/m/a170cbda-5f6c-3861-b1d7-244b5a2db738/investors-brush-off-election%2C.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-09T23:04:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/dc2b06ec51c49fa44c84be517a3edde4.jpg"
     },
     {
-      "title": "Jefferies Group's Top Q3 2026 Move: SPDR S&P 500 ETF Trust at a -4.22% Portfolio Impact",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-groups-top-q3-2026-170038509.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-11-06T17:00:38",
-      "thumbnail": ""
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "link": "https://finance.yahoo.com/technology/articles/short-seller-flagged-nvidia-ceo-224609300.html",
+      "publisher": "TechCrunch",
+      "date": "2026-11-09T22:46:09",
+      "thumbnail": "https://media.zenfs.com/en/techcrunch_finance_785/49eb0770ad1b3a10590120dcbec81694"
     },
     {
-      "title": "Jobless Claims Just Matched a 57-Year Low on the Day Stocks Crashed",
-      "link": "https://finance.yahoo.com/economy/articles/jobless-claims-just-matched-57-150850960.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T15:08:50",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/84d34ccae91511df10696716345cc1ee"
+      "title": "A Timeline of Nvidia CEO Jensen Huang’s Suspected Spy Drama",
+      "link": "https://finance.yahoo.com/m/4ff2b2db-70f3-3c2e-88ff-41dd5b752e51/a-timeline-of-nvidia-ceo.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-09T22:36:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/fe379f7a5157496d91663e0c25b3c5f2.jpg"
     },
     {
-      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed as US October Jobs Rise More than Expected",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-142316139.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-06T14:23:16",
-      "thumbnail": ""
+      "title": "Nvidia Shares Slump on Spy Probe",
+      "link": "https://finance.yahoo.com/m/031ea421-d327-32e9-871d-8d0ff614e90d/nvidia-shares-slump-on-spy.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-09T22:35:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/5db3e60f22109c01c83cf78162b476e6.jpg"
     },
     {
-      "title": "George Kamel Says Skip the $250,000 Annuity. His Alternative Could Pay $676,000",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/george-kamel-says-skip-250-141710863.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T14:17:10",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/5b8eaf05e7faa05fc847e85bf18a9071.jpg"
-    },
-    {
-      "title": "Stocks Just Had Their Worst Second Day After a Midterm in Nearly a Century",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-just-had-worst-second-135707606.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T13:57:07",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/79e3b97de8193d271c59593e6dde4367.jpg"
-    },
-    {
-      "title": "Rate Hikes Could Be Coming: History Likes These 4 Consumer Staples Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/rate-hikes-could-coming-history-133752941.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-06T13:37:52",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/eab57e5c2e26610a8bb1284e89471815.jpg"
+      "title": "Nvidia live updates: Nvidia stock falls 4% as board investigates CEO's affair with alleged Chinese spy",
+      "link": "https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html",
+      "publisher": "Yahoo Finance",
+      "date": "2026-11-09T22:32:24",
+      "thumbnail": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/0cd53bcc-959a-4d7b-8b1a-960fd4d9c2dd_ac3cb57621238ab5dd60f852e9b1771c203641f343dd80dd113fe96d74716bc2.jpg"
     }
   ],
   "BTCUSD": [
+    {
+      "title": "BTC USD Breaks Below 50-Week Average After $1.28B ETF Outflows: Is The Selling Finally Over?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/btc-usd-breaks-below-50-103201226.html",
+      "publisher": "99bitcoins",
+      "date": "2026-11-09T10:32:01",
+      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/021651b87b50a11e083280abcadab260.jpg"
+    },
     {
       "title": "Michael Saylor Posts “Feeling ₿ullish” 80 Minutes Before BTC USD Drops 5%: Does Strategy’s Chairman Have the Worst Timing on X?",
       "link": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-posts-feeling-ullish-094750944.html",
@@ -134,89 +127,160 @@ var NEWS_DATA = {
       "publisher": "99bitcoins",
       "date": "2026-10-27T08:43:59",
       "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/438713014779b45337c6218c761a5fcd.jpg"
-    },
-    {
-      "title": "Bitcoin Price Today: US Money Supply Hits $23.3Tn – Why is BTC USD Falling Below $82,000?",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-today-us-money-152856882.html",
-      "publisher": "99bitcoins",
-      "date": "2026-10-22T15:28:56",
-      "thumbnail": "https://media.zenfs.com/en/99bitcoins_us_315/36c232f33955e7055388e52c927bd16b.jpg"
     }
   ],
-  "CLF": [],
-  "GOLD": [
+  "CLF": [
     {
-      "title": "AngloGold Ashanti Stock Is Up 5.0% What's Changed Earnings And Growth Plans",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-stock-5-0-021026565.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-07T02:10:26",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
+      "title": "Asian stocks rise after technology shares advance on Wall Street",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html",
+      "publisher": "Associated Press",
+      "date": "2026-11-10T03:44:21",
+      "thumbnail": "https://media.zenfs.com/en/ap.org/1792ebd7d617c86410cd0e93e61f57cb.jpg"
     },
     {
-      "title": "Will Board Appointment Change Snowline Gold (TSX:SGD) Stock Narrative",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/board-appointment-change-snowline-gold-011454576.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-07T01:14:54",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
+      "title": "Occidental Cuts Debt to $10 Billion as Q3 Cash Flow Hits $4.1 Billion",
+      "link": "https://finance.yahoo.com/energy/articles/occidental-cuts-debt-10-billion-025000403.html",
+      "publisher": "Oilprice.com",
+      "date": "2026-11-10T02:50:00",
+      "thumbnail": "https://media.zenfs.com/en/oilprice.com/7e119d3a96b28eb36ccd6812782439d2.jpg"
     },
     {
-      "title": "Perpetua Resources Stock Gains Attention After New Gold And Antimony Discovery",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/perpetua-resources-stock-gains-attention-011451618.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-07T01:14:51",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
-    },
-    {
-      "title": "What Allied Gold (AAUC) Said on Its Q3 Earnings Call",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/allied-gold-aauc-said-q3-011429815.html",
-      "publisher": "MarketBeat",
-      "date": "2026-11-07T01:14:29",
-      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/a1b816821d7f70e25a95bc2e005a8971.jpg_up.jpg"
-    },
-    {
-      "title": "Did Q3 Results Just Shift Fortuna Mining's (TSX:FVI) Investment Narrative?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/did-q3-results-just-shift-011414801.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-07T01:14:14",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
-    },
-    {
-      "title": "Is Artemis Gold (TSXV:ARTG) Fully Valued After Earnings And Blackwater Progress?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/artemis-gold-tsxv-artg-fully-001256630.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-07T00:12:56",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
-    },
-    {
-      "title": "Kumocast.io Launches Free Live Trading Signals and Price Predictions for Forex, Gold, Oil, Indices and Stocks, Refreshed Every 30 Minutes",
-      "link": "https://finance.yahoo.com/markets/currencies/articles/kumocast-io-launches-free-live-234945016.html",
-      "publisher": "NewMediaWire",
-      "date": "2026-11-06T23:49:45",
-      "thumbnail": "https://media.zenfs.com/en/newsmediawire_165/97346d45d2512e39d4c4bc41d71f9bfb.jpg"
-    },
-    {
-      "title": "Gold allocation shifts as you age. Here's what to consider.",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-allocation-shifts-age-heres-234656531.html",
-      "publisher": "USA TODAY",
-      "date": "2026-11-06T23:46:56",
-      "thumbnail": "https://media.zenfs.com/en/usa_today_money_325/de3cb7ade32165715ec96dc777fdf701.jpg"
-    },
-    {
-      "title": "Gold Shines During Volatile Week",
-      "link": "https://finance.yahoo.com/m/632021e9-a678-3454-b950-6350d9aff59d/gold-shines-during-volatile.html",
+      "title": "Post-Midterms AI Selloff on Data-Center Buildout Concerns Appears Overdone",
+      "link": "https://finance.yahoo.com/m/05e86002-4c3f-3bfd-8c26-ccc94acf7ece/post-midterms-ai-selloff-on.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-06T23:30:02",
+      "date": "2026-11-10T02:48:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
     },
     {
-      "title": "Is Agnico Eagle Stock Increasing Your Market Risk?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-eagle-stock-increasing-market-231755510.html",
-      "publisher": "Trefis",
-      "date": "2026-11-06T23:17:55",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/2f1c7dcd200846064a763aea9e1a755a.jpg"
+      "title": "Tech leads Asian stock rally as traders track Wall St rebound",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-leads-asian-stock-rally-023930562.html",
+      "publisher": "AFP",
+      "date": "2026-11-10T02:39:30",
+      "thumbnail": "https://media.zenfs.com/en/afp.com/ade3b3a4549a2b67a388775587fd8894.jpg"
+    },
+    {
+      "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-climb-sliding-oil-022321980.html",
+      "publisher": "Reuters",
+      "date": "2026-11-10T02:23:21",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/69342d59e6a0c4e1fe4734e879c64c7f.jpg"
+    },
+    {
+      "title": "Oil Falls as U.S.-Iran Conflict Risks Ease",
+      "link": "https://finance.yahoo.com/m/3b17e388-060f-32b4-87b3-8d15c198704c/oil-falls-as-u.s.-iran.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-10T02:04:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+    },
+    {
+      "title": "Gold holds near $4,130 as oil retreat eases inflation concerns",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-130-014229117.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-10T01:42:29",
+      "thumbnail": ""
+    },
+    {
+      "title": "Peabody Energy (BTU) Reacts To Oil Swings After Trump Iran Comments While Value Stays In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/peabody-energy-btu-reacts-oil-012111628.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-10T01:21:11",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/68ed3f776c1ca8247ec702ef0b8619b8.jpg"
+    },
+    {
+      "title": "NOG Q3 2026 deep dive: production strength and portfolio optimization drive positive outlook",
+      "link": "https://finance.yahoo.com/energy/articles/nog-q3-2026-deep-dive-011736808.html",
+      "publisher": "StockStory",
+      "date": "2026-11-10T01:17:36",
+      "thumbnail": "https://media.zenfs.com/en/stockstory_922/2229d3d47a9bb9bb8e04b678cb169389.jpg"
+    },
+    {
+      "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+      "link": "https://finance.yahoo.com/news/u-stock-futures-steady-tech-004342905.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-10T00:43:42",
+      "thumbnail": ""
+    }
+  ],
+  "GOLD": [
+    {
+      "title": "Gold holds near $4,130 as oil retreat eases inflation concerns",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-130-014229117.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-10T01:42:29",
+      "thumbnail": ""
+    },
+    {
+      "title": "Gold Edges Lower as Investors Await Key U.S. Inflation Data",
+      "link": "https://finance.yahoo.com/m/3f75ac11-b2e4-38bc-a821-937c5a35e55c/gold-edges-lower-as-investors.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-10T00:35:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+    },
+    {
+      "title": "Collective Mining Stock Has Broad High Grade Gold Hits Has The Bull Case Changed?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/collective-mining-stock-broad-high-001556603.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-10T00:15:56",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/ff8a8ed6d509870cfa9395a2a8d9aa6c.jpg"
+    },
+    {
+      "title": "What Does Kinross Gold (TSX:K) Class Action Mean For Its 2026 To 2028 Guidance?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-kinross-gold-tsx-k-001502621.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-10T00:15:02",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
+    },
+    {
+      "title": "Centerra Gold (TSX:CG) Stock May Trade At A Discount After Strong Q3 Results",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/centerra-gold-tsx-cg-stock-001415890.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-10T00:14:15",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
+    },
+    {
+      "title": "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gain-above-4-000412882.html",
+      "publisher": "Bloomberg",
+      "date": "2026-11-10T00:04:12",
+      "thumbnail": "https://media.zenfs.com/en/bloomberg_holding_pen_162/7cc3faae245150bd4d96dad8aebef6af.jpg"
+    },
+    {
+      "title": "Freedom Gold Corp. Announces Resignation of Director",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/freedom-gold-corp-announces-resignation-232100799.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-11-09T23:21:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/1bb01d931c32774601fdfa97f95c9701.jpg"
+    },
+    {
+      "title": "Treasurer Frerichs Clinches 8th Gold Rating For Bright Start 529 College Savings Plan",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/treasurer-frerichs-clinches-8th-gold-230300774.html",
+      "publisher": "PR Newswire",
+      "date": "2026-11-09T23:03:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/4571dbd553bcf8a1af15559838bbdd28.jpg"
+    },
+    {
+      "title": "Equinox Gold Q3 Adjusted Earnings, Revenue Rise",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/equinox-gold-q3-adjusted-earnings-224821300.html",
+      "publisher": "MT Newswires",
+      "date": "2026-11-09T22:48:21",
+      "thumbnail": ""
     }
   ],
   "NEM": [
+    {
+      "title": "WPM Earnings Miss Estimates in Q3 Despite Higher Metal Prices",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/wpm-earnings-miss-estimates-q3-160300496.html",
+      "publisher": "Zacks",
+      "date": "2026-11-09T16:03:00",
+      "thumbnail": "https://media.zenfs.com/en/zacks.com/af2c203047e7b874f43e67567e66fd2c.png"
+    },
+    {
+      "title": "Forget the High-Beta Hype: 5 ‘Sleep Well at Night’ Stocks to Buy Now",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/forget-high-beta-hype-5-231024225.html",
+      "publisher": "Insider Monkey",
+      "date": "2026-11-08T23:10:24",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/e4bb8effcfb56463b913e5e8edb1eb8d.jpg"
+    },
     {
       "title": "Is Agnico Eagle Stock Increasing Your Market Risk?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-eagle-stock-increasing-market-231755510.html",
@@ -272,20 +336,6 @@ var NEWS_DATA = {
       "publisher": "MarketBeat",
       "date": "2026-11-05T16:15:12",
       "thumbnail": "https://media.zenfs.com/en/marketbeat_955/03abf500cbb01c2913e1c2fdba8e9e1a.png"
-    },
-    {
-      "title": "Will Earnings Beat Change Newmont Stock Narrative",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-change-newmont-stock-151729340.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-05T15:17:29",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/3c92873a0cb2d291be8fc4410fccde43.jpg"
-    },
-    {
-      "title": "Gold Terra Announces 6.61 g/t Gold over 7.35 Metres Including 31.6 g/t Gold over 1.1 Metres on the Campbell Shear Zone 103N Extension, Con Mine, Yellowknife, NWT",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-terra-announces-6-61-120000025.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-11-05T12:00:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/8e6ff367c22215821df7e3d6f370168a.jpg"
     }
   ]
 };
