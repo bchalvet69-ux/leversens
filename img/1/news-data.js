@@ -1,73 +1,73 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "Stocks drop as booming Nvidia results drowned by spy scandal",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-drop-booming-nvidia-results-024500677.html",
-      "publisher": "AFP",
-      "date": "2026-11-18T02:45:00",
-      "thumbnail": "https://media.zenfs.com/en/afp.com/3f6ced203a16e2e4617a24f7b67c594a.jpg"
+      "title": "Trump Hails ‘Great’ Ties With Xi, Downplays Nvidia Spy Scandal",
+      "link": "https://finance.yahoo.com/economy/policy/articles/trump-hails-great-ties-xi-014442789.html",
+      "publisher": "Bloomberg",
+      "date": "2026-11-19T01:44:42",
+      "thumbnail": "https://media.zenfs.com/en/bloomberg_holding_pen_162/969624be518c2d8c22694fa2c7c98025.jpg"
     },
     {
-      "title": "EXCLUSIVE: Huang’s Exit Echoes Profumo, but Intelligence Expert Says Chip CEOs Are the New Spy Targets",
-      "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-huang-exit-echoes-profumo-003007276.html",
-      "publisher": "Benzinga",
-      "date": "2026-11-18T00:30:07",
-      "thumbnail": "https://media.zenfs.com/en/benzinga_79/ff529d2eeb4e72045d6e7ce815fc5ada.jpg"
-    },
-    {
-      "title": "Bill Ackman Cut His Microsoft Stake. Your S&P 500 Fund Can’t.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-cut-microsoft-stake-180220390.html",
+      "title": "Two Retirees Each Hold $500,000 in a 401(k) Index Fund as Nvidia’s CFO Takes the Wheel. One Has About $28,950 Riding on a Single Stock. The Other Has About $1,000",
+      "link": "https://finance.yahoo.com/markets/options/articles/two-retirees-hold-500-000-230224622.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-17T18:02:20",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/b7a4d23d3a587d726e8b2fe43a2126f5.jpg"
+      "date": "2026-11-18T23:02:24",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/444793e257a77664a35aa974d85b7468.jpg"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html",
+      "title": "S&P 500 Breaks Critical Support: Is a Bigger Stock Market Crash Coming?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-breaks-critical-support-215643809.html",
+      "publisher": "BeInCrypto",
+      "date": "2026-11-18T21:56:43",
+      "thumbnail": "https://media.zenfs.com/en/beincrypto_us_662/ec2c2586c007f2b8cf37e334d7b97bc6.jpg"
+    },
+    {
+      "title": "Take-Two Is Surging on GTA VI’s Launch, and Your Index Fund Might Be Along for the Ride Without You Knowing It",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/two-surging-gta-vi-launch-180610758.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-18T18:06:10",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/b6acbc262f153896b42a6262713da7bb.jpg"
+    },
+    {
+      "title": "ARKK Is Down, But These 10 Cathie Wood Stocks Have Soared Up to 285% in 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arkk-down-10-cathie-wood-173103158.html",
+      "publisher": "Insider Monkey",
+      "date": "2026-11-18T17:31:03",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/65943c1fa5d725a8381a67b429cfcbb3.jpg"
+    },
+    {
+      "title": "Cathie Wood Was Right About These 5 Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-5-stocks-171622537.html",
+      "publisher": "Insider Monkey",
+      "date": "2026-11-18T17:16:22",
+      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/65943c1fa5d725a8381a67b429cfcbb3.jpg"
+    },
+    {
+      "title": "SCHD Is Having Its Best Year Since 2013. What Happens Next Year?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/schd-having-best-since-2013-162528647.html",
+      "publisher": "Trefis",
+      "date": "2026-11-18T16:25:28",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/bb181c3afe0cc7e610501841ab5a860a.png"
+    },
+    {
+      "title": "Buying SPY At The 2007 Top Still Paid Off",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buying-spy-2007-top-still-152108287.html",
+      "publisher": "Trefis",
+      "date": "2026-11-18T15:21:08",
+      "thumbnail": ""
+    },
+    {
+      "title": "Can A $2 Million Portfolio Pay You $4,000 A Month?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-million-portfolio-pay-4-145436259.html",
+      "publisher": "Trefis",
+      "date": "2026-11-18T14:54:36",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/1817ee0f3d23503fe9e04868533e7495.jpg"
+    },
+    {
+      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Amid Nvidia Earnings, Upcoming Fed Meeting Minutes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-140832688.html",
       "publisher": "MT Newswires",
-      "date": "2026-11-17T14:16:22",
-      "thumbnail": ""
-    },
-    {
-      "title": "Cathie Wood and Jim Cramer Agree on These 10 Stocks: Latest 13F",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132819758.html",
-      "publisher": "Insider Monkey",
-      "date": "2026-11-17T13:28:19",
-      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/b10089990450b572d00352a02a6974ab.jpg"
-    },
-    {
-      "title": "Cathie Wood and Jim Cramer Agree on These 5 Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132403111.html",
-      "publisher": "Insider Monkey",
-      "date": "2026-11-17T13:24:03",
-      "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/423827dca147678a8349e68781f30c06.jpg"
-    },
-    {
-      "title": "How Much Does a 70-Year-Old Couple Give Up Leaving a $300,000 Annuity Before the Surrender Period Ends?",
-      "link": "https://finance.yahoo.com/markets/options/articles/much-does-70-old-couple-130259073.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-17T13:02:59",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/4215d36164468bfbf37db33d70fd56f4.jpg"
-    },
-    {
-      "title": "The Overlooked JPMorgan ETF That Owns Nearly 300 of the Market’s Strongest Stocks for 0.12%",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/overlooked-jpmorgan-etf-owns-nearly-123751583.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-17T12:37:51",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/55bd5686b0f4e738475c7bac7dac4ec8.jpg"
-    },
-    {
-      "title": "SPDR S&P 500 ETF (SPY) Buys $207.3 Million More Apple on Nov. 13",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110333301.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-11-17T11:03:33",
-      "thumbnail": ""
-    },
-    {
-      "title": "ETFs Bought $101.0 Million of Amgen (AMGN) on Nov. 13",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-101-0-million-110202255.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-11-17T11:02:02",
+      "date": "2026-11-18T14:08:32",
       "thumbnail": ""
     }
   ],
@@ -145,142 +145,205 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
-      "title": "Asian markets mostly decline after Wall Street losses as AI stocks swing",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-mostly-decline-wall-034546063.html",
-      "publisher": "Associated Press",
-      "date": "2026-11-18T03:45:46",
-      "thumbnail": "https://media.zenfs.com/en/ap.org/cf31777d5ac9e369da31dd8ac349a84b.jpg"
-    },
-    {
-      "title": "Oil prices edge lower as markets parse M.East tensions, U.S. inventory build",
-      "link": "https://finance.yahoo.com/energy/articles/oil-prices-edge-lower-markets-024104976.html",
-      "publisher": "Investing.com",
-      "date": "2026-11-18T02:41:04",
-      "thumbnail": ""
-    },
-    {
-      "title": "5 Oil and Gas Stocks That Crushed Third-Quarter Earnings Estimates",
-      "link": "https://finance.yahoo.com/energy/articles/5-oil-gas-stocks-crushed-010000263.html",
-      "publisher": "Oilprice.com",
-      "date": "2026-11-18T01:00:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/f94f57c64e544ec0bff6194ea037c73f.jpg"
-    },
-    {
-      "title": "Cuba’s Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
-      "link": "https://finance.yahoo.com/energy/articles/cuba-energy-crisis-turns-goldmine-230000134.html",
-      "publisher": "Oilprice.com",
-      "date": "2026-11-17T23:00:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/1004a6e395dd5792b0563ff699843cd4.jpg"
-    },
-    {
-      "title": "Stocks fall but Nvidia rebound lifts sentiment",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html",
+      "title": "BOJ chief plays down soft consumption data, signals near-term rate hike",
+      "link": "https://finance.yahoo.com/economy/policy/articles/boj-governor-ueda-says-financial-013529504.html",
       "publisher": "Reuters",
-      "date": "2026-11-17T22:07:35",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/286e8bd9f709c210bbfc0f20c430f232.jpg"
+      "date": "2026-11-19T03:34:05",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/e1e1f0c0beb85b64e4415f5c385d565a.jpg"
     },
     {
-      "title": "API Shows Substantial Crude Oil, Gasoline Inventory Builds",
-      "link": "https://finance.yahoo.com/energy/articles/api-shows-substantial-crude-oil-215800093.html",
-      "publisher": "Oilprice.com",
-      "date": "2026-11-17T21:58:00",
-      "thumbnail": "https://media.zenfs.com/en/oilprice.com/11b2e6ead74ffec397c85b2effe91285.jpg"
+      "title": "Asian stocks drop as Anthropic's record IPO fails to reassure",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-drop-anthropics-record-025108034.html",
+      "publisher": "AFP",
+      "date": "2026-11-19T02:51:08",
+      "thumbnail": "https://media.zenfs.com/en/afp.com/0e88a171312db951245b2ae10d787623.jpg"
+    },
+    {
+      "title": "Oil prices steady as supply surplus softens sentiment though Gulf war supports",
+      "link": "https://finance.yahoo.com/energy/articles/oil-prices-steady-supply-surplus-024608326.html",
+      "publisher": "Reuters",
+      "date": "2026-11-19T02:46:08",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/8aa936f24313cdf13ea7a5f258f6547d.jpg"
+    },
+    {
+      "title": "JGBs Edge Higher Amid Mixed Developments",
+      "link": "https://finance.yahoo.com/m/5fe5561f-bd06-3ee0-957a-b3c48a3395e2/jgbs-edge-higher-amid-mixed.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-19T00:38:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
+    },
+    {
+      "title": "European stocks hit two-week low on weak miners, caution ahead of Anthropic IPO",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/european-shares-muted-tech-offsets-082501845.html",
+      "publisher": "Reuters",
+      "date": "2026-11-18T22:21:36",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/8e6b9074f5bcccc5036b6de3f036858d.jpg"
+    },
+    {
+      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
+      "publisher": "Reuters",
+      "date": "2026-11-18T22:15:28",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/a7eb887db20ed8325c151b5977a63486.jpg"
+    },
+    {
+      "title": "Hafnia Limited Q3 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hafnia-limited-q3-2026-earnings-220249716.html",
+      "publisher": "Moby",
+      "date": "2026-11-18T22:02:49",
+      "thumbnail": "https://media.zenfs.com/en/moby_896/cb7a51210b9152a8e583869bc731ed60.png"
     },
     {
       "title": "Energy & Utilities Roundup: Market Talk",
-      "link": "https://finance.yahoo.com/m/e2d51540-cf30-30c1-9b86-fed3d8e04586/energy-%26-utilities-roundup%3A.html",
+      "link": "https://finance.yahoo.com/m/ba353768-d942-37e6-8ee2-f922a451f83e/energy-%26-utilities-roundup%3A.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-17T21:53:00",
+      "date": "2026-11-18T21:58:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/e25d463a39335bf4ef6c6c8c19071fa3.jpg"
     },
     {
-      "title": "How major US stock indexes fared Tuesday 11/17/2026",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-214025410.html",
-      "publisher": "Associated Press",
-      "date": "2026-11-17T21:40:25",
-      "thumbnail": ""
+      "title": "Oil Futures Extend Decline on Supply Surplus Expectations",
+      "link": "https://finance.yahoo.com/m/ae11827d-12b1-360c-a7db-52f6a4843058/oil-futures-extend-decline-on.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-18T21:42:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
     },
     {
-      "title": "TSX Closer: Index Tumbles to Six-Week Low As All Sectors Decline; Investors Assess Canadian Housing Data",
-      "link": "https://finance.yahoo.com/real-estate/articles/tsx-closer-index-tumbles-six-212629123.html",
+      "title": "TSX Closer: Index Plunges 2.1% to Five-Month Low as Metals And Energy Stocks Slide",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-plunges-2-213608800.html",
       "publisher": "MT Newswires",
-      "date": "2026-11-17T21:26:29",
-      "thumbnail": ""
-    },
-    {
-      "title": "Sector Update: Energy Stocks Softer Late Afternoon",
-      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-afternoon-204657446.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-17T20:46:57",
+      "date": "2026-11-18T21:36:08",
       "thumbnail": ""
     }
   ],
   "GOLD": [
     {
-      "title": "Gold falls toward $3,800 as Fed hawks reinforce rate-hike outlook",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-toward-3-800-014150756.html",
-      "publisher": "Investing.com",
-      "date": "2026-11-18T01:41:50",
-      "thumbnail": ""
-    },
-    {
-      "title": "Island Passage Announces an US $8 Million Financing and  New Strategic Investment from Alpayana",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/island-passage-announces-us-8-012500966.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-11-18T01:25:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/355172c371006c2f9fa67d0a0f468416.jpg"
-    },
-    {
-      "title": "Mineros Sees Strong Opportunity for Responsible Mining Growth in Colombia",
-      "link": "https://finance.yahoo.com/energy/articles/mineros-sees-strong-opportunity-responsible-011900993.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-11-18T01:19:00",
-      "thumbnail": ""
-    },
-    {
-      "title": "Ora Banda continues to drive its strategy as it farewells key member of the team",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ora-banda-continues-drive-strategy-003300460.html",
-      "publisher": "Proactive",
-      "date": "2026-11-18T00:33:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/ff7166dc931681e03a7da859d839787e.jpg"
-    },
-    {
-      "title": "Chevron (CVX) Nears $5 Billion Gulf Deal And Iraq Oilfield Takeover",
-      "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-nears-5-billion-001620087.html",
+      "title": "3 British Undervalued Stocks With Earnings Growth Over 12%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-british-undervalued-stocks-earnings-032504263.html",
       "publisher": "Simply Wall St.",
-      "date": "2026-11-18T00:16:20",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/1ea5b1d9f0560070bd8a3f6e95339b25.jpg"
+      "date": "2026-11-19T03:25:04",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg"
     },
     {
-      "title": "Alkane Resources uncovers massive sulphide copper-zinc-silver system at Rockley",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/alkane-resources-uncovers-massive-sulphide-000200842.html",
-      "publisher": "Proactive",
-      "date": "2026-11-18T00:02:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/01baff3be15f2e8b3c21d14a60927794.jpg"
+      "title": "Talisker Provides Ore Sorter Facility Construction Update for the Bralorne Gold Project",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/talisker-provides-ore-sorter-facility-022200467.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-11-19T02:22:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/93dd5fb4dc882d351947aca3ae685cfe.png"
     },
     {
-      "title": "Gold Treads Water as Fed, Dollar Keep Weighing",
-      "link": "https://finance.yahoo.com/m/25ca67e9-abfb-3cab-8024-55a5362f61eb/gold-treads-water-as-fed%2C.html",
+      "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-14-month-low-020048872.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-19T02:00:48",
+      "thumbnail": ""
+    },
+    {
+      "title": "Gold And Silver Are Getting Crushed: Analysts Split As Precious Metals Lose $3.3 Trillion In Market Value",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-getting-crushed-analysts-012753970.html",
+      "publisher": "Stocktwits",
+      "date": "2026-11-19T01:27:53",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/3b8516f92f4375f0c4130e5b716c6ecb"
+    },
+    {
+      "title": "Gold Falls Towards $3,700. Schiff Says Fed Risks Financial Crisis in Inflation Fight",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-towards-3-700-010500245.html",
+      "publisher": "BeInCrypto",
+      "date": "2026-11-19T01:05:00",
+      "thumbnail": "https://media.zenfs.com/en/beincrypto_us_662/4083a8bfa54802477ae864d889c16892.png"
+    },
+    {
+      "title": "Gold Catches Breath But Stays at Over One-Year Lows",
+      "link": "https://finance.yahoo.com/m/7d68abc9-d2ce-3a35-9209-a8716ce32d24/gold-catches-breath-but-stays.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-17T23:59:00",
+      "date": "2026-11-19T00:29:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png"
     },
     {
-      "title": "Resolution Minerals strengthens Golden Gate gold system with 272-metre intersection from surface",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/resolution-minerals-strengthens-golden-gate-232700825.html",
-      "publisher": "Proactive",
-      "date": "2026-11-17T23:27:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/f093166b5853495cee92cfee625275f4.jpg"
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-230002098.html",
+      "publisher": "Motley Fool",
+      "date": "2026-11-18T23:00:02",
+      "thumbnail": "https://media.zenfs.com/en/motleyfool.com/12e8488bef3d3694d1d9c8f04242f81e.jpg"
     },
     {
-      "title": "Small Cap Watch: Resolution Minerals and Alkane deliver promising drilling results",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/small-cap-watch-resolution-minerals-232200978.html",
-      "publisher": "Proactive",
-      "date": "2026-11-17T23:22:00",
-      "thumbnail": "https://media.zenfs.com/en/proactive_us_504/cf2c7bf6cae5a6f5cfa9b274bd81f6c1.jpg"
+      "title": "Stocks to Watch Recap: Palo Alto, Nvidia, Target",
+      "link": "https://finance.yahoo.com/m/d06f4039-17ca-3b5c-8d4c-195520837b84/stocks-to-watch-recap%3A-palo.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-18T22:45:52",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/bc35e4a40c5eec3d201aa15c5486782a.jpg"
+    },
+    {
+      "title": "Resouro Advances Trial Mining at Novo Mundo",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/resouro-advances-trial-mining-novo-223100482.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-11-18T22:31:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/97faafa448369c64b70582e77f671345.jpg"
+    },
+    {
+      "title": "Presentation to Swiss Mining Institute Conference",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/presentation-swiss-mining-institute-conference-223000747.html",
+      "publisher": "ACCESS Newswire",
+      "date": "2026-11-18T22:30:00",
+      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/f352a828481fa694e168f41666e2c320.png"
     }
   ],
   "NEM": [
+    {
+      "title": "Stocks to Watch Recap: Palo Alto, Nvidia, Target",
+      "link": "https://finance.yahoo.com/m/d06f4039-17ca-3b5c-8d4c-195520837b84/stocks-to-watch-recap%3A-palo.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-18T22:45:52",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/bc35e4a40c5eec3d201aa15c5486782a.jpg"
+    },
+    {
+      "title": "Gold Stocks, Silver, Copper, Platinum Pounded After This 'Shock'",
+      "link": "https://finance.yahoo.com/m/1ff49eed-03ac-370a-ad07-0143496c9a1c/gold-stocks%2C-silver%2C-copper%2C.html",
+      "publisher": "Investor's Business Daily",
+      "date": "2026-11-18T21:50:30",
+      "thumbnail": "https://media.zenfs.com/en/ibd.com/cdfc3b5412e78e8cd43bb1fb333df302.jpg"
+    },
+    {
+      "title": "Copper Prices Plunge in Worst Day in Over a Year as AI Data-Center Bets Unravel",
+      "link": "https://finance.yahoo.com/m/9233f114-c0ab-3c1a-bd8e-f0f03832cc80/copper-prices-plunge-in-worst.html",
+      "publisher": "Barrons.com",
+      "date": "2026-11-18T18:37:00",
+      "thumbnail": "https://media.zenfs.com/en/Barrons.com/dfbaec0bec83536ea33bc876a3af4ed0.jpg"
+    },
+    {
+      "title": "Newmont Stocks Fall 5.13% as Gold Slides Below $3,800 on Fed Hike Bets",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-stocks-fall-5-13-170805714.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-11-18T17:08:05",
+      "thumbnail": ""
+    },
+    {
+      "title": "Gold Is at a 14-Month Low as Traders Bet on More Fed Hikes",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-14-month-low-traders-164318443.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-18T16:43:18",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/41e35f4c211a573461130138780b95e2.jpg"
+    },
+    {
+      "title": "Stan Druckenmiller Says He’s “Taking a Break” From Stocks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stan-druckenmiller-says-taking-break-150826632.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-18T15:08:26",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/7b3a8056fad69101c9164c1a974d3175.jpg"
+    },
+    {
+      "title": "State Street Materials Select Sector SPDR (XLB) Sells Linde and Newmont on Nov. 16",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-materials-select-sector-110539884.html",
+      "publisher": "GuruFocus.com",
+      "date": "2026-11-18T11:05:39",
+      "thumbnail": ""
+    },
+    {
+      "title": "Newmont (NEM) Drew A New Stake From Stanley Druckenmiller’s Family Office",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-drew-stake-stanley-043156197.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-18T04:31:56",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/3c92873a0cb2d291be8fc4410fccde43.jpg"
+    },
     {
       "title": "Stanley Druckenmiller Owned $120 Million of Google in June and Zero by Sept. 30",
       "link": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-owned-120-million-174732940.html",
@@ -294,62 +357,6 @@ var NEWS_DATA = {
       "publisher": "Trefis",
       "date": "2026-11-17T14:40:49",
       "thumbnail": "https://media.zenfs.com/en/trefis_142/f265a06c3917d549af31d55a9a0c0907.jpg"
-    },
-    {
-      "title": "Here is What to Know Beyond Why Newmont Corporation (NEM) is a Trending Stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-newmont-corporation-130004543.html",
-      "publisher": "Zacks",
-      "date": "2026-11-17T13:00:04",
-      "thumbnail": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619.jpg"
-    },
-    {
-      "title": "Can Newmont Stock Fall 40%?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-stock-fall-40-112946149.html",
-      "publisher": "Trefis",
-      "date": "2026-11-17T11:29:46",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/2f1c7dcd200846064a763aea9e1a755a.jpg"
-    },
-    {
-      "title": "Avantis U.S. Large Cap Value ETF (AVLV) Buys $18.4 Million More ELV on Nov. 13",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110510814.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-11-17T11:05:10",
-      "thumbnail": ""
-    },
-    {
-      "title": "Jefferies Adjusts Price Target on Newmont to $149 From $155",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-newmont-104743114.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-17T10:47:43",
-      "thumbnail": ""
-    },
-    {
-      "title": "Barrick Grows Faster Than Its Gold Peers. Why Is It The Cheapest?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-grows-faster-gold-peers-103858734.html",
-      "publisher": "Trefis",
-      "date": "2026-11-17T10:38:58",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/1653adc5a3cccdfaac9e06fe4649d0ec.jpg"
-    },
-    {
-      "title": "Avantis U.S. Large Cap Value (AVLV) Adds AT&T and Micron on Thursday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110432778.html",
-      "publisher": "GuruFocus.com",
-      "date": "2026-11-16T11:04:32",
-      "thumbnail": ""
-    },
-    {
-      "title": "Is It Too Late to Buy the Dip? 3 Corners of the Market Still Offering Real Value",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/too-buy-dip-3-corners-135000354.html",
-      "publisher": "MarketBeat",
-      "date": "2026-11-15T13:50:00",
-      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/040c55556a3f652dea3ce2c497281268.png_up.jpg"
-    },
-    {
-      "title": "3 Gold Stocks With P E Under 26",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/3-gold-stocks-p-e-231034342.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-14T23:10:34",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/3c92873a0cb2d291be8fc4410fccde43.jpg"
     }
   ]
 };
