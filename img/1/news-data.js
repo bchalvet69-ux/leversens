@@ -1,74 +1,67 @@
 var NEWS_DATA = {
   "SPY": [
     {
-      "title": "Why Tax Alpha is the New Everything Alpha",
-      "link": "https://finance.yahoo.com/economy/policy/articles/why-tax-alpha-everything-alpha-010422495.html",
-      "publisher": "etf.com",
-      "date": "2026-11-25T01:04:22",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/7acfece0077b3a6123bf089aa06218ef.jpg"
-    },
-    {
-      "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs  — NVDA, DELL, TSLA, TGTX In Focus",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-lower-001212497.html",
+      "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW  In Focus",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-lower-000950299.html",
       "publisher": "Stocktwits",
-      "date": "2026-11-25T00:12:12",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/976ccdc2c0086fa2d6bbd98c5641cd5f.jpg_up.jpg"
+      "date": "2026-11-26T00:09:50",
+      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/c133121ea0cfc3982e5b323d39173cd3.jpg"
     },
     {
-      "title": "She Retires at 65 With a $900,000 All-Stock 401(k) as the S&P 500 Swings From Its Worst Week to Its Best Day Since April 2025. The 8.6% Drop Erases $77,400, and the Rebound Still Leaves Her $38,409 Short",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/she-retires-65-900-000-211509035.html",
+      "title": "How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/much-portfolio-bitcoin-50-drop-221448060.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-24T21:15:09",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/b4f136e6fb6eb6582fd7cac2390b1e6d"
+      "date": "2026-11-25T22:14:48",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/725cbb7cc81d0b5ff4b7ddbdea5b52bb.jpg"
     },
     {
-      "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-24T21:13:24",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/e310d00bc0394cb83a4f9bd140ba5422.jpg"
-    },
-    {
-      "title": "5 Dividend Growth ETFs to Buy",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-dividend-growth-etfs-buy-143800477.html",
-      "publisher": "Kiplinger",
-      "date": "2026-11-24T20:40:56",
-      "thumbnail": "https://media.zenfs.com/en/kiplinger_425/1c527ea4ef076d8eb9c9f7f2ca1a059e.jpg"
-    },
-    {
-      "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
-      "link": "https://finance.yahoo.com/markets/options/articles/harbor-arena-structured-income-etf-190958864.html",
-      "publisher": "etf.com",
-      "date": "2026-11-24T19:09:58",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/53284b27b2c80d84c3a94979fa40270c.png_up.jpg"
-    },
-    {
-      "title": "Coffee With Q Announces Trading View Based Free 0DTE Options Webinar Teaches How to Scalp SPX / SPY Using Trading View and IKIGAI ALGO.",
-      "link": "https://finance.yahoo.com/markets/options/articles/coffee-q-announces-trading-view-190300497.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-11-24T19:03:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/ba066f6d42018338409bc8fc31253223.jpg"
-    },
-    {
-      "title": "Here’s How Quickly NVIDIA Could Reach $200 Following Jensen Huang’s Reinstatement as CEO",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/quickly-nvidia-could-reach-200-174559412.html",
+      "title": "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/feeling-safe-decade-gains-keeps-212508251.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-24T17:45:59",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/b9713a9928ddd5c246798a327beb2db7.jpg"
+      "date": "2026-11-25T21:25:08",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/19bf0f099310775a65443da6f23a95b0.jpg"
     },
     {
-      "title": "Hashed and Nurihaus Bring U.S. Beauty Investors to Brooklyn for K-Beauty Investor Day",
-      "link": "https://finance.yahoo.com/small-business/articles/hashed-nurihaus-bring-u-beauty-170025550.html",
-      "publisher": "etf.com",
-      "date": "2026-11-24T17:00:25",
-      "thumbnail": "https://media.zenfs.com/en/indexuniverse.com/0ba97b8d87b99e616ea9fc729036b43c.png"
-    },
-    {
-      "title": "Stock Market Today: Jensen’s Return to Nvidia Is Causing Index Indigestion",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-jensen-return-165001958.html",
+      "title": "Berkshire Hathaway Is Up 15% in 2026 and Easily Beating the S&P 500. Is Berkshire Stock Better Than an Index Fund Now?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-15-2026-easily-180215639.html",
       "publisher": "24/7 Wall St.",
-      "date": "2026-11-24T16:50:01",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/353e3e611ba952f7b94ccbe35a737fbe.jpg"
+      "date": "2026-11-25T18:02:15",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/019bf2759fec7a023d5be2fca721cf88.jpg"
+    },
+    {
+      "title": "SPYD and SCHD Hold No Nvidia. Here’s What You Give Up and What You Get",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spyd-schd-hold-no-nvidia-175102178.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-25T17:51:02",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/e566f16cf80efd7f1a9e0db51e301c0b.jpg"
+    },
+    {
+      "title": "Nvidia Stock Trades at Attractive Valuations as Spy Scandal Headwinds Wane",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-trades-attractive-valuations-163032146.html",
+      "publisher": "Barchart",
+      "date": "2026-11-25T16:30:32",
+      "thumbnail": "https://media.zenfs.com/en/barchart_com_477/f548caee0d49bb99e9b13aaa246d6071.jpg"
+    },
+    {
+      "title": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-says-biggest-risk-stocks-162750501.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-25T16:27:50",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/227362c46355c4bedfa07083b660c092.jpg"
+    },
+    {
+      "title": "What Happens to a $900,000 401(k) by the End of 2027? $1,062,300 in Wall Street’s Best Case, $824,900 in Its Worst",
+      "link": "https://finance.yahoo.com/markets/options/articles/happens-900-000-401-k-154517445.html",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-25T15:45:17",
+      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/0cd2bc15f517e6d8092a2413e683e3bd.jpg"
+    },
+    {
+      "title": "Does RSP Hold Up Better Than SPY In Sell-Offs?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/does-rsp-hold-better-spy-150840819.html",
+      "publisher": "Trefis",
+      "date": "2026-11-25T15:08:40",
+      "thumbnail": "https://media.zenfs.com/en/trefis_142/7b8ba5f8e01958db6437cb65bb4f5e06.jpg"
     }
   ],
   "BTCUSD": [
@@ -145,141 +138,169 @@ var NEWS_DATA = {
   ],
   "CLF": [
     {
-      "title": "Trump says buy American. Manila asks: where's the rice?",
-      "link": "https://finance.yahoo.com/economy/policy/articles/trump-says-buy-american-manila-045122292.html",
-      "publisher": "IntelliNews",
-      "date": "2026-11-25T04:51:22",
-      "thumbnail": "https://media.zenfs.com/en/intellinews_516/b18bab9c2a170135aef63b66962b5754.jpg_up.jpg"
-    },
-    {
-      "title": "S&P 500 Target: Wall Street Split On How The Benchmark Index Will Move In 2027",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-target-wall-street-044316801.html",
-      "publisher": "Stocktwits",
-      "date": "2026-11-25T04:43:16",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/77db8f423b96c29bcf29e417a06b3e18.jpg"
-    },
-    {
-      "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mostly-decline-ai-040526833.html",
-      "publisher": "Associated Press",
-      "date": "2026-11-25T04:05:26",
-      "thumbnail": "https://media.zenfs.com/en/ap.org/431d86fd2bd0c1312c806ae235bb9c9e.jpg"
-    },
-    {
-      "title": "Venezuela reveals $237.5 billion debt pile in key step towards restructuring",
-      "link": "https://finance.yahoo.com/economy/articles/venezuela-unveils-long-awaited-economic-144315427.html",
-      "publisher": "Reuters",
-      "date": "2026-11-25T02:44:59",
-      "thumbnail": "https://media.zenfs.com/en/reuters.com/dafc4b65b2740aa11f6b97fffe11b06a.jpg_up.jpg"
-    },
-    {
-      "title": "Nvidia’s Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed’s December Decision",
-      "link": "https://finance.yahoo.com/economy/policy/articles/nvidia-rebound-falling-oil-strong-020932908.html",
-      "publisher": "Stocktwits",
-      "date": "2026-11-25T02:09:32",
-      "thumbnail": "https://media.zenfs.com/en/stocktwits_383/7e88b5a0dd7d87199a844fbac3be55b5.jpg"
-    },
-    {
-      "title": "Long-Term JGB Yields Fall Amid Chip Stock Selloffs",
-      "link": "https://finance.yahoo.com/m/fa3db7c1-344d-38d0-9669-87076f2a1801/long-term-jgb-yields-fall.html",
-      "publisher": "The Wall Street Journal",
-      "date": "2026-11-25T02:04:00",
-      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png_up.jpg"
-    },
-    {
-      "title": "Oil extends losses as Brent falls below $91, WTI slides over 1.5%",
-      "link": "https://finance.yahoo.com/energy/articles/oil-mixed-hormuz-attacks-mount-015605776.html",
+      "title": "BOJ’s Tamura flags faster pace of rate hikes amid inflation risk",
+      "link": "https://finance.yahoo.com/economy/policy/articles/boj-tamura-flags-faster-pace-042528798.html",
       "publisher": "Investing.com",
-      "date": "2026-11-25T01:56:05",
+      "date": "2026-11-26T04:25:28",
       "thumbnail": ""
     },
     {
-      "title": "Gold’s Comeback May Have to Wait",
-      "link": "https://finance.yahoo.com/m/47fd6a53-5e9d-35d7-b7a8-682512e98865/gold%E2%80%99s-comeback-may-have-to.html",
+      "title": "Oil little changed as Hormuz attacks threaten rebound in Gulf crude shipments",
+      "link": "https://finance.yahoo.com/energy/articles/oil-little-changed-hormuz-attacks-031718598.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-26T03:17:18",
+      "thumbnail": ""
+    },
+    {
+      "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
+      "link": "https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html",
+      "publisher": "Reuters",
+      "date": "2026-11-26T03:08:49",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/8437cc2992607075fe221501c09dd010.jpg_up.jpg"
+    },
+    {
+      "title": "BOJ policymaker signals chance of faster-pace interest rate hikes",
+      "link": "https://finance.yahoo.com/economy/policy/articles/bojs-tamura-signals-chance-faster-013537147.html",
+      "publisher": "Reuters",
+      "date": "2026-11-26T02:49:38",
+      "thumbnail": "https://media.zenfs.com/en/reuters.com/5d4bb2de27ebcf9b20ce0eca19743ba1.jpg_up.jpg"
+    },
+    {
+      "title": "Oil Rises Amid Ongoing Middle East Tensions",
+      "link": "https://finance.yahoo.com/m/595b5beb-a0e2-3233-877a-767749d3cd92/oil-rises-amid-ongoing-middle.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-25T01:32:00",
+      "date": "2026-11-26T01:27:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png_up.jpg"
     },
     {
-      "title": "Petrobras Unveils $122 Billion Plan, Sees Potential for $10 Billion More in Dividends",
-      "link": "https://finance.yahoo.com/energy/articles/petrobras-unveils-122-billion-plan-011316877.html",
-      "publisher": "MarketBeat",
-      "date": "2026-11-25T01:13:16",
-      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/da6dc73f2cd20eae408b29d939d2286e.jpg_up.jpg"
+      "title": "Nikkei Rises 1.3%, Led by Chip, Metals Stocks",
+      "link": "https://finance.yahoo.com/m/b6d24144-22db-3142-be90-9893ad1c4fc3/nikkei-rises-1.3%25%2C-led-by.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-26T00:19:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png_up.jpg"
     },
     {
-      "title": "BOJ Rates Seen Reaching 2% by Mid-2027, Ex-Board Member Says",
-      "link": "https://finance.yahoo.com/economy/policy/articles/boj-rates-seen-reaching-2-002530859.html",
+      "title": "Soybeans Rally into the Holiday",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/soybeans-rally-holiday-222640792.html",
+      "publisher": "Barchart",
+      "date": "2026-11-25T22:26:40",
+      "thumbnail": "https://media.zenfs.com/en/barchart_com_477/f513adc492747a2e9b17902d512f48f1.jpg"
+    },
+    {
+      "title": "Crude Posts Back-to-Back Gains on Middle East Tension",
+      "link": "https://finance.yahoo.com/m/0205a820-8bf4-3021-b041-620ef11e50b2/crude-posts-back-to-back.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-25T22:09:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/1f7da23359a8996fe32a3b626a93d03c.jpg_up.jpg"
+    },
+    {
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "link": "https://finance.yahoo.com/m/f2574464-d7e1-3a4c-9bba-0c9997454a77/energy-%26-utilities-roundup%3A.html",
+      "publisher": "The Wall Street Journal",
+      "date": "2026-11-25T22:03:00",
+      "thumbnail": "https://media.zenfs.com/en/wsj.com/a7295c48ff2765c286cff41637e5ec18.jpg_up.jpg"
+    },
+    {
+      "title": "US Equity Markets Mixed Amid US Plans for New Tariffs on China, Europe",
+      "link": "https://finance.yahoo.com/economy/policy/articles/us-equity-markets-mixed-amid-213322374.html",
       "publisher": "MT Newswires",
-      "date": "2026-11-25T00:25:30",
+      "date": "2026-11-25T21:33:22",
       "thumbnail": ""
     }
   ],
   "GOLD": [
     {
-      "title": "ValOre Metals Announces Definitive Agreement to Acquire Bemisa Água Azul Mineração S.A., Owner of the Água Azul Gold Project in Pará State, Brazil",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/valore-metals-announces-definitive-agreement-034200395.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-11-25T03:42:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/8a6cd13a7295fa16a5386341356d9ac3.png_up.jpg"
-    },
-    {
-      "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-15-mth-032814171.html",
+      "title": "Gold eases as U.S. inflation data reinforces Fed rate-hike bets",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-eases-u-inflation-data-035043521.html",
       "publisher": "Investing.com",
-      "date": "2026-11-25T03:28:14",
+      "date": "2026-11-26T03:50:43",
       "thumbnail": ""
     },
     {
-      "title": "Is Aya Gold & Silver (TSX:AYA) Above Fair Value After A 176% Run?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-021024761.html",
+      "title": "Freedom Gold Corp. Announces Extension and Amendment of FT Offering and Extension of Unit Offering",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/freedom-gold-corp-announces-extension-030400229.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-11-26T03:04:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/9c4c735914e73c5d4096ce940907f854.jpg"
+    },
+    {
+      "title": "Galantas Gold Reports Third Quarter 2026 Results",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/galantas-gold-reports-third-quarter-024100329.html",
+      "publisher": "TMX Newsfile",
+      "date": "2026-11-26T02:41:00",
+      "thumbnail": "https://media.zenfs.com/en/newsfile_64/757612f5f6c374c1f8559a37e70f24a9.jpg"
+    },
+    {
+      "title": "2026 Annual General Meeting - Chair's Address",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2026-annual-general-meeting-chairs-003700584.html",
+      "publisher": "CNW Group",
+      "date": "2026-11-26T00:37:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/59e0921c13f197a4a41dda4e8d935b4a.jpg"
+    },
+    {
+      "title": "Should Strong Quarterly Earnings Require Action From Orezone Gold (TSX:ORE) Investors?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-quarterly-earnings-require-action-003645410.html",
       "publisher": "Simply Wall St.",
-      "date": "2026-11-25T02:10:24",
+      "date": "2026-11-26T00:36:45",
+      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/458559082245f3e3e142761485ce89d1.jpg"
+    },
+    {
+      "title": "Sinda (SIND) Jumped, But What Is Drawing Fresh Attention?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sinda-sind-jumped-drawing-fresh-003333287.html",
+      "publisher": "Simply Wall St.",
+      "date": "2026-11-26T00:33:33",
       "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/ca754f819170408bad0204290ef13303.jpg"
     },
     {
-      "title": "Gold’s Comeback May Have to Wait",
-      "link": "https://finance.yahoo.com/m/47fd6a53-5e9d-35d7-b7a8-682512e98865/gold%E2%80%99s-comeback-may-have-to.html",
+      "title": "ORVANA ANNOUNCES FY2026 RESULTS & FY2027 GUIDANCE",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/orvana-announces-fy2026-results-fy2027-003000961.html",
+      "publisher": "PR Newswire",
+      "date": "2026-11-26T00:30:00",
+      "thumbnail": "https://media.zenfs.com/en/prnewswire.com/a70b0865392e01e9e9ef97dc96aaa233.jpg"
+    },
+    {
+      "title": "ORVANA ANNOUNCES FY2026 RESULTS & FY2027 GUIDANCE",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/orvana-announces-fy2026-results-fy2027-003000751.html",
+      "publisher": "CNW Group",
+      "date": "2026-11-26T00:30:00",
+      "thumbnail": "https://media.zenfs.com/en/cnwgroup.com/a70b0865392e01e9e9ef97dc96aaa233.jpg"
+    },
+    {
+      "title": "Gold Edges Lower Amid Rate Hike Bets",
+      "link": "https://finance.yahoo.com/m/e000f3e0-24db-3012-bf3e-8148de8b8a54/gold-edges-lower-amid-rate.html",
       "publisher": "The Wall Street Journal",
-      "date": "2026-11-25T01:32:00",
+      "date": "2026-11-26T00:24:00",
       "thumbnail": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png_up.jpg"
-    },
-    {
-      "title": "Aya Gold & Silver (TSX:AYA) Lifted 2026 Guidance, Is It A Bargain?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-011117615.html",
-      "publisher": "Simply Wall St.",
-      "date": "2026-11-25T01:11:17",
-      "thumbnail": "https://media.zenfs.com/en/simply_wall_st__316/ca754f819170408bad0204290ef13303.jpg"
-    },
-    {
-      "title": "Ray Dalio Explains Why Gold Beats Crypto While Holding Some Bitcoin",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/ray-dalio-explains-why-gold-005030575.html",
-      "publisher": "BeInCrypto",
-      "date": "2026-11-25T00:50:30",
-      "thumbnail": "https://media.zenfs.com/en/beincrypto_us_662/4083a8bfa54802477ae864d889c16892.png"
-    },
-    {
-      "title": "Mayfair Gold Plans Offering of Units",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mayfair-gold-plans-offering-units-224228900.html",
-      "publisher": "MT Newswires",
-      "date": "2026-11-24T22:42:28",
-      "thumbnail": ""
-    },
-    {
-      "title": "Mayfair Gold Announces Overnight Marketed Public Offering",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mayfair-gold-announces-overnight-marketed-222500477.html",
-      "publisher": "GlobeNewswire",
-      "date": "2026-11-24T22:25:00",
-      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/48e1c31edbf9d7707a5a51df05c61c69.png"
     }
   ],
   "NEM": [
+    {
+      "title": "Gold and silver miners most exposed at 15-month lows, and who has a cushion",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-miners-most-exposed-153830730.html",
+      "publisher": "Investing.com",
+      "date": "2026-11-25T15:38:30",
+      "thumbnail": ""
+    },
+    {
+      "title": "K2 Gold Drills 36.58m of 2.40 g/t Au Including 16.77m of 4.11 g/t Au at the Newmont Zone",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/k2-gold-drills-36-58m-120000507.html",
+      "publisher": "GlobeNewswire",
+      "date": "2026-11-25T12:00:00",
+      "thumbnail": "https://media.zenfs.com/en/globenewswire.com/405fca3f4a4bfd04b2954c3d93f08cfe.png_up.jpg"
+    },
     {
       "title": "How Much Can Newmont Stock Make You From Here?",
       "link": "https://finance.yahoo.com/markets/stocks/articles/much-newmont-stock-174304738.html",
       "publisher": "Trefis",
       "date": "2026-11-24T17:43:04",
       "thumbnail": "https://media.zenfs.com/en/trefis_142/1031a1ad7b075df2ca4781b4990fc344.jpg"
+    },
+    {
+      "title": "Gold Is Down 35%—Is the Bull Case Broken or Just Bruised?",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-down-35-bull-case-173500350.html",
+      "publisher": "MarketBeat",
+      "date": "2026-11-24T17:35:00",
+      "thumbnail": "https://media.zenfs.com/en/marketbeat_955/74f43cb434d28e6fbe697033444aeef9.png_up.jpg"
     },
     {
       "title": "What China’s Critical Minerals Pause Means For Metals And Mining Funds",
@@ -322,27 +343,6 @@ var NEWS_DATA = {
       "publisher": "Insider Monkey",
       "date": "2026-11-23T21:20:47",
       "thumbnail": "https://media.zenfs.com/en/insidermonkey.com/3ad4fdbcd56f71ef3267a321671c1689.jpg_up.jpg"
-    },
-    {
-      "title": "Why Did Teck Resources Stock Fall Again?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-did-teck-resources-stock-194949116.html",
-      "publisher": "Trefis",
-      "date": "2026-11-23T19:49:49",
-      "thumbnail": "https://media.zenfs.com/en/trefis_142/c26e426b53b039b88a36a3f022e4a47c.jpg"
-    },
-    {
-      "title": "Gold Terra Confirms Gold in the Con Mine Historical Tailings with the First Six-Hole Results Averaging 0.8 g/t over up to 18 Metres Thickness, Yellowknife, NWT",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-terra-confirms-gold-con-170000890.html",
-      "publisher": "ACCESS Newswire",
-      "date": "2026-11-23T17:00:00",
-      "thumbnail": "https://media.zenfs.com/en/accesswire.ca/8e6ff367c22215821df7e3d6f370168a.jpg"
-    },
-    {
-      "title": "Tim Seymour Says “This Is the Time to Buy Gold, Not Sell It”",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/tim-seymour-says-time-buy-210717520.html",
-      "publisher": "24/7 Wall St.",
-      "date": "2026-11-21T21:07:17",
-      "thumbnail": "https://media.zenfs.com/en/24_7_wall_st__718/f0c66580d6b069a4477ffbec5eab5e88.jpg"
     }
   ]
 };
